@@ -1,0 +1,18 @@
+<svg
+            className="w-32 h-32 text-neutral-300"
+            viewBox="0 0 120 120"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            {/* Box package */}
+            <path d="M25 45L60 25L95 45L60 65L25 45Z" fill="var(--neutral-100)" />
+            <path d="M25 45V85L60 105V65" />
+            <path d="M95 45V85L60 105" />
+            {/* Box tape */}
+            <path d="M60 25V65" stroke="var(--brand-primary)" strokeWidth="2" />
+            <path d="M25 45l35 20" stroke="var(--brand-primary)" strokeWidth="1.5" />
+          </svg>

@@ -1,0 +1,20 @@
+<svg
+            className="w-36 h-36 text-neutral-300"
+            viewBox="0 0 120 120"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          >
+            {/* Bag Body */}
+            <path d="M30 40h60v50a10 10 0 0 1-10 10H40a10 10 0 0 1-10-10V40z" fill="var(--neutral-100)" />
+            {/* Handle */}
+            <path d="M45 40V30a15 15 0 0 1 30 0v10" />
+            {/* Large question mark */}
+            <path
+              d="M60 52c3 0 5.5 2.5 5.5 5.5 0 2.5-1.5 4-3 5.5s-2.5 3-2.5 5v2 M60 78h.01"
+              stroke="var(--brand-accent)"
+              strokeWidth="3.5"
+            />
+          </svg>

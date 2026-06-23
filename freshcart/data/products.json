@@ -1,0 +1,1491 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Premium Rajshahi Himchagor Mangoes",
+    "category": "fresh-produce",
+    "subcategory": "Fruits",
+    "brand": "Rajshahi Orchards",
+    "price": 599,
+    "originalPrice": 779,
+    "rating": 4.8,
+    "reviewCount": 124,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=600&auto=format&fit=crop&q=80",
+    "description": "Direct from the orchards of Rajshahi. Sweet, juicy, and 100% formalin-free Himchagor mangoes.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 medium apple (182g)",
+      "calories": 95,
+      "totalFat": "0.3g",
+      "sodium": "2mg",
+      "totalCarbohydrates": "25g",
+      "sugars": "19g",
+      "protein": "0.5g"
+    },
+    "variants": [
+      "1 kg Box",
+      "5 kg Family Pack"
+    ]
+  },
+  {
+    "id": "prod-2",
+    "name": "Fresh Sagor Kola (Bananas)",
+    "category": "fresh-produce",
+    "subcategory": "Fruits",
+    "brand": "Narsingdi Farms",
+    "price": 239,
+    "rating": 4.6,
+    "reviewCount": 89,
+    "weight": "1 Dozen",
+    "image": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=600&auto=format&fit=crop&q=80",
+    "description": "Sweet, ripe, and naturally grown Sagar bananas from Narsingdi.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 medium banana (118g)",
+      "calories": 105,
+      "totalFat": "0.4g",
+      "sodium": "1mg",
+      "totalCarbohydrates": "27g",
+      "sugars": "14g",
+      "protein": "1.3g"
+    },
+    "variants": [
+      "1 Dozen",
+      "Half Dozen"
+    ]
+  },
+  {
+    "id": "prod-3",
+    "name": "Fresh Rajshahi Strawberries",
+    "category": "fresh-produce",
+    "subcategory": "Fruits",
+    "brand": "Local Greenhouses",
+    "price": 479,
+    "originalPrice": 599,
+    "rating": 4.7,
+    "reviewCount": 210,
+    "weight": "250 gm",
+    "image": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=600&auto=format&fit=crop&q=80",
+    "description": "Bright red, sweet, and locally harvested strawberries, packed in eco-friendly boxes.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Gluten-Free",
+      "Vegan"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 cup (144g)",
+      "calories": 46,
+      "totalFat": "0.4g",
+      "sodium": "1mg",
+      "totalCarbohydrates": "11.1g",
+      "sugars": "7g",
+      "protein": "1g"
+    },
+    "variants": [
+      "250 gm Pack",
+      "500 gm Pack"
+    ]
+  },
+  {
+    "id": "prod-4",
+    "name": "Fresh Green Malta (Local Citrus)",
+    "category": "fresh-produce",
+    "subcategory": "Fruits",
+    "brand": "Bariya Orchards",
+    "price": 659,
+    "rating": 4.5,
+    "reviewCount": 156,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=600&auto=format&fit=crop&q=80",
+    "description": "Juicy, vitamin-C rich green Malta grown in local gardens.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1/3 medium avocado (50g)",
+      "calories": 80,
+      "totalFat": "8g",
+      "sodium": "0mg",
+      "totalCarbohydrates": "4g",
+      "sugars": "0g",
+      "protein": "1g"
+    },
+    "variants": [
+      "1 kg Pack",
+      "2 kg Pack"
+    ]
+  },
+  {
+    "id": "prod-5",
+    "name": "Local Vine-Ripened Tomatoes",
+    "category": "fresh-produce",
+    "subcategory": "Vegetables",
+    "brand": "Savar Farms",
+    "price": 515,
+    "rating": 4.9,
+    "reviewCount": 78,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1595855759920-86582396756a?w=600&auto=format&fit=crop&q=80",
+    "description": "Freshly harvested local red tomatoes, perfect for salads, curries, and sauces.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 medium tomato (123g)",
+      "calories": 22,
+      "totalFat": "0.2g",
+      "sodium": "6mg",
+      "totalCarbohydrates": "4.8g",
+      "sugars": "3.2g",
+      "protein": "1.1g"
+    },
+    "variants": [
+      "1 kg Pack",
+      "500 gm Pack"
+    ]
+  },
+  {
+    "id": "prod-6",
+    "name": "Fresh Red Spinach (Lal Shak)",
+    "category": "fresh-produce",
+    "subcategory": "Vegetables",
+    "brand": "Savar Organics",
+    "price": 419,
+    "originalPrice": 479,
+    "rating": 4.7,
+    "reviewCount": 142,
+    "weight": "1 Bunch",
+    "image": "https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=600&auto=format&fit=crop&q=80",
+    "description": "Nutritious and fresh local red spinach (Lal Shak) bunched fresh daily.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Gluten-Free",
+      "Vegan"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "2 cups (85g)",
+      "calories": 20,
+      "totalFat": "0.3g",
+      "sodium": "65mg",
+      "totalCarbohydrates": "3g",
+      "sugars": "0.4g",
+      "protein": "2g"
+    },
+    "variants": [
+      "1 Bunch",
+      "2 Bunches"
+    ]
+  },
+  {
+    "id": "prod-7",
+    "name": "Fresh Green Coriander (Dhone Pata)",
+    "category": "dairy-eggs",
+    "subcategory": "Milk",
+    "brand": "Savar Farms",
+    "price": 719,
+    "rating": 4.8,
+    "reviewCount": 312,
+    "weight": "100 gm",
+    "image": "https://images.unsplash.com/photo-1550583724-b2692b85b150?w=600&auto=format&fit=crop&q=80",
+    "description": "Fragrant and fresh green coriander leaves, harvested daily.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 cup (240ml)",
+      "calories": 150,
+      "totalFat": "8g",
+      "sodium": "120mg",
+      "totalCarbohydrates": "12g",
+      "sugars": "11g",
+      "protein": "8g"
+    },
+    "variants": [
+      "100 gm Pack",
+      "250 gm Pack"
+    ]
+  },
+  {
+    "id": "prod-8",
+    "name": "Local Sweet Carrots (Gajor)",
+    "category": "dairy-eggs",
+    "subcategory": "Eggs",
+    "brand": "Bogura Farmfields",
+    "price": 779,
+    "originalPrice": 959,
+    "rating": 4.9,
+    "reviewCount": 420,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1516448424440-9dbca97779c1?w=600&auto=format&fit=crop&q=80",
+    "description": "Fresh, crunchy sweet carrots sourced directly from Bogura farms.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 large egg (50g)",
+      "calories": 70,
+      "totalFat": "5g",
+      "sodium": "70mg",
+      "totalCarbohydrates": "0g",
+      "sugars": "0g",
+      "protein": "6g"
+    },
+    "variants": [
+      "1 kg Pack",
+      "500 gm Pack"
+    ]
+  },
+  {
+    "id": "prod-9",
+    "name": "Organic Green Chillies (Kacha Morich)",
+    "category": "dairy-eggs",
+    "subcategory": "Butter & Spreads",
+    "brand": "Jessore Farms",
+    "price": 587,
+    "rating": 4.7,
+    "reviewCount": 94,
+    "weight": "250 gm",
+    "image": "https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=600&auto=format&fit=crop&q=80",
+    "description": "Spicy and fresh local green chillies, essential for all Bangladeshi dishes.",
+    "inStock": true,
+    "tags": [
+      "Gluten-Free",
+      "Local"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 tbsp (14g)",
+      "calories": 100,
+      "totalFat": "11g",
+      "sodium": "90mg",
+      "totalCarbohydrates": "0g",
+      "sugars": "0g",
+      "protein": "0g"
+    },
+    "variants": [
+      "250 gm Pack",
+      "500 gm Pack"
+    ]
+  },
+  {
+    "id": "prod-10",
+    "name": "Fresh Bottle Gourd (Lau)",
+    "category": "dairy-eggs",
+    "subcategory": "Yogurt",
+    "brand": "Munshiganj Farms",
+    "price": 635,
+    "rating": 4.6,
+    "reviewCount": 108,
+    "weight": "1 Piece",
+    "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600&auto=format&fit=crop&q=80",
+    "description": "Tender, fresh, and sweet local bottle gourd (Lau), ideal for light traditional curries.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "3/4 cup (170g)",
+      "calories": 120,
+      "totalFat": "3g",
+      "sodium": "60mg",
+      "totalCarbohydrates": "6g",
+      "sugars": "4g",
+      "protein": "16g"
+    },
+    "variants": [
+      "1 Piece (Medium)"
+    ]
+  },
+  {
+    "id": "prod-11",
+    "name": "Local Round Eggplants (Begun)",
+    "category": "meat-seafood",
+    "subcategory": "Beef",
+    "brand": "Savar Farms",
+    "price": 1559,
+    "originalPrice": 1799,
+    "rating": 4.9,
+    "reviewCount": 182,
+    "weight": "500 gm",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop&q=80",
+    "description": "Fresh purple eggplants, perfect for making traditional Begun Bhaja or curries.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "4 oz (113g)",
+      "calories": 290,
+      "totalFat": "22g",
+      "sodium": "60mg",
+      "totalCarbohydrates": "0g",
+      "sugars": "0g",
+      "protein": "23g"
+    },
+    "variants": [
+      "500 gm Pack",
+      "1 kg Pack"
+    ]
+  },
+  {
+    "id": "prod-12",
+    "name": "Aarong Pasteurized Liquid Milk",
+    "category": "meat-seafood",
+    "subcategory": "Poultry",
+    "brand": "Aarong Dairy",
+    "price": 95,
+    "rating": 4.7,
+    "reviewCount": 240,
+    "weight": "1 Litre",
+    "image": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?w=600&auto=format&fit=crop&q=80",
+    "description": "100% pure pasteurized liquid milk from Aarong Dairy.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "4 oz (113g)",
+      "calories": 120,
+      "totalFat": "1.5g",
+      "sodium": "75mg",
+      "totalCarbohydrates": "0g",
+      "sugars": "0g",
+      "protein": "26g"
+    },
+    "variants": [
+      "1 Litre Pack",
+      "500 ml Pack"
+    ]
+  },
+  {
+    "id": "prod-13",
+    "name": "Farm Fresh Brown Eggs",
+    "category": "meat-seafood",
+    "subcategory": "Seafood",
+    "brand": "Farm Fresh",
+    "price": 150,
+    "rating": 4.8,
+    "reviewCount": 195,
+    "weight": "1 Dozen",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&auto=format&fit=crop&q=80",
+    "description": "High-quality, farm-raised fresh brown chicken eggs.",
+    "inStock": true,
+    "tags": [
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "4 oz (113g)",
+      "calories": 160,
+      "totalFat": "7g",
+      "sodium": "50mg",
+      "totalCarbohydrates": "0g",
+      "sugars": "0g",
+      "protein": "22g"
+    },
+    "variants": [
+      "1 Dozen (12 pcs)",
+      "Half Dozen (6 pcs)"
+    ],
+    "originalPrice": 165
+  },
+  {
+    "id": "prod-14",
+    "name": "Premium Savar Ghee (Clarified Butter)",
+    "category": "bakery",
+    "subcategory": "Breads",
+    "brand": "Savar Farmhouse",
+    "price": 680,
+    "originalPrice": 720,
+    "rating": 4.9,
+    "reviewCount": 354,
+    "weight": "400 gm",
+    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?w=600&auto=format&fit=crop&q=80",
+    "description": "Aromatic, golden-colored clarified butter (Ghee) crafted using traditional methods.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Vegan"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 slice (50g)",
+      "calories": 130,
+      "totalFat": "0.5g",
+      "sodium": "280mg",
+      "totalCarbohydrates": "26g",
+      "sugars": "0.5g",
+      "protein": "4g"
+    },
+    "variants": [
+      "400 gm Jar",
+      "900 gm Jar"
+    ]
+  },
+  {
+    "id": "prod-15",
+    "name": "Padma Hilsha (Ilish Fish)",
+    "category": "bakery",
+    "subcategory": "Pastries",
+    "brand": "Mawa River Capture",
+    "price": 1450,
+    "rating": 4.8,
+    "reviewCount": 115,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&auto=format&fit=crop&q=80",
+    "description": "Freshly caught authentic Hilsha (Ilish) fish from the Padma River. Rich in oils and highly flavorful.",
+    "inStock": true,
+    "tags": [
+      "Local"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 croissant (60g)",
+      "calories": 240,
+      "totalFat": "12g",
+      "sodium": "210mg",
+      "totalCarbohydrates": "28g",
+      "sugars": "5g",
+      "protein": "5g"
+    },
+    "variants": [
+      "1 Piece (Approx 1 kg)",
+      "1 Piece (Approx 1.2 kg)"
+    ],
+    "originalPrice": 1600
+  },
+  {
+    "id": "prod-16",
+    "name": "Fresh Rui Fish (Whole)",
+    "category": "beverages",
+    "subcategory": "Juices",
+    "brand": "Local Hatchery",
+    "price": 450,
+    "rating": 4.7,
+    "reviewCount": 128,
+    "weight": "1.5 kg",
+    "image": "https://images.unsplash.com/photo-1610970881699-44a5587caaec?w=600&auto=format&fit=crop&q=80",
+    "description": "Freshwater Rui fish, cleaned and ready for traditional curries.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 bottle (355ml)",
+      "calories": 70,
+      "totalFat": "0g",
+      "sodium": "45mg",
+      "totalCarbohydrates": "15g",
+      "sugars": "11g",
+      "protein": "2g"
+    },
+    "variants": [
+      "Whole Fish (1.5 kg)",
+      "Sliced Fish (1 kg)"
+    ],
+    "originalPrice": 500
+  },
+  {
+    "id": "prod-17",
+    "name": "Radhuni Pure Mustard Oil",
+    "category": "beverages",
+    "subcategory": "Coffee & Tea",
+    "brand": "Radhuni",
+    "price": 180,
+    "rating": 4.9,
+    "reviewCount": 204,
+    "weight": "500 ml",
+    "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&auto=format&fit=crop&q=80",
+    "description": "Pungent and pure mustard oil, cold-pressed to retain its authentic traditional flavor.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "2 tbsp ground (10g)",
+      "calories": 2,
+      "totalFat": "0g",
+      "sodium": "0mg",
+      "totalCarbohydrates": "0g",
+      "sugars": "0g",
+      "protein": "0g"
+    },
+    "variants": [
+      "500 ml Bottle",
+      "1 Litre Bottle"
+    ]
+  },
+  {
+    "id": "prod-18",
+    "name": "Rupchanda Soyabean Oil",
+    "category": "beverages",
+    "subcategory": "Coffee & Tea",
+    "brand": "Rupchanda",
+    "price": 330,
+    "rating": 4.6,
+    "reviewCount": 85,
+    "weight": "2 Litres",
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=600&auto=format&fit=crop&q=80",
+    "description": "Fortified with Vitamin A, Rupchanda double-refined soyabean oil for everyday healthy cooking.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "4 fl oz (120ml)",
+      "calories": 5,
+      "totalFat": "0g",
+      "sodium": "10mg",
+      "totalCarbohydrates": "1g",
+      "sugars": "0g",
+      "protein": "0.4g"
+    },
+    "variants": [
+      "2 Litres Bottle",
+      "5 Litres Bottle"
+    ],
+    "originalPrice": 350
+  },
+  {
+    "id": "prod-19",
+    "name": "Bashundhara Fortified Atta",
+    "category": "beverages",
+    "subcategory": "Juices",
+    "brand": "Bashundhara",
+    "price": 130,
+    "rating": 4.5,
+    "reviewCount": 164,
+    "weight": "2 kg",
+    "image": "https://images.unsplash.com/photo-1628559988087-0b1a134ad8b3?w=600&auto=format&fit=crop&q=80",
+    "description": "Premium wheat flour (Atta) from Bashundhara, perfect for soft roti and parathas.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 shot (59ml)",
+      "calories": 25,
+      "totalFat": "0g",
+      "sodium": "2mg",
+      "totalCarbohydrates": "6g",
+      "sugars": "2g",
+      "protein": "0.5g"
+    },
+    "variants": [
+      "2 kg Pack",
+      "1 kg Pack"
+    ],
+    "originalPrice": 145
+  },
+  {
+    "id": "prod-20",
+    "name": "Premium Chinigura Rice (Kalijira)",
+    "category": "pantry-staples",
+    "subcategory": "Oils & Vinegars",
+    "brand": "Pran Premium",
+    "price": 160,
+    "rating": 4.8,
+    "reviewCount": 154,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=600&auto=format&fit=crop&q=80",
+    "description": "Aromatic, small-grain Chinigura Kalijira rice, perfect for making payesh, pulao, and biryani.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 tbsp (15ml)",
+      "calories": 120,
+      "totalFat": "14g",
+      "sodium": "0mg",
+      "totalCarbohydrates": "0g",
+      "sugars": "0g",
+      "protein": "0g"
+    },
+    "variants": [
+      "1 kg Pack",
+      "2 kg Pack"
+    ],
+    "originalPrice": 175
+  },
+  {
+    "id": "prod-21",
+    "name": "Radhuni Turmeric Powder (Holud)",
+    "category": "pantry-staples",
+    "subcategory": "Grains & Rice",
+    "brand": "Radhuni",
+    "price": 90,
+    "rating": 4.7,
+    "reviewCount": 78,
+    "weight": "200 gm",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&auto=format&fit=crop&q=80",
+    "description": "Finely ground pure turmeric powder for vibrant color and authentic Bangladeshi curry flavor.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1/4 cup dry (45g)",
+      "calories": 170,
+      "totalFat": "2.5g",
+      "sodium": "0mg",
+      "totalCarbohydrates": "29g",
+      "sugars": "1g",
+      "protein": "6g"
+    },
+    "variants": [
+      "200 gm Pack",
+      "400 gm Pack"
+    ]
+  },
+  {
+    "id": "prod-22",
+    "name": "Radhuni Chili Powder (Morich)",
+    "category": "pantry-staples",
+    "subcategory": "Sauces & Condiments",
+    "brand": "Radhuni",
+    "price": 120,
+    "originalPrice": 135,
+    "rating": 4.8,
+    "reviewCount": 162,
+    "weight": "200 gm",
+    "image": "https://images.unsplash.com/photo-1546549032-9571cd6b27df?w=600&auto=format&fit=crop&q=80",
+    "description": "Pure red chili powder to add heat and rich color to your traditional curries.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free",
+      "Local"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1/2 cup (125g)",
+      "calories": 70,
+      "totalFat": "3g",
+      "sodium": "320mg",
+      "totalCarbohydrates": "8g",
+      "sugars": "5g",
+      "protein": "2g"
+    },
+    "variants": [
+      "200 gm Pack",
+      "400 gm Pack"
+    ]
+  },
+  {
+    "id": "prod-23",
+    "name": "Premium Masoor Dal (Red Lentils)",
+    "category": "snacks-sweets",
+    "subcategory": "Chips",
+    "brand": "Pran Foods",
+    "price": 140,
+    "rating": 4.6,
+    "reviewCount": 213,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1566478989037-eec170784dcd?w=600&auto=format&fit=crop&q=80",
+    "description": "Cleaned and sorted premium quality small-grain red lentils (Masoor Dal).",
+    "inStock": true,
+    "tags": [
+      "Vegan",
+      "Gluten-Free",
+      "Local"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 oz (28g)",
+      "calories": 150,
+      "totalFat": "9g",
+      "sodium": "115mg",
+      "totalCarbohydrates": "16g",
+      "sugars": "0g",
+      "protein": "2g"
+    },
+    "variants": [
+      "1 kg Pack",
+      "2 kg Pack"
+    ],
+    "originalPrice": 150
+  },
+  {
+    "id": "prod-24",
+    "name": "Pran Chanachur (Spicy Mix)",
+    "category": "pantry-staples",
+    "subcategory": "Sweeteners",
+    "brand": "Pran",
+    "price": 75,
+    "rating": 4.9,
+    "reviewCount": 164,
+    "weight": "300 gm",
+    "image": "https://images.unsplash.com/photo-1589733901241-5e36410079b7?w=600&auto=format&fit=crop&q=80",
+    "description": "Bangladesh's classic spicy, crunchy tea-time snack mix.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Gluten-Free",
+      "Vegan",
+      "Local"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "2 tbsp (30ml)",
+      "calories": 110,
+      "totalFat": "0g",
+      "sodium": "5mg",
+      "totalCarbohydrates": "27g",
+      "sugars": "24g",
+      "protein": "0g"
+    },
+    "variants": [
+      "300 gm Pack",
+      "150 gm Pack"
+    ]
+  },
+  {
+    "id": "prod-25",
+    "name": "Pran Puffed Rice (Muri)",
+    "category": "snacks-sweets",
+    "subcategory": "Chocolates",
+    "brand": "Pran",
+    "price": 55,
+    "rating": 4.8,
+    "reviewCount": 182,
+    "weight": "500 gm",
+    "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=600&auto=format&fit=crop&q=80",
+    "description": "Crisp, premium quality puffed rice (Muri), a staple snack in every Bangladeshi home.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1/4 cup (40g)",
+      "calories": 210,
+      "totalFat": "16g",
+      "sodium": "120mg",
+      "totalCarbohydrates": "17g",
+      "sugars": "11g",
+      "protein": "5g"
+    },
+    "variants": [
+      "500 gm Pack"
+    ]
+  },
+  {
+    "id": "prod-26",
+    "name": "Sundarban Wild Honey (Modhu)",
+    "category": "breakfast-oats",
+    "subcategory": "Oats & Cereals",
+    "brand": "Sundarban Organic",
+    "price": 320,
+    "rating": 4.7,
+    "reviewCount": 143,
+    "weight": "250 gm",
+    "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=600&auto=format&fit=crop&q=80",
+    "description": "100% pure wild honey harvested directly from the Sundarban mangrove forests.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1/4 cup dry (40g)",
+      "calories": 150,
+      "totalFat": "2.5g",
+      "sodium": "0mg",
+      "totalCarbohydrates": "27g",
+      "sugars": "0g",
+      "protein": "5g"
+    },
+    "variants": [
+      "250 gm Jar",
+      "500 gm Jar"
+    ],
+    "originalPrice": 350
+  },
+  {
+    "id": "prod-27",
+    "name": "Kazi Farms Plain Paratha",
+    "category": "breakfast-oats",
+    "subcategory": "Spreads",
+    "brand": "Kazi Farms",
+    "price": 160,
+    "rating": 4.8,
+    "reviewCount": 158,
+    "weight": "10 pcs",
+    "image": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=600&auto=format&fit=crop&q=80",
+    "description": "Frozen plain parathas, ready to fry and serve for a quick local breakfast.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Gluten-Free",
+      "Vegan"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "2 tbsp (32g)",
+      "calories": 190,
+      "totalFat": "16g",
+      "sodium": "45mg",
+      "totalCarbohydrates": "6g",
+      "sugars": "1g",
+      "protein": "7g"
+    },
+    "variants": [
+      "10 Pieces Pack",
+      "5 Pieces Pack"
+    ],
+    "originalPrice": 180
+  },
+  {
+    "id": "prod-28",
+    "name": "Raw Wildflower Honey",
+    "category": "breakfast-oats",
+    "subcategory": "Spreads",
+    "brand": "Bee Forest",
+    "price": 755,
+    "originalPrice": 899,
+    "rating": 4.9,
+    "reviewCount": 274,
+    "weight": "16 gm",
+    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=600&auto=format&fit=crop&q=80",
+    "description": "Unpasteurized, unfiltered wildflower honey. Harvested from local woodland hives. Retains beneficial trace pollens and enzymes.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 tbsp (21g)",
+      "calories": 60,
+      "totalFat": "0g",
+      "sodium": "0mg",
+      "totalCarbohydrates": "17g",
+      "sugars": "16g",
+      "protein": "0g"
+    },
+    "variants": [
+      "16 oz Jar",
+      "32 oz Family Jar"
+    ]
+  },
+  {
+    "id": "prod-29",
+    "name": "Organic Frozen Wild Blueberries",
+    "category": "frozen-foods",
+    "subcategory": "Frozen Fruits",
+    "brand": "Arctic Harvest",
+    "price": 587,
+    "rating": 4.8,
+    "reviewCount": 94,
+    "weight": "12 gm",
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?w=600&auto=format&fit=crop&q=80",
+    "description": "Individually quick-frozen sweet wild blueberries. Excellent for baking, oatmeal toppings, or direct addition to morning protein shakes.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Gluten-Free",
+      "Vegan"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 cup (140g)",
+      "calories": 80,
+      "totalFat": "0.5g",
+      "sodium": "0mg",
+      "totalCarbohydrates": "19g",
+      "sugars": "13g",
+      "protein": "1g"
+    },
+    "variants": [
+      "12 oz Bag",
+      "32 oz Value Bag"
+    ]
+  },
+  {
+    "id": "prod-30",
+    "name": "Organic Neapolitan Stone Baked Pizza",
+    "category": "frozen-foods",
+    "subcategory": "Frozen Meals",
+    "brand": "Bella Cucina",
+    "price": 1079,
+    "rating": 4.5,
+    "reviewCount": 142,
+    "weight": "14 gm",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&auto=format&fit=crop&q=80",
+    "description": "Stone-baked sourdough crust topped with rich organic tomato sauce, buffalo mozzarella slices, and extra virgin olive oil.",
+    "inStock": true,
+    "tags": [
+      "Organic"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1/3 pizza (132g)",
+      "calories": 310,
+      "totalFat": "10g",
+      "sodium": "640mg",
+      "totalCarbohydrates": "42g",
+      "sugars": "3g",
+      "protein": "13g"
+    },
+    "variants": [
+      "Margherita",
+      "Spinach & Goat Cheese"
+    ]
+  },
+  {
+    "id": "prod-31",
+    "name": "Plant-Based Liquid Dish Soap",
+    "category": "household-clean",
+    "subcategory": "Dishwashing",
+    "brand": "Vim",
+    "price": 479,
+    "rating": 4.6,
+    "reviewCount": 98,
+    "weight": "16 fl gm",
+    "image": "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=600&auto=format&fit=crop&q=80",
+    "description": "Cruelty-free, biodegradable dish soap. Tough on grease, gentle on hands. Freshly scented with organic essential oil of lavender.",
+    "inStock": true,
+    "tags": [
+      "Vegan"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "16 oz Bottle (Lavender)",
+      "16 oz Bottle (Citrus)"
+    ]
+  },
+  {
+    "id": "prod-32",
+    "name": "Recycled Paper Towels (2-Ply)",
+    "category": "household-clean",
+    "subcategory": "Paper Goods",
+    "brand": "Vim",
+    "price": 659,
+    "rating": 4.3,
+    "reviewCount": 65,
+    "weight": "4 rolls",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&auto=format&fit=crop&q=80",
+    "description": "100% recycled paper towels, minimum 50% post-consumer content. Unbleached, absorbing, and strong, containing no chlorine.",
+    "inStock": true,
+    "tags": [],
+    "nutritionalInfo": null,
+    "variants": [
+      "4 Pack Double Rolls",
+      "8 Pack Value"
+    ]
+  },
+  {
+    "id": "prod-33",
+    "name": "Natural Lavender Castile Liquid Soap",
+    "category": "personal-care",
+    "subcategory": "Bath & Body",
+    "brand": "Savlon",
+    "price": 947,
+    "originalPrice": 1079,
+    "rating": 4.8,
+    "reviewCount": 134,
+    "weight": "8 fl gm",
+    "image": "https://images.unsplash.com/photo-1608248597481-496100c80836?w=600&auto=format&fit=crop&q=80",
+    "description": "Triple-milled pure Castile soap infused with organic lavender essential oils. Biodegradable, plant-based, and hydrating skin cleanser.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "8 oz Bottle",
+      "16 oz Pump Bottle"
+    ]
+  },
+  {
+    "id": "prod-34",
+    "name": "Grass-Fed Beef Meatballs",
+    "category": "local-farms",
+    "subcategory": "Beef",
+    "brand": "Oak Creek Ranch",
+    "price": 959,
+    "rating": 4.7,
+    "reviewCount": 54,
+    "weight": "12 gm",
+    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600&auto=format&fit=crop&q=80",
+    "description": "Seasoned ground ribeye and sirloin meatballs. Pre-cooked and frozen, ready for your favorite marinara sauce. Raised locally.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "3 meatballs (85g)",
+      "calories": 210,
+      "totalFat": "15g",
+      "sodium": "390mg",
+      "totalCarbohydrates": "2g",
+      "sugars": "0g",
+      "protein": "16g"
+    },
+    "variants": [
+      "12 oz Pack"
+    ]
+  },
+  {
+    "id": "prod-35",
+    "name": "Organic Honeycrisp Apples (Single)",
+    "category": "local-farms",
+    "subcategory": "Fruits",
+    "brand": "Sweet Clover Farms",
+    "price": 179,
+    "rating": 4.8,
+    "reviewCount": 42,
+    "weight": "0.5 kg",
+    "image": "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?w=600&auto=format&fit=crop&q=80",
+    "description": "Individual organic Honeycrisp apples, hand-picked on local hillside family farms.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "Single Apple"
+    ]
+  },
+  {
+    "id": "prod-36",
+    "name": "Artisanal Sheep Milk Feta",
+    "category": "local-farms",
+    "subcategory": "Artisanal Cheese",
+    "brand": "Meadowbrook Farms",
+    "price": 839,
+    "rating": 4.9,
+    "reviewCount": 83,
+    "weight": "6 gm",
+    "image": "https://images.unsplash.com/photo-1559561853-08451507cbe7?w=600&auto=format&fit=crop&q=80",
+    "description": "Traditional block feta cheese in brine, handmade with 100% pasture-raised sheep's milk from nearby hills. Tangy, rich, crumbly.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": {
+      "servingSize": "1 oz (28g)",
+      "calories": 75,
+      "totalFat": "6g",
+      "sodium": "316mg",
+      "totalCarbohydrates": "1g",
+      "sugars": "0g",
+      "protein": "4g"
+    },
+    "variants": [
+      "6 oz Block in Brine"
+    ]
+  },
+  {
+    "id": "prod-37",
+    "name": "Local Fresh Sweet  Raspberries",
+    "category": "fresh-produce",
+    "subcategory": "Fruits",
+    "brand": "Local Farms",
+    "price": 539,
+    "rating": 4.6,
+    "reviewCount": 112,
+    "weight": "6 gm",
+    "image": "https://images.unsplash.com/photo-1544072697-b9f1d0447384?w=600&auto=format&fit=crop&q=80",
+    "description": "Plump and flavorful organic raspberries. Packed with fiber and antioxidants, hand-picked and boxed immediately.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Gluten-Free",
+      "Vegan"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "6 oz Clamshell"
+    ]
+  },
+  {
+    "id": "prod-38",
+    "name": "Local Fresh Fresh  Blueberries",
+    "category": "fresh-produce",
+    "subcategory": "Fruits",
+    "brand": "Local Farms",
+    "price": 419,
+    "originalPrice": 515,
+    "rating": 4.7,
+    "reviewCount": 178,
+    "weight": "6 gm",
+    "image": "https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?w=600&auto=format&fit=crop&q=80",
+    "description": "Fresh, sweet organic blueberries. Excellent source of vitamins and antioxidants.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Gluten-Free",
+      "Vegan"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "6 oz Pack",
+      "12 oz Family Pack"
+    ]
+  },
+  {
+    "id": "prod-39",
+    "name": "Fresh Crisp  Romaine Hearts",
+    "category": "fresh-produce",
+    "subcategory": "Vegetables",
+    "brand": "Savar Farms",
+    "price": 479,
+    "rating": 4.4,
+    "reviewCount": 65,
+    "weight": "3 count",
+    "image": "https://images.unsplash.com/photo-1556881286-fc6915169721?w=600&auto=format&fit=crop&q=80",
+    "description": "Sweet, crisp romaine hearts. Perfect base for classic Caesar salads or fresh lettuce wraps.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "3 Pack"
+    ]
+  },
+  {
+    "id": "prod-40",
+    "name": "Fresh Fresh organic Broccoli Crowns",
+    "category": "fresh-produce",
+    "subcategory": "Vegetables",
+    "brand": "Savar Farms",
+    "price": 299,
+    "rating": 4.5,
+    "reviewCount": 98,
+    "weight": "1 kg",
+    "image": "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c?w=600&auto=format&fit=crop&q=80",
+    "description": "Fresh organic broccoli crowns with tight green buds. Loaded with Vitamin C and dietary fiber.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "1 lb Bag"
+    ]
+  },
+  {
+    "id": "prod-41",
+    "name": "Pasture-Raised Chicken Eggs (White)",
+    "category": "dairy-eggs",
+    "subcategory": "Eggs",
+    "brand": "Aarong Dairy",
+    "price": 165,
+    "rating": 4.7,
+    "reviewCount": 110,
+    "weight": "1 dozen",
+    "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03?w=600&auto=format&fit=crop&q=80",
+    "description": "Pasture-raised, certified humane white chicken eggs from local farms. Clean shells, golden yolks.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "12 Count"
+    ]
+  },
+  {
+    "id": "prod-42",
+    "name": "Grass-Fed Whole Milk (Low Fat)",
+    "category": "dairy-eggs",
+    "subcategory": "Milk",
+    "brand": "Aarong Dairy",
+    "price": 707,
+    "rating": 4.6,
+    "reviewCount": 73,
+    "weight": "64 fl gm",
+    "image": "https://images.unsplash.com/photo-1563636619-e9143da7973b?w=600&auto=format&fit=crop&q=80",
+    "description": "Organic 2% reduced fat grass-fed milk, pasteurized and fresh.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "Half Gallon"
+    ]
+  },
+  {
+    "id": "prod-43",
+    "name": "Local Goat Cheese Log",
+    "category": "dairy-eggs",
+    "subcategory": "Yogurt",
+    "brand": "Aarong Dairy",
+    "price": 599,
+    "rating": 4.8,
+    "reviewCount": 104,
+    "weight": "4 gm",
+    "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=600&auto=format&fit=crop&q=80",
+    "description": "Creamy, smooth goat cheese log made with pasture-raised goat's milk. Mild, fresh flavor.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "4 oz Log"
+    ]
+  },
+  {
+    "id": "prod-44",
+    "name": "Local Beef Ribs",
+    "category": "meat-seafood",
+    "subcategory": "Beef",
+    "brand": "Bengal Meat",
+    "price": 1259,
+    "rating": 4.7,
+    "reviewCount": 59,
+    "weight": "1.5 kg",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&auto=format&fit=crop&q=80",
+    "description": "Rich grass-fed beef back ribs. Perfect for slow braising or barbecue grilling.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "1.5 lbs Rack"
+    ]
+  },
+  {
+    "id": "prod-45",
+    "name": "Fresh Ground Turkey (93% Lean)",
+    "category": "meat-seafood",
+    "subcategory": "Poultry",
+    "brand": "Bengal Meat",
+    "price": 779,
+    "originalPrice": 899,
+    "rating": 4.5,
+    "reviewCount": 89,
+    "weight": "16 gm",
+    "image": "https://images.unsplash.com/photo-1587593817642-5999c1a654fb?w=600&auto=format&fit=crop&q=80",
+    "description": "Lean and flavorful organic ground turkey. High in protein, perfect for turkey burgers or tacos.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "16 oz Pack"
+    ]
+  },
+  {
+    "id": "prod-46",
+    "name": "Organic Multigrain Sandwich Bread",
+    "category": "bakery",
+    "subcategory": "Breads",
+    "brand": "Wild Yeast Hearth",
+    "price": 587,
+    "rating": 4.6,
+    "reviewCount": 134,
+    "weight": "20 gm",
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&auto=format&fit=crop&q=80",
+    "description": "Soft organic sandwich bread made with seven ancient grains and seeds. Pre-sliced.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Vegan"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "20 oz Pre-Sliced"
+    ]
+  },
+  {
+    "id": "prod-47",
+    "name": "Gluten-Free Blueberry Muffins",
+    "category": "bakery",
+    "subcategory": "Pastries",
+    "brand": "Wild Yeast Hearth",
+    "price": 659,
+    "rating": 4.7,
+    "reviewCount": 91,
+    "weight": "4 count",
+    "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=600&auto=format&fit=crop&q=80",
+    "description": "Delightfully soft and moist muffins made with organic blueberries and gluten-free flour blend.",
+    "inStock": true,
+    "tags": [
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "4 Pack"
+    ]
+  },
+  {
+    "id": "prod-48",
+    "name": "Sparkling  Apple Cider",
+    "category": "beverages",
+    "subcategory": "Juices",
+    "brand": "Ispahani",
+    "price": 479,
+    "rating": 4.8,
+    "reviewCount": 115,
+    "weight": "25.4 gm",
+    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&auto=format&fit=crop&q=80",
+    "description": "Naturally sparkling, pasteurized organic apple cider. Press-picked on our local orchards.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "750 ml Glass Bottle"
+    ]
+  },
+  {
+    "id": "prod-49",
+    "name": "Chamomile Herbal Tea",
+    "category": "beverages",
+    "subcategory": "Coffee & Tea",
+    "brand": "Ispahani",
+    "price": 515,
+    "rating": 4.7,
+    "reviewCount": 71,
+    "weight": "20 bags",
+    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?w=600&auto=format&fit=crop&q=80",
+    "description": "Soothe your evenings with caffeine-free whole organic chamomile flower tea bags.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "20 Tea Bags Box"
+    ]
+  },
+  {
+    "id": "prod-50",
+    "name": "Organic Whole Grain Rolled Oats",
+    "category": "breakfast-oats",
+    "subcategory": "Oats & Cereals",
+    "brand": "Sunsoil Farms",
+    "price": 419,
+    "rating": 4.7,
+    "reviewCount": 142,
+    "weight": "32 gm",
+    "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?w=600&auto=format&fit=crop&q=80",
+    "description": "Gluten-free organic whole grain rolled oats, perfect for oatmeal, baking, or granola.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Vegan",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "32 oz Bag"
+    ]
+  },
+  {
+    "id": "prod-51",
+    "name": "Organic Maple Pecan Granola",
+    "category": "breakfast-oats",
+    "subcategory": "Oats & Cereals",
+    "brand": "Nutty Orchard",
+    "price": 635,
+    "originalPrice": 755,
+    "rating": 4.8,
+    "reviewCount": 113,
+    "weight": "12 gm",
+    "image": "https://images.unsplash.com/photo-1517093157656-b9ecdfaf7625?w=600&auto=format&fit=crop&q=80",
+    "description": "Oat clusters baked with pure organic maple syrup and crunchy local pecans.",
+    "inStock": true,
+    "tags": [
+      "Organic",
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "12 oz Bag"
+    ]
+  },
+  {
+    "id": "prod-52",
+    "name": "Organic Strawberries & Cream Ice Cream",
+    "category": "frozen-foods",
+    "subcategory": "Ice Cream",
+    "brand": "Clover Meadow",
+    "price": 719,
+    "rating": 4.9,
+    "reviewCount": 183,
+    "weight": "16 fl gm",
+    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&auto=format&fit=crop&q=80",
+    "description": "Super premium organic ice cream made with local pasture cream and real organic strawberries.",
+    "inStock": false,
+    "tags": [
+      "Organic",
+      "Local",
+      "Gluten-Free"
+    ],
+    "nutritionalInfo": null,
+    "variants": [
+      "1 Pint (16 oz)"
+    ]
+  }
+]

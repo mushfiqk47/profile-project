@@ -1,0 +1,3440 @@
+[
+  {
+    "type": "physical_file",
+    "source": ".next\\dev\\static\\media\\14e23f9b59180572-s.0t8ljjjn9wtsx.woff2",
+    "destination": "14e23f9b59180572-s.0t8ljjjn9wtsx_e78cfe9b.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\dev\\static\\media\\2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+    "destination": "2a65768255d6b625-s.p.3u4lli0-axodc_692e685e.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\dev\\static\\media\\5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2",
+    "destination": "5c285b27cdda1fe8-s.p.2_mbdogr7ni8i_6df4ce83.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\dev\\static\\media\\65c558afe41e89d6-s.3jppgd0xzx-0d.woff2",
+    "destination": "65c558afe41e89d6-s.3jppgd0xzx-0d_96a04f12.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\dev\\static\\media\\b49b0d9b851e4899-s.2zyohmvb-ks7f.woff2",
+    "destination": "b49b0d9b851e4899-s.2zyohmvb-ks7f_d9603f4d.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\dev\\static\\media\\c3cb240f9c892514-s.3z_x6eowsw16y.woff2",
+    "destination": "c3cb240f9c892514-s.3z_x6eowsw16y_432552f0.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\dev\\static\\media\\favicon.2vob68tjqpejf.ico",
+    "destination": "favicon.2vob68tjqpejf_9059d4e3.ico",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_1.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_2.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_3.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_4.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_5.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_6.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_7.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_8.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_9.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_10.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_11.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_12.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_13.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_14.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_15.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_16.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_17.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_18.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_19.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_20.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_21.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_22.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_23.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_24.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_25.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_26.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_27.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_28.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_29.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account.html",
+    "destination": "inline_svg_30.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_31.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_32.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_33.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_34.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_35.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_36.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_37.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_38.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_39.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_40.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_41.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_42.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_43.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_44.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_45.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_46.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\cart.html",
+    "destination": "inline_svg_47.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_48.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_49.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_50.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_51.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_52.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_53.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_54.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_55.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_56.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_57.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_58.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_59.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_60.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_61.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_62.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\checkout.html",
+    "destination": "inline_svg_63.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_64.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_65.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_66.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_67.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_68.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_69.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_70.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_71.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_72.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_73.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_74.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_75.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_76.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_77.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_78.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_79.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_80.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_81.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_82.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_83.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_84.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_85.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_86.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_87.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_88.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_89.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_90.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\help.html",
+    "destination": "inline_svg_91.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_92.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_93.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_94.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_95.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_96.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_97.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_98.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_99.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_100.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_101.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_102.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_103.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_104.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_105.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_106.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_107.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_108.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_109.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_110.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_111.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_112.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_113.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_114.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_115.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_116.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_117.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_118.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_119.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_120.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_121.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_122.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_123.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_124.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_125.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_126.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_127.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_128.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_129.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_130.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_131.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_132.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_133.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_134.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_135.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_136.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_137.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_138.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_139.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_140.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_141.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_142.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_143.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_144.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_145.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_146.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_147.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_148.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_149.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_150.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_151.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_152.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_153.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_154.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_155.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_156.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_157.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_158.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_159.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_160.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_161.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_162.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_163.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_164.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_165.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_166.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_167.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_168.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_169.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_170.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_171.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_172.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_173.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_174.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_175.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_176.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_177.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_178.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_179.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_180.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_181.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_182.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_183.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_184.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_185.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_186.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_187.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_188.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_189.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_190.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_191.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_192.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_193.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_194.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_195.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_196.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_197.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_198.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_199.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_200.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_201.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_202.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_203.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_204.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_205.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_206.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_207.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_208.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_209.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_210.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_211.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_212.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_213.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_214.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_215.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_216.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_217.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_218.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_219.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_220.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_221.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_222.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_223.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_224.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_225.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_226.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_227.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_228.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_229.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_230.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_231.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_232.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_233.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_234.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_235.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_236.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_237.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_238.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_239.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_240.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_241.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_242.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_243.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_244.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_245.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_246.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_247.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_248.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_249.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_250.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_251.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_252.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_253.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_254.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_255.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_256.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_257.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_258.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_259.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_260.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_261.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_262.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_263.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_264.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_265.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_266.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_267.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_268.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_269.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_270.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_271.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_272.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_273.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_274.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_275.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_276.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_277.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_278.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_279.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_280.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_281.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_282.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_283.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_284.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_285.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_286.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_287.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_288.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_289.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_290.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_291.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_292.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_293.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_294.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_295.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_296.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_297.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_298.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_299.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_300.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_301.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_302.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_303.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_304.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_305.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_306.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_307.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_308.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_309.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_310.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_311.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\index.html",
+    "destination": "inline_svg_312.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_313.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_314.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_315.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_316.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_317.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_318.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_319.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_320.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_321.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_322.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_323.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_324.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_325.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_326.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_327.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_328.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_329.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\login.html",
+    "destination": "inline_svg_330.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_331.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_332.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_333.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_334.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_335.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_336.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_337.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_338.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_339.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_340.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_341.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_342.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_343.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_344.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_345.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_346.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_347.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_348.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_349.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_350.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_351.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_352.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_353.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_354.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_355.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\promotions.html",
+    "destination": "inline_svg_356.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_357.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_358.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_359.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_360.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_361.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_362.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_363.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_364.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_365.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_366.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_367.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_368.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_369.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_370.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_371.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\search.html",
+    "destination": "inline_svg_372.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_373.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_374.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_375.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_376.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_377.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_378.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_379.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_380.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_381.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_382.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_383.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_384.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_385.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_386.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_387.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_388.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_389.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_390.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_391.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_392.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_393.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_394.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_395.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_396.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_397.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_398.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_399.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_400.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_401.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_402.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_403.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_404.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_405.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_406.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_407.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_408.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_409.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_410.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_411.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_412.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_413.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_414.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_415.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_416.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_417.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_418.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_419.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_420.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_421.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_422.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_423.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_424.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_425.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\shop.html",
+    "destination": "inline_svg_426.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_427.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_428.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_429.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_430.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_431.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_432.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_433.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_434.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_435.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_436.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_437.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_438.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_439.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_440.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_441.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_442.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_443.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\signup.html",
+    "destination": "inline_svg_444.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_global-error.html",
+    "destination": "inline_svg_445.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_446.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_447.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_448.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_449.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_450.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_451.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_452.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_453.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_454.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_455.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_456.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_457.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_458.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_459.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_460.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_461.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_462.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_463.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_464.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\_not-found.html",
+    "destination": "inline_svg_465.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_466.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_467.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_468.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_469.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_470.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_471.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_472.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_473.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_474.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_475.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_476.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_477.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_478.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_479.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_480.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_481.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_482.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_483.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_484.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_485.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_486.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_487.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_488.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_489.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_490.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_491.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_492.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\favorites.html",
+    "destination": "inline_svg_493.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_494.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_495.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_496.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_497.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_498.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_499.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_500.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_501.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_502.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_503.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_504.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_505.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_506.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_507.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_508.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_509.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_510.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_511.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_512.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_513.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_514.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_515.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_516.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_517.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_518.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\app\\account\\orders.html",
+    "destination": "inline_svg_519.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_520.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_521.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_522.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_523.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_524.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_525.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_526.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_527.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_528.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_529.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_530.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_531.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_532.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_533.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_534.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_535.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_536.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_537.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_538.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\404.html",
+    "destination": "inline_svg_539.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": ".next\\server\\pages\\500.html",
+    "destination": "inline_svg_540.svg",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\static\\media\\14e23f9b59180572-s.0t8ljjjn9wtsx.woff2",
+    "destination": "14e23f9b59180572-s.0t8ljjjn9wtsx_898c6568.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\static\\media\\2a65768255d6b625-s.p.3u4lli0-axodc.woff2",
+    "destination": "2a65768255d6b625-s.p.3u4lli0-axodc_b4d318f9.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\static\\media\\5c285b27cdda1fe8-s.p.2_mbdogr7ni8i.woff2",
+    "destination": "5c285b27cdda1fe8-s.p.2_mbdogr7ni8i_067f0d44.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\static\\media\\65c558afe41e89d6-s.3jppgd0xzx-0d.woff2",
+    "destination": "65c558afe41e89d6-s.3jppgd0xzx-0d_cb1d534d.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\static\\media\\b49b0d9b851e4899-s.2zyohmvb-ks7f.woff2",
+    "destination": "b49b0d9b851e4899-s.2zyohmvb-ks7f_4219b24f.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\static\\media\\c3cb240f9c892514-s.3z_x6eowsw16y.woff2",
+    "destination": "c3cb240f9c892514-s.3z_x6eowsw16y_1fa02af9.woff2",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": ".next\\static\\media\\favicon.2vob68tjqpejf.ico",
+    "destination": "favicon.2vob68tjqpejf_f9868112.ico",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": "app\\favicon.ico",
+    "destination": "favicon_3e0fd7b6.ico",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "app\\not-found.tsx",
+    "destination": "inline_svg_541.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "app\\checkout\\page.tsx",
+    "destination": "inline_svg_542.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "app\\order\\confirmation\\[id]\\page.tsx",
+    "destination": "inline_svg_543.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "app\\order\\track\\[id]\\page.tsx",
+    "destination": "inline_svg_544.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "components\\layout\\Footer.tsx",
+    "destination": "inline_svg_545.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "components\\layout\\Footer.tsx",
+    "destination": "inline_svg_546.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "components\\layout\\Footer.tsx",
+    "destination": "inline_svg_547.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "components\\search\\SearchFilters.tsx",
+    "destination": "inline_svg_548.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "components\\ui\\EmptyState.tsx",
+    "destination": "inline_svg_549.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "components\\ui\\EmptyState.tsx",
+    "destination": "inline_svg_550.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "components\\ui\\EmptyState.tsx",
+    "destination": "inline_svg_551.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "components\\ui\\EmptyState.tsx",
+    "destination": "inline_svg_552.svg",
+    "status": "success"
+  },
+  {
+    "type": "inline_svg",
+    "source": "components\\ui\\EmptyState.tsx",
+    "destination": "inline_svg_553.svg",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": "public\\file.svg",
+    "destination": "file_a1b7e8d0.svg",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": "public\\globe.svg",
+    "destination": "globe_f76336d2.svg",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": "public\\next.svg",
+    "destination": "next_5c535fb1.svg",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": "public\\vercel.svg",
+    "destination": "vercel_d771e4d4.svg",
+    "status": "success"
+  },
+  {
+    "type": "physical_file",
+    "source": "public\\window.svg",
+    "destination": "window_bc0d3f2b.svg",
+    "status": "success"
+  }
+]

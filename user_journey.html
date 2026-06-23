@@ -1,0 +1,1790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreshCart Bangladesh — Localized User Journey Board</title>
+  <!-- Google Fonts: Playfair Display for headers, Outfit for body, JetBrains Mono for code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap" rel="stylesheet">
+  
+  <style>
+    /* CSS Variables based on figma_design_specs.json */
+    :root {
+      --color-primary: #13382B;         /* Forest Ink */
+      --color-primary-hover: #0E2C22;   /* Forest Ink Hover */
+      --color-accent: #E05E2B;          /* Terracotta Sunrise */
+      --color-accent-hover: #C64F20;    /* Terracotta Sunrise Hover */
+      --color-bg: #FAF9F6;              /* Cream Parchment */
+      --color-card: #FFFFFF;            /* White Linen */
+      --color-ink: #1C1E1B;             /* Charcoal Ink */
+      --color-border: #E8E4DA;          /* Sandstone Border */
+      --color-muted: #9E9582;           /* Sandstone Muted */
+      --color-success: #16A34A;         /* Emerald */
+      
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Outfit', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+      
+      --shadow-sm: 0 2px 4px rgba(28, 30, 27, 0.04);
+      --shadow-md: 0 4px 12px rgba(28, 30, 27, 0.06);
+      --shadow-lg: 0 12px 24px -4px rgba(28, 30, 27, 0.12);
+      
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+    }
+
+    /* Reset & Base styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--color-bg);
+      color: var(--color-ink);
+      font-family: var(--font-body);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* Layout structure */
+    header {
+      background-color: var(--color-primary);
+      color: var(--color-bg);
+      padding: 2.5rem 2rem;
+      border-bottom: 4px solid var(--color-accent);
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      top: -50%;
+      right: -10%;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(224, 94, 43, 0.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .header-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .logo-area h1 {
+      font-family: var(--font-display);
+      font-weight: 800;
+      font-size: 2.2rem;
+      letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .logo-area h1 span.accent {
+      color: var(--color-accent);
+      font-style: italic;
+    }
+
+    .logo-area p {
+      font-size: 0.85rem;
+      color: var(--color-muted);
+      margin-top: 0.2rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+    }
+
+    .badge-hub {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .badge-item {
+      background-color: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: var(--color-bg);
+      padding: 0.4rem 0.8rem;
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .badge-item.active {
+      background-color: rgba(224, 94, 43, 0.2);
+      border-color: var(--color-accent);
+      color: var(--color-accent);
+    }
+
+    /* Dashboard Layout */
+    .dashboard-container {
+      display: grid;
+      grid-template-columns: 320px 1fr 450px;
+      gap: 2rem;
+      max-width: 1400px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      min-height: 80vh;
+    }
+
+    @media (max-width: 1200px) {
+      .dashboard-container {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Left Sidebar: Timeline Navigator */
+    .journey-timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .timeline-header {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--color-muted);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .step-card {
+      background-color: var(--color-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 1.25rem;
+      cursor: pointer;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      position: relative;
+    }
+
+    .step-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--color-muted);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .step-card.active {
+      border-color: var(--color-accent);
+      box-shadow: var(--shadow-md);
+      background-color: rgba(224, 94, 43, 0.02);
+    }
+
+    .step-card.active::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 15%;
+      height: 70%;
+      width: 4px;
+      background-color: var(--color-accent);
+      border-radius: 0 4px 4px 0;
+    }
+
+    .step-num {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background-color: var(--color-bg);
+      border: 1px solid var(--color-border);
+      color: var(--color-ink);
+      font-weight: 700;
+      font-size: 0.85rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.3s ease;
+    }
+
+    .step-card.active .step-num {
+      background-color: var(--color-accent);
+      border-color: var(--color-accent);
+      color: var(--color-card);
+      box-shadow: 0 0 10px rgba(224, 94, 43, 0.3);
+    }
+
+    .step-meta {
+      min-width: 0;
+    }
+
+    .step-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      margin-bottom: 0.2rem;
+    }
+
+    .step-desc {
+      font-size: 0.75rem;
+      color: var(--color-muted);
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-weight: 500;
+    }
+
+    /* Center: Simulated UI Frame */
+    .mockup-workspace {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #ECEAE4; /* Premium warm grey paper backing */
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 2.5rem;
+      box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05);
+      position: relative;
+    }
+
+    .mockup-workspace::before {
+      content: "SIMULATED APP MOCKUP";
+      position: absolute;
+      top: 1rem;
+      font-size: 0.65rem;
+      letter-spacing: 2px;
+      font-weight: 800;
+      color: var(--color-muted);
+      opacity: 0.6;
+    }
+
+    /* Smartphone Frame */
+    .phone-shell {
+      width: 375px;
+      height: 780px;
+      background-color: #1A1A1A;
+      border-radius: 48px;
+      border: 10px solid #2B2B2B;
+      box-shadow: var(--shadow-lg), 0 20px 40px -10px rgba(0, 0, 0, 0.3);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Notch & Status bar */
+    .phone-notch {
+      width: 140px;
+      height: 25px;
+      background-color: #2B2B2B;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 0 0 18px 18px;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .phone-notch::before {
+      content: "";
+      width: 40px;
+      height: 4px;
+      background-color: #111;
+      border-radius: 2px;
+    }
+
+    .phone-status-bar {
+      height: 38px;
+      background-color: var(--color-primary);
+      color: var(--color-bg);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      padding: 0 1.8rem 0.3rem 1.8rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      z-index: 90;
+    }
+
+    /* App Frame Container */
+    .app-screen {
+      flex: 1;
+      background-color: var(--color-bg);
+      overflow-y: auto;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .app-screen::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* App Header */
+    .app-header {
+      background-color: var(--color-primary);
+      color: var(--color-bg);
+      padding: 1.25rem 1.25rem 1rem 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .app-header .app-logo {
+      font-family: var(--font-display);
+      font-size: 1.2rem;
+      font-weight: 800;
+    }
+
+    .app-header .app-logo span {
+      color: var(--color-accent);
+      font-style: italic;
+    }
+
+    /* Right Sidebar: Details Panel */
+    .details-sidebar {
+      background-color: var(--color-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      gap: 1.8rem;
+      overflow-y: auto;
+      max-height: 85vh;
+    }
+
+    .details-section h3 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--color-accent);
+      font-weight: 800;
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .details-title-display {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--color-primary);
+      line-height: 1.2;
+    }
+
+    .details-desc-display {
+      font-size: 0.85rem;
+      color: var(--color-ink);
+      line-height: 1.6;
+      font-weight: 400;
+    }
+
+    /* Comparison Box */
+    .comparison-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      background-color: var(--color-bg);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 1rem;
+    }
+
+    .comp-item {
+      display: grid;
+      grid-template-columns: 80px 1fr;
+      font-size: 0.8rem;
+      align-items: start;
+    }
+
+    .comp-label {
+      font-weight: 700;
+      color: var(--color-muted);
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      margin-top: 0.15rem;
+    }
+
+    .comp-val {
+      font-weight: 500;
+      word-break: break-word;
+    }
+
+    .comp-val.old {
+      text-decoration: line-through;
+      color: #9E9E9E;
+    }
+
+    .comp-val.new {
+      color: var(--color-primary);
+      font-weight: 700;
+    }
+
+    /* Zod / Code blocks */
+    .code-wrapper {
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      overflow-x: auto;
+      border: 1px solid #333;
+      position: relative;
+    }
+
+    .code-wrapper::before {
+      content: "TS / VALIDATION RULE";
+      position: absolute;
+      top: 0.4rem;
+      right: 0.6rem;
+      font-size: 0.55rem;
+      font-weight: 800;
+      color: #666;
+    }
+
+    .code-wrapper code {
+      display: block;
+      white-space: pre;
+    }
+
+    /* Interactive components inside the mockup screen */
+    .hero-bg {
+      background-color: var(--color-primary);
+      color: var(--color-bg);
+      padding: 2.5rem 1.25rem 2rem 1.25rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      background-color: rgba(224, 94, 43, 0.2);
+      border: 1px solid var(--color-accent);
+      color: var(--color-accent);
+      border-radius: 50px;
+      font-size: 0.6rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.75rem;
+    }
+
+    .hero-h1 {
+      font-family: var(--font-display);
+      font-size: 1.6rem;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 0.6rem;
+    }
+
+    .hero-h1 span {
+      color: var(--color-accent);
+      font-style: italic;
+    }
+
+    .hero-sub {
+      font-size: 0.75rem;
+      color: var(--color-border);
+      max-width: 90%;
+      margin: 0 auto 1.25rem auto;
+      line-height: 1.5;
+    }
+
+    .coverage-form {
+      background-color: white;
+      border-radius: 50px;
+      padding: 0.25rem 0.25rem 0.25rem 0.75rem;
+      display: flex;
+      align-items: center;
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .coverage-form input {
+      flex: 1;
+      border: none;
+      font-size: 0.75rem;
+      outline: none;
+      color: var(--color-ink);
+      font-weight: 500;
+      width: 100%;
+    }
+
+    .coverage-form button {
+      background-color: var(--color-accent);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 0.5rem 1rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .coverage-form button:hover {
+      background-color: var(--color-accent-hover);
+    }
+
+    /* Product Section Mock */
+    .aisles-title {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 800;
+      padding: 1.25rem 1.25rem 0.5rem 1.25rem;
+      color: var(--color-primary);
+    }
+
+    .deshi-tagline {
+      font-size: 0.65rem;
+      color: var(--color-muted);
+      margin-top: -0.4rem;
+      padding: 0 1.25rem 1rem 1.25rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .product-grid-mock {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      padding: 0 1.25rem;
+    }
+
+    .product-card-mock {
+      background-color: var(--color-card);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      padding: 0.6rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+    }
+
+    .product-card-mock img {
+      width: 100%;
+      height: 90px;
+      object-fit: cover;
+      border-radius: calc(var(--radius-md) - 6px);
+      margin-bottom: 0.5rem;
+    }
+
+    .product-tag {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background-color: var(--color-primary);
+      color: white;
+      font-size: 0.55rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .product-brand {
+      font-size: 0.55rem;
+      color: var(--color-muted);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .product-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--color-ink);
+      line-height: 1.3;
+      margin: 0.1rem 0 0.4rem 0;
+      height: 34px;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .product-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .product-price {
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      font-weight: 800;
+      color: var(--color-primary);
+    }
+
+    .add-btn {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: var(--color-primary);
+      color: white;
+      border: none;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .add-btn:hover {
+      background-color: var(--color-primary-hover);
+    }
+
+    /* Cart mockup */
+    .cart-wrapper {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .cart-item {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      background: white;
+      padding: 0.6rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+    }
+
+    .cart-item img {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .cart-item-info {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .cart-item-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--color-ink);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .cart-item-meta {
+      font-size: 0.6rem;
+      color: var(--color-muted);
+      font-weight: 600;
+    }
+
+    .cart-item-price {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    /* Tip box */
+    .tip-box {
+      border: 1px solid var(--color-border);
+      background: white;
+      border-radius: var(--radius-md);
+      padding: 0.8rem;
+    }
+
+    .tip-title {
+      font-size: 0.7rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--color-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .tip-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.4rem;
+    }
+
+    .tip-btn {
+      padding: 0.4rem 0;
+      border: 1px solid var(--color-border);
+      background-color: var(--color-bg);
+      border-radius: 6px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      font-family: var(--font-mono);
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.2s;
+    }
+
+    .tip-btn.active {
+      background-color: var(--color-primary);
+      color: white;
+      border-color: var(--color-primary);
+    }
+
+    .summary-calc {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      border-top: 1px dashed var(--color-border);
+      padding-top: 0.75rem;
+      font-size: 0.75rem;
+    }
+
+    .summary-row {
+      display: flex;
+      justify-content: space-between;
+      color: var(--color-muted);
+      font-weight: 500;
+    }
+
+    .summary-row.total {
+      border-top: 1px solid var(--color-border);
+      padding-top: 0.5rem;
+      color: var(--color-ink);
+      font-weight: 800;
+      font-size: 0.85rem;
+    }
+
+    .summary-row span.mono {
+      font-family: var(--font-mono);
+    }
+
+    .checkout-btn {
+      width: 100%;
+      background-color: var(--color-primary);
+      color: white;
+      padding: 0.8rem;
+      border-radius: var(--radius-md);
+      border: none;
+      font-weight: 700;
+      font-size: 0.8rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+      transition: background-color 0.2s;
+    }
+
+    .checkout-btn:hover {
+      background-color: var(--color-primary-hover);
+    }
+
+    /* Form Fields styling */
+    .form-group-mock {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .form-group-mock label {
+      font-size: 0.65rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--color-muted);
+    }
+
+    .form-group-mock input, .form-group-mock select {
+      padding: 0.6rem;
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      font-size: 0.75rem;
+      font-family: var(--font-body);
+      outline: none;
+      background-color: white;
+    }
+
+    .form-group-mock input:focus {
+      border-color: var(--color-primary);
+    }
+
+    .form-row-mock {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+    }
+
+    /* Checkout Stepper Mockup */
+    .checkout-stepper-mock {
+      display: flex;
+      justify-content: space-around;
+      background: white;
+      border-bottom: 1px solid var(--color-border);
+      padding: 0.75rem;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .stepper-item-mock {
+      color: var(--color-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .stepper-item-mock.active {
+      color: var(--color-primary);
+      border-bottom: 2px solid var(--color-accent);
+      padding-bottom: 2px;
+    }
+
+    /* Payment Tabs */
+    .payment-tabs-mock {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .pay-tab {
+      padding: 0.5rem;
+      border: 1px solid var(--color-border);
+      background-color: white;
+      border-radius: 8px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .pay-tab.active {
+      border-color: var(--color-accent);
+      background-color: rgba(224, 94, 43, 0.05);
+      color: var(--color-accent);
+    }
+
+    .mfs-panel {
+      border: 1px solid var(--color-border);
+      background-color: white;
+      border-radius: var(--radius-md);
+      padding: 0.8rem;
+    }
+
+    .mfs-selector-mock {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .mfs-btn {
+      flex: 1;
+      padding: 0.4rem;
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      font-size: 0.65rem;
+      font-weight: 800;
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.2rem;
+    }
+
+    .mfs-btn.active.bkash {
+      border-color: #E2127A;
+      background-color: rgba(226, 18, 122, 0.05);
+      color: #E2127A;
+    }
+
+    .mfs-btn.active.nagad {
+      border-color: #F7941D;
+      background-color: rgba(247, 148, 29, 0.05);
+      color: #F7941D;
+    }
+
+    /* Confirmation card */
+    .conf-card {
+      text-align: center;
+      padding: 2rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .checkmark-circle {
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background-color: rgba(22, 163, 74, 0.1);
+      border: 2px solid var(--color-success);
+      color: var(--color-success);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      font-weight: 900;
+      animation: check-scale 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    @keyframes check-scale {
+      0% { transform: scale(0); }
+      100% { transform: scale(1); }
+    }
+
+    .conf-id {
+      font-family: var(--font-mono);
+      background-color: var(--color-border);
+      padding: 0.3rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--color-primary);
+    }
+
+    /* Footer Payment Icons row style */
+    .foot-pay-icons {
+      display: flex;
+      justify-content: center;
+      gap: 0.3rem;
+      margin-top: 0.75rem;
+      opacity: 0.7;
+    }
+
+    .foot-pay-icons span {
+      font-size: 0.55rem;
+      font-weight: 700;
+      border: 1px solid var(--color-muted);
+      border-radius: 3px;
+      padding: 0.05rem 0.25rem;
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+    }
+
+    /* Status logs on active details pane */
+    .log-badge {
+      display: inline-block;
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      font-weight: 700;
+      margin-right: 0.5rem;
+    }
+
+    .log-badge.success {
+      background-color: rgba(22, 163, 74, 0.1);
+      color: var(--color-success);
+      border: 1px solid rgba(22, 163, 74, 0.2);
+    }
+
+    .log-badge.info {
+      background-color: rgba(19, 56, 43, 0.1);
+      color: var(--color-primary);
+      border: 1px solid rgba(19, 56, 43, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo-area">
+        <h1>FreshCart <span class="accent">Bangladesh</span></h1>
+        <p>Interactive User Journey Specs Board</p>
+      </div>
+      <div class="badge-hub">
+        <div class="badge-item active">
+          <span>📍 Dhaka Coverage</span>
+        </div>
+        <div class="badge-item">
+          <span>৳ BDT currency (South Asian Commas)</span>
+        </div>
+        <div class="badge-item">
+          <span>📱 Mobile Financial Services (MFS)</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Workspace -->
+  <main class="dashboard-container">
+    
+    <!-- Left: Step Timeline -->
+    <section class="journey-timeline">
+      <div class="timeline-header">TIMELINE PATH</div>
+      
+      <!-- Step 1 Card -->
+      <div class="step-card active" onclick="activateStep(1)">
+        <div class="step-num">1</div>
+        <div class="step-meta">
+          <div class="step-title">Area Coverage Check</div>
+          <div class="step-desc"> Dhaka division zone checker. Sourcing hubs setup (Savar, Narsingdi, Bogura).</div>
+        </div>
+      </div>
+
+      <!-- Step 2 Card -->
+      <div class="step-card" onclick="activateStep(2)">
+        <div class="step-num">2</div>
+        <div class="step-meta">
+          <div class="step-title">Browsing Deshi Inventory</div>
+          <div class="step-desc">Padma Ilish, Himchagor mangoes, and Aarong Dairy items listing.</div>
+        </div>
+      </div>
+
+      <!-- Step 3 Card -->
+      <div class="step-card" onclick="activateStep(3)">
+        <div class="step-num">3</div>
+        <div class="step-meta">
+          <div class="step-title">Shopping Cart & Tip Setup</div>
+          <div class="step-desc">Whole Taka pricing logic, ৳20-200 courier tips, and ৳1500 free shipping rules.</div>
+        </div>
+      </div>
+
+      <!-- Step 4 Card -->
+      <div class="step-card" onclick="activateStep(4)">
+        <div class="step-num">4</div>
+        <div class="step-meta">
+          <div class="step-title">Dhaka Holding & Post Address</div>
+          <div class="step-desc">Thana & Holding inputs. 4-digit postal code schemas.</div>
+        </div>
+      </div>
+
+      <!-- Step 5 Card -->
+      <div class="step-card" onclick="activateStep(5)">
+        <div class="step-num">5</div>
+        <div class="step-meta">
+          <div class="step-title">bKash/Nagad MFS Gateway</div>
+          <div class="step-desc">MFS wallet tab selects vs Cash on Delivery (COD) workflows.</div>
+        </div>
+      </div>
+
+      <!-- Step 6 Card -->
+      <div class="step-card" onclick="activateStep(6)">
+        <div class="step-num">6</div>
+        <div class="step-meta">
+          <div class="step-title">Order Placed & Tracker</div>
+          <div class="step-desc">Order verification page, Dhaka mapping logs, and status tracker.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Center: Interactive Mobile Sandbox -->
+    <section class="mockup-workspace">
+      <div class="phone-shell">
+        <div class="phone-notch"></div>
+        <div class="phone-status-bar">
+          <span>6:00 PM</span>
+          <span style="display: flex; gap: 0.3rem; align-items: center;">
+            <span>LTE</span>
+            <span>🔋 96%</span>
+          </span>
+        </div>
+        
+        <!-- App screen wrapper -->
+        <div class="app-screen" id="app-screen-content">
+          <!-- Dynamic contents loaded by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Right: Technical Specification Panel -->
+    <section class="details-sidebar" id="specifications-panel">
+      <!-- Dynamic specifications loaded by JS -->
+    </section>
+  </main>
+
+  <script>
+    // User Profile / Cart Mock State variables
+    let cartItems = [
+      { id: "prod-1", name: "Premium Rajshahi Himchagor Mangoes", price: 599, qty: 1, weight: "1 kg", image: "https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=300" },
+      { id: "prod-15", name: "Padma Hilsha (Ilish Fish)", price: 1450, qty: 1, weight: "1 kg", image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=300" }
+    ];
+    let selectedTip = 100;
+    let selectedDelivery = "Standard";
+    let paymentType = "mfs";
+    let mfsProvider = "bKash";
+    let enteredAddress = "Road 11, House 45, Flat 4A, Gulshan-2, Dhaka";
+    let enteredPostCode = "1212";
+    
+    // Step configuration data
+    const stepsData = {
+      1: {
+        title: "Area Coverage Check",
+        desc: "The entry experience checks if the customer's neighborhood in Dhaka qualifies for immediate organic delivery. Sourcing references are targeted to local growers across Savar, Narsingdi, Jessore, and Bogura.",
+        copyComparison: [
+          { label: "Hero title", old: "Organic groceries, delivered in 30 minutes", new: "The finest organic groceries, delivered in 30 minutes" },
+          { label: "Sourcing description", old: "sourced directly from neighborhood farms within 50 miles", new: "sourced directly from local farms in Savar, Narsingdi, and Bogura" },
+          { label: "Form input label", old: "Enter your zip code...", new: "Enter your delivery address..." },
+          { label: "Button action", old: "Get Started", new: "Check Coverage" }
+        ],
+        validationCode: `// lib/store/user.ts - Default User Profiles & Addresses
+const defaultAddresses: Address[] = [
+  {
+    id: "addr-1",
+    street: "Road 11, House 45",
+    apartment: "Flat 4A, Gulshan-2",
+    city: "Dhaka",
+    state: "Dhaka",
+    zip: "1212",
+    instructions: "Deliver near Gulshan Lake Park."
+  }
+];`,
+        designSpecs: {
+          primaryColor: "#13382B (Forest Ink)",
+          accentColor: "#E05E2B (Terracotta Sunrise)",
+          displayFont: "Playfair Display (Serif, ExtraBold)",
+          bodyFont: "Outfit (Sans-Serif, Regular)",
+          padding: "Page padding: 24px (Mobile layout), Grid alignment: Center"
+        },
+        renderMock: function() {
+          return `
+            <div class="app-header">
+              <span class="app-logo">Fresh<span>Cart</span></span>
+              <span style="font-size: 0.75rem; font-weight: 700; color: var(--color-accent);">Dhaka</span>
+            </div>
+            <div class="hero-bg">
+              <span class="hero-badge">⚡ Express Delivery</span>
+              <h2 class="hero-h1">The finest organic groceries, delivered in <span>30 mins</span></h2>
+              <p class="hero-sub">Sourced directly from local farms across Savar, Narsingdi, Jessore, and Bogura.</p>
+              
+              <div class="coverage-form">
+                <input type="text" id="cov-input" value="Gulshan-2, Dhaka" placeholder="Enter delivery area in Dhaka...">
+                <button onclick="checkCoverageSim()">Check</button>
+              </div>
+            </div>
+            
+            <h3 class="aisles-title">Featured Aisles</h3>
+            <p class="deshi-tagline">Harvested this morning</p>
+            <div class="product-grid-mock">
+              <div class="product-card-mock">
+                <span class="product-tag">Deshi</span>
+                <img src="${cartItems[0].image}" alt="Mangoes">
+                <div>
+                  <span class="product-brand">Rajshahi Orchards</span>
+                  <p class="product-title">${cartItems[0].name}</p>
+                </div>
+                <div class="product-footer">
+                  <span class="product-price">৳599</span>
+                  <button class="add-btn" onclick="toastSim('Added to Cart')">+</button>
+                </div>
+              </div>
+              <div class="product-card-mock">
+                <span class="product-tag">Fresh</span>
+                <img src="${cartItems[1].image}" alt="Ilish">
+                <div>
+                  <span class="product-brand">Padma River</span>
+                  <p class="product-title">${cartItems[1].name}</p>
+                </div>
+                <div class="product-footer">
+                  <span class="product-price">৳1,450</span>
+                  <button class="add-btn" onclick="toastSim('Added to Cart')">+</button>
+                </div>
+              </div>
+            </div>
+          `;
+        }
+      },
+      2: {
+        title: "Browsing Deshi Inventory",
+        desc: "Sourcing targets the local tastes of Bangladesh. Staple crops and items are prioritized over American equivalents. Standard pricing uses whole BDT integers without decimal points.",
+        copyComparison: [
+          { label: "Fruits Category", old: "Organic Blueberries, Honeycrisp Apples", new: "Rajshahi Himchagor Mangoes, Sagar Bananas" },
+          { label: "Fish & Seafood", old: "Atlantic Salmon, Maine Lobster", new: "Padma Hilsha (Ilish), Freshwater Rui Fish" },
+          { label: "Pantry Staples", old: "Olive Oil, Sourdough Bread", new: "Radhuni Mustard Oil, Chinigura Rice, Paratha" },
+          { label: "Item Weight Typo", old: "1 Dgmen (or dgmen)", new: "1 Dozen (or dozen) (Corrected in products database)" }
+        ],
+        validationCode: `// data/products.json - Localized Inventory Schema
+{
+  "id": "prod-1",
+  "name": "Premium Rajshahi Himchagor Mangoes",
+  "brand": "Rajshahi Orchards",
+  "price": 599,
+  "weight": "1 kg",
+  "description": "Sweet, juicy, and 100% formalin-free Himchagor mangoes."
+}`,
+        designSpecs: {
+          primaryColor: "#13382B (Forest Ink text headings)",
+          accentColor: "#E05E2B (Price labels)",
+          fontFamily: "Outfit (Sans-Serif, Medium/SemiBold details)",
+          spacing: "Card gap: 12px, Corner radius: 16px (White Linen surface)"
+        },
+        renderMock: function() {
+          return `
+            <div class="app-header">
+              <span class="app-logo">Browse <span>Market</span></span>
+              <span style="font-size: 0.75rem; font-weight: 700; background: rgba(255,255,255,0.15); padding: 0.2rem 0.5rem; border-radius: 4px;">Search</span>
+            </div>
+            
+            <div style="padding: 1rem 1.25rem 0 1.25rem; display: flex; gap: 0.5rem; overflow-x: auto;">
+              <span style="background: var(--color-primary); color: white; padding: 0.3rem 0.75rem; border-radius: 50px; font-size: 0.65rem; font-weight: 700; white-space: nowrap;">Fresh Produce</span>
+              <span style="background: white; border: 1px solid var(--color-border); color: var(--color-ink); padding: 0.3rem 0.75rem; border-radius: 50px; font-size: 0.65rem; font-weight: 700; white-space: nowrap;">Fish & Meat</span>
+              <span style="background: white; border: 1px solid var(--color-border); color: var(--color-ink); padding: 0.3rem 0.75rem; border-radius: 50px; font-size: 0.65rem; font-weight: 700; white-space: nowrap;">Dairy & Eggs</span>
+            </div>
+            
+            <h3 class="aisles-title">Market Catalog</h3>
+            <p class="deshi-tagline">Found 48 deshi staples</p>
+            
+            <div class="product-grid-mock" style="padding-bottom: 2rem;">
+              <div class="product-card-mock">
+                <span class="product-tag">Deshi</span>
+                <img src="${cartItems[0].image}" alt="Mangoes">
+                <div>
+                  <span class="product-brand">Rajshahi Orchards</span>
+                  <p class="product-title">${cartItems[0].name}</p>
+                </div>
+                <div class="product-footer">
+                  <span class="product-price">৳599</span>
+                  <button class="add-btn" onclick="toastSim('Added to Cart')">+</button>
+                </div>
+              </div>
+              <div class="product-card-mock">
+                <span class="product-tag">Hilsha</span>
+                <img src="${cartItems[1].image}" alt="Ilish">
+                <div>
+                  <span class="product-brand">Padma River</span>
+                  <p class="product-title">${cartItems[1].name}</p>
+                </div>
+                <div class="product-footer">
+                  <span class="product-price">৳1,450</span>
+                  <button class="add-btn" onclick="toastSim('Added to Cart')">+</button>
+                </div>
+              </div>
+              <div class="product-card-mock">
+                <span class="product-tag">Dairy</span>
+                <img src="https://images.unsplash.com/photo-1550583724-b2692b85b150?w=300" alt="Milk">
+                <div>
+                  <span class="product-brand">Aarong Dairy</span>
+                  <p class="product-title">Aarong Liquid Milk (Full Cream)</p>
+                </div>
+                <div class="product-footer">
+                  <span class="product-price">৳90</span>
+                  <button class="add-btn" onclick="toastSim('Added to Cart')">+</button>
+                </div>
+              </div>
+              <div class="product-card-mock">
+                <span class="product-tag">Staples</span>
+                <img src="https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=300" alt="Mustard Oil">
+                <div>
+                  <span class="product-brand">Radhuni Foods</span>
+                  <p class="product-title">Radhuni Pure Mustard Oil (Shorisha)</p>
+                </div>
+                <div class="product-footer">
+                  <span class="product-price">৳180</span>
+                  <button class="add-btn" onclick="toastSim('Added to Cart')">+</button>
+                </div>
+              </div>
+            </div>
+          `;
+        }
+      },
+      3: {
+        title: "Shopping Cart & Courier Tip",
+        desc: "Pricing details are evaluated and converted cleanly to BDT. Tipping presets align with localized delivery incentives (ranging from ৳20 to ৳200). Standard delivery fee is ৳60 (free on orders over ৳1,500).",
+        copyComparison: [
+          { label: "Tipping values", old: "$1, $2, $3, $5", new: "৳20, ৳50, ৳100, ৳200 (Matches local courier standards)" },
+          { label: "Shipping Threshold", old: "Free over $75", new: "Free over ৳1,500 (Corrected throughout summary cards)" },
+          { label: "Standard Shipping Surcharge", old: "$3.99", new: "৳60 standard same-day fee (Express fee ৳120)" }
+        ],
+        validationCode: `// lib/store/cart.ts - Localized Calculators
+getDeliveryFee: () => {
+  const subtotal = get().getSubtotal();
+  if (subtotal === 0) return 0;
+  
+  // Free delivery for orders over BDT 1500
+  if (subtotal >= 1500) return 0;
+  return get().deliveryFee; // Defaults to 60 BDT
+},
+getTaxAmount: () => {
+  return Math.round(getSubtotal() * 0.05); // 5% VAT
+}`,
+        designSpecs: {
+          headerText: "Font size: 16px, Weight: Bold (Charcoal Ink)",
+          monoPricing: "Font: JetBrains Mono, Font size: 13px (Forest Ink)",
+          radiusOptions: "Tip options border: 1px Sandstone Border, padding: 8px 12px"
+        },
+        renderMock: function() {
+          let subtotal = cartItems.reduce((acc, c) => acc + (c.price * c.qty), 0);
+          let deliveryFee = subtotal >= 1500 ? 0 : 60;
+          let tax = Math.round(subtotal * 0.05);
+          let total = subtotal + deliveryFee + tax + selectedTip;
+          
+          return `
+            <div class="app-header">
+              <span class="app-logo">Shopping <span>Bag</span></span>
+              <span style="font-size: 0.75rem; font-weight: 700;">${cartItems.length} Items</span>
+            </div>
+            
+            <div class="cart-wrapper">
+              <div class="cart-item">
+                <img src="${cartItems[0].image}" alt="Mangoes">
+                <div class="cart-item-info">
+                  <p class="cart-item-title">${cartItems[0].name}</p>
+                  <p class="cart-item-meta">Qty: 1 · 1 kg Box</p>
+                </div>
+                <span class="cart-item-price">৳599</span>
+              </div>
+              
+              <div class="cart-item">
+                <img src="${cartItems[1].image}" alt="Ilish">
+                <div class="cart-item-info">
+                  <p class="cart-item-title">${cartItems[1].name}</p>
+                  <p class="cart-item-meta">Qty: 1 · 1 kg Fish</p>
+                </div>
+                <span class="cart-item-price">৳1,450</span>
+              </div>
+              
+              <div class="tip-box">
+                <h4 class="tip-title">Courier Tip (100% to rider)</h4>
+                <div class="tip-grid">
+                  <button class="tip-btn ${selectedTip === 20 ? 'active' : ''}" onclick="updateTipSim(20)">৳20</button>
+                  <button class="tip-btn ${selectedTip === 50 ? 'active' : ''}" onclick="updateTipSim(50)">৳50</button>
+                  <button class="tip-btn ${selectedTip === 100 ? 'active' : ''}" onclick="updateTipSim(100)">৳100</button>
+                  <button class="tip-btn ${selectedTip === 200 ? 'active' : ''}" onclick="updateTipSim(200)">৳200</button>
+                </div>
+              </div>
+              
+              <div class="summary-calc">
+                <div class="summary-row">
+                  <span>Subtotal</span>
+                  <span class="mono">৳${subtotal.toLocaleString("en-IN")}</span>
+                </div>
+                <div class="summary-row">
+                  <span>Delivery Fee</span>
+                  <span class="mono">${deliveryFee === 0 ? 'Free' : '৳' + deliveryFee}</span>
+                </div>
+                <div class="summary-row">
+                  <span>Estimated Tax (5% VAT)</span>
+                  <span class="mono">৳${tax}</span>
+                </div>
+                <div class="summary-row">
+                  <span>Courier Tip</span>
+                  <span class="mono">৳${selectedTip}</span>
+                </div>
+                <div class="summary-row total">
+                  <span>Total Due</span>
+                  <span class="mono">৳${total.toLocaleString("en-IN")}</span>
+                </div>
+              </div>
+              
+              <button class="checkout-btn" onclick="activateStep(4)">
+                <span>Checkout Now</span>
+                <span style="font-size: 1.1rem;">→</span>
+              </button>
+            </div>
+          `;
+        }
+      },
+      4: {
+        title: "Dhaka Address Form",
+        desc: "The address configuration parameters strictly require Bangladeshi formats. Standard state selection (US 2-letter states) is changed to division/district labels, and the zip schema accommodates 4-digit postcodes (e.g. 1212 for Gulshan-2).",
+        copyComparison: [
+          { label: "Street address field", old: "Street Address", new: "Holding, Road & Block details" },
+          { label: "State field label", old: "State (e.g. CA)", new: "District / Division (defaulting to Dhaka)" },
+          { label: "Zip code field label", old: "Zip Code (5-digits)", new: "Postal Code (4-digits)" }
+        ],
+        validationCode: `// lib/validations/address.ts - Bangladeshi Zod Address Schema
+export const addressSchema = z.object({
+  street: z.string().min(3, "Holding/Road details required"),
+  apartment: z.string().optional(),
+  city: z.string().min(2, "City name required"),
+  state: z.string().min(2, "District/Division required"),
+  zip: z.string().regex(/^\\d{4}$/, "Postal code must be 4 digits (e.g. 1212)"),
+  instructions: z.string().optional(),
+});`,
+        designSpecs: {
+          inputBorder: "Sandstone Border (#E8E4DA), active: Forest Ink (#13382B)",
+          inputFont: "Outfit, Font size: 12px",
+          formGaps: "Row gap: 16px, Column gap: 12px"
+        },
+        renderMock: function() {
+          return `
+            <div class="app-header">
+              <span class="app-logo">Delivery <span>Details</span></span>
+              <span style="font-size: 0.65rem; font-weight: 700; color: var(--color-accent);">Step 1 of 2</span>
+            </div>
+            
+            <div class="checkout-stepper-mock">
+              <span class="stepper-item-mock active">1. Address</span>
+              <span class="stepper-item-mock">2. Payment</span>
+              <span class="stepper-item-mock">3. Confirm</span>
+            </div>
+            
+            <div style="padding: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem;">
+              <div class="form-group-mock">
+                <label>Holding, Road & Block details</label>
+                <input type="text" id="addr-street" value="${enteredAddress}" placeholder="e.g. House 12, Road 4, Sector 3">
+              </div>
+              
+              <div class="form-group-mock">
+                <label>Apartment, Suite, Flat (Optional)</label>
+                <input type="text" id="addr-apt" value="Flat 4A" placeholder="e.g. Flat 4A, Gulshan-2">
+              </div>
+              
+              <div class="form-row-mock">
+                <div class="form-group-mock">
+                  <label>City</label>
+                  <input type="text" id="addr-city" value="Dhaka" placeholder="Dhaka">
+                </div>
+                <div class="form-group-mock">
+                  <label>District / Division</label>
+                  <input type="text" id="addr-dist" value="Dhaka" placeholder="e.g. Dhaka">
+                </div>
+              </div>
+              
+              <div class="form-group-mock">
+                <label>Postal Code (4-digits)</label>
+                <input type="text" id="addr-zip" value="${enteredPostCode}" maxlength="4" placeholder="e.g. 1212">
+              </div>
+              
+              <div class="form-group-mock">
+                <label>Courier Notes / Gate codes</label>
+                <input type="text" value="Deliver near Lake Park gate. Ring bell 4A." placeholder="Courier instructions...">
+              </div>
+              
+              <button class="checkout-btn" onclick="saveAddressSim()">
+                <span>Proceed to Payment</span>
+                <span style="font-size: 1.1rem;">→</span>
+              </button>
+            </div>
+          `;
+        }
+      },
+      5: {
+        title: "bKash / Nagad MFS Gateway",
+        desc: "Checkout options are expanded to include local mobile wallets alongside Cash on Delivery. Schema validations dynamically lift card checks (Card CVV, card numbers) when MFS or COD selections are active.",
+        copyComparison: [
+          { label: "Payment types", old: "Credit Card, PayPal, Apple Pay", new: "Mobile Financial Services (MFS), Cash on Delivery, Cards" },
+          { label: "Mobile Wallet Provider", old: "N/A", new: "bKash, Nagad, Rocket (includes mobile wallet number check)" },
+          { label: "COD handling surcharge", old: "N/A", new: "৳30 Cash on Delivery surcharge applied" }
+        ],
+        validationCode: `// lib/validations/payment.ts - Conditional Schema Refinement
+export const paymentSchema = z.object({
+  paymentType: z.enum(["card", "mfs"]),
+  mfsProvider: z.string().optional(),
+  walletNumber: z.string().optional(),
+  accountName: z.string().optional()
+}).superRefine((data, ctx) => {
+  if (data.paymentType === "mfs") {
+    if (!data.walletNumber || !/^01[3-9]\\d{8}$/.test(data.walletNumber)) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "Wallet number must be a valid 11-digit mobile number",
+        path: ["walletNumber"]
+      });
+    }
+  }
+});`,
+        designSpecs: {
+          tabBorder: "Accent Color border on selection, background: 5% opacity tint",
+          brandColors: "bKash: #E2127A, Nagad: #F7941D, Rocket: #8C3494",
+          inputPlaceholders: "MFS input: 'e.g. 01712345678', font: JetBrains Mono"
+        },
+        renderMock: function() {
+          return `
+            <div class="app-header">
+              <span class="app-logo">Payment <span>Gateway</span></span>
+              <span style="font-size: 0.65rem; font-weight: 700; color: var(--color-accent);">Step 2 of 2</span>
+            </div>
+            
+            <div class="checkout-stepper-mock">
+              <span class="stepper-item-mock">1. Address</span>
+              <span class="stepper-item-mock active">2. Payment</span>
+              <span class="stepper-item-mock">3. Confirm</span>
+            </div>
+            
+            <div style="padding: 1.25rem; display: flex; flex-direction: column; gap: 0.5rem;">
+              <div class="payment-tabs-mock">
+                <button class="pay-tab ${paymentType === 'mfs' ? 'active' : ''}" onclick="setPaymentTypeSim('mfs')">Mobile Wallet</button>
+                <button class="pay-tab ${paymentType === 'cod' ? 'active' : ''}" onclick="setPaymentTypeSim('cod')">Cash on Delivery</button>
+              </div>
+              
+              ${paymentType === 'mfs' ? `
+                <div class="mfs-panel">
+                  <div class="mfs-selector-mock">
+                    <button class="mfs-btn ${mfsProvider === 'bKash' ? 'active bkash' : ''}" onclick="setMfsProviderSim('bKash')">
+                      <span>🌸</span> bKash
+                    </button>
+                    <button class="mfs-btn ${mfsProvider === 'Nagad' ? 'active nagad' : ''}" onclick="setMfsProviderSim('Nagad')">
+                      <span>🔥</span> Nagad
+                    </button>
+                  </div>
+                  
+                  <div class="form-group-mock">
+                    <label>${mfsProvider} Wallet Number (11-digits)</label>
+                    <input type="text" id="wallet-num" value="01712345678" maxlength="11" placeholder="e.g. 01712345678" style="font-family: var(--font-mono)">
+                  </div>
+                  <div class="form-group-mock">
+                    <label>Account Holder Name</label>
+                    <input type="text" id="wallet-name" value="Mushfiq Rahman" placeholder="e.g. Mushfiq Rahman">
+                  </div>
+                </div>
+              ` : `
+                <div class="mfs-panel" style="text-align: center; padding: 1.5rem 1rem;">
+                  <span style="font-size: 2rem;">💵</span>
+                  <h4 style="font-size: 0.85rem; font-weight: 700; color: var(--color-primary); margin-top: 0.5rem;">Pay Cash at Door</h4>
+                  <p style="font-size: 0.65rem; color: var(--color-muted); margin-top: 0.2rem; line-height: 1.4;">
+                    Our courier will collect cash from your address upon delivery. Please keep exact change ready. A flat <strong>৳30 surcharge</strong> applies.
+                  </p>
+                </div>
+              `}
+              
+              <button class="checkout-btn" onclick="savePaymentSim()">
+                <span>Proceed to Review</span>
+                <span style="font-size: 1.1rem;">→</span>
+              </button>
+            </div>
+          `;
+        }
+      },
+      6: {
+        title: "Order Placed & Tracker",
+        desc: "Final orders map transactions with localized billing records. The tracker console tracks the shopping status, delivery courier contact, and live BDT receipt.",
+        copyComparison: [
+          { label: "Currency Prefix", old: "USD $24.51", new: "৳2,451 (whole Taka rounded parameters)" },
+          { label: "Delivery window label", old: "Priority courier", new: "🚀 Express Dispatch (~30 mins to Gulshan-2)" },
+          { label: "Courier Support hotline", old: "1-800-FRESH-NOW", new: "+880 9612-373742 (Local Dhaka IP TSP Hotline)" }
+        ],
+        validationCode: `// data/orders.json - Localized Order Log Schema
+{
+  "id": "FC-8394-A",
+  "status": "Delivered",
+  "deliveryMethod": "Standard",
+  "deliveryAddress": "Road 11, House 45, Flat 4A, Gulshan-2, Dhaka 1212",
+  "paymentMethod": "bKash Wallet (01712-***678)",
+  "subtotal": 2191,
+  "deliveryFee": 60,
+  "total": 2451
+}`,
+        designSpecs: {
+          successColor: "#16A34A (Emerald checkmark icon)",
+          boxPadding: "Order receipt card padding: 16px, background: Sandstone Border background tint",
+          receiptFont: "Font: JetBrains Mono (Prices, IDs)"
+        },
+        renderMock: function() {
+          let subtotal = cartItems.reduce((acc, c) => acc + (c.price * c.qty), 0);
+          let deliveryFee = subtotal >= 1500 ? 0 : 60;
+          let codSurcharge = paymentType === "cod" ? 30 : 0;
+          let tax = Math.round(subtotal * 0.05);
+          let total = subtotal + deliveryFee + tax + selectedTip + codSurcharge;
+          let pMethod = paymentType === "cod" ? "Cash on Delivery" : `${mfsProvider} Wallet (01712-***678)`;
+          
+          return `
+            <div class="app-header">
+              <span class="app-logo">Order <span>Confirmed</span></span>
+              <span style="font-size: 0.75rem; font-weight: 700; color: var(--color-success);">Success</span>
+            </div>
+            
+            <div class="app-screen" style="overflow-y: auto;">
+              <div class="conf-card">
+                <div class="checkmark-circle">✓</div>
+                <div>
+                  <h3 style="font-size: 1.1rem; font-family: var(--font-display); font-weight: 800; color: var(--color-primary);">Shobuj Cart Order Placed!</h3>
+                  <p style="font-size: 0.65rem; color: var(--color-muted); margin-top: 0.2rem;">Our rider will dispatch fresh items soon.</p>
+                </div>
+                
+                <span class="conf-id">ID: FC-${Math.floor(1000 + Math.random() * 9000)}-D</span>
+                
+                <div style="width: 100%; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: white; padding: 0.75rem; text-align: left; font-size: 0.7rem;">
+                  <h4 style="font-size: 0.65rem; font-weight: 800; text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.5rem;">Delivery Summary</h4>
+                  <p><strong>Address:</strong> ${enteredAddress}, Post Code: ${enteredPostCode}</p>
+                  <p style="margin-top: 0.2rem;"><strong>Window:</strong> 🚀 Express Courier (30 mins)</p>
+                  <p style="margin-top: 0.2rem;"><strong>Payment:</strong> ${pMethod}</p>
+                  <p style="margin-top: 0.2rem; font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; color: var(--color-primary); border-top: 1px dashed var(--color-border); padding-top: 0.4rem; margin-top: 0.4rem;">
+                    Total Charged: ৳${total.toLocaleString("en-IN")}
+                  </p>
+                </div>
+                
+                <div style="font-size: 0.6rem; color: var(--color-muted); line-height: 1.4;">
+                  Need assistance? Speak directly to our Dhaka support center: <a href="tel:+8809612373742" style="color: var(--color-accent); font-weight: 700;">+880 9612-373742</a>
+                </div>
+              </div>
+            </div>
+          `;
+        }
+      }
+    };
+
+    // Helper functions for mock page interactions
+    function toastSim(message) {
+      alert(`[FreshCart BD Simulation]: ${message}`);
+    }
+
+    function checkCoverageSim() {
+      let input = document.getElementById("cov-input").value;
+      if (input.toLowerCase().includes("dhaka") || input.toLowerCase().includes("gulshan") || input.toLowerCase().includes("lalmatia")) {
+        alert(`[FreshCart BD Simulation]: Delivery zone check SUCCESS for ${input}. Neighborhood sourcing active.`);
+        activateStep(2); // Go to browse inventory
+      } else {
+        alert(`[FreshCart BD Simulation]: Standard courier coverage only. Outside express 30-min Dhaka zones.`);
+      }
+    }
+
+    function updateTipSim(amount) {
+      selectedTip = amount;
+      activateStep(3); // Redraw
+    }
+
+    function saveAddressSim() {
+      enteredAddress = document.getElementById("addr-street").value;
+      enteredPostCode = document.getElementById("addr-zip").value;
+      
+      // Zod Zip code verification rule simulation
+      if (!/^\d{4}$/.test(enteredPostCode)) {
+        alert(`[Zod validation error]: Postal code must be exactly 4 digits! (Input: "${enteredPostCode}")`);
+        return;
+      }
+      
+      alert(`[Address Saved]: Sourcing details updated for ${enteredAddress} (${enteredPostCode})`);
+      activateStep(5); // Go to payments
+    }
+
+    function setPaymentTypeSim(type) {
+      paymentType = type;
+      activateStep(5); // Redraw
+    }
+
+    function setMfsProviderSim(provider) {
+      mfsProvider = provider;
+      activateStep(5); // Redraw
+    }
+
+    function savePaymentSim() {
+      if (paymentType === "mfs") {
+        let num = document.getElementById("wallet-num").value;
+        // Zod validation check simulation
+        if (!/^01[3-9]\d{8}$/.test(num)) {
+          alert(`[Zod validation error]: Wallet number must be a valid 11-digit Bangladeshi mobile number starting with 013-019!`);
+          return;
+        }
+        alert(`[Payment Saved]: Authorized ${mfsProvider} wallet ${num}`);
+      } else {
+        alert(`[Payment Saved]: Configured Cash on Delivery (৳30 surcharge applies)`);
+      }
+      activateStep(6); // Go to confirmation page
+    }
+
+    // Activate selected step on timeline and render specifications/mockups
+    function activateStep(stepNumber) {
+      // Update step active classes in sidebar list
+      const cards = document.querySelectorAll(".step-card");
+      cards.forEach((card, idx) => {
+        if (idx + 1 === stepNumber) {
+          card.classList.add("active");
+        } else {
+          card.classList.remove("active");
+        }
+      });
+
+      const data = stepsData[stepNumber];
+      if (!data) return;
+
+      // 1. Render App Mockup in the center Smartphone Screen
+      const appScreen = document.getElementById("app-screen-content");
+      appScreen.innerHTML = data.renderMock();
+
+      // 2. Render Specifications in the right Panel
+      const specPanel = document.getElementById("specifications-panel");
+      
+      let copyHTML = "";
+      data.copyComparison.forEach(item => {
+        copyHTML += `
+          <div class="comparison-grid">
+            <div class="comp-item">
+              <span class="comp-label">Field</span>
+              <span class="comp-val" style="font-weight: 700; color: var(--color-ink);">${item.label}</span>
+            </div>
+            <div class="comp-item">
+              <span class="comp-label">US Format</span>
+              <span class="comp-val old">${item.old}</span>
+            </div>
+            <div class="comp-item">
+              <span class="comp-label">BD Localized</span>
+              <span class="comp-val new"><span>৳ </span>${item.new}</span>
+            </div>
+          </div>
+        `;
+      });
+
+      specPanel.innerHTML = `
+        <div>
+          <h3 class="log-badge info">STEP 0${stepNumber}</h3>
+          <h2 class="details-title-display">${data.title}</h2>
+        </div>
+        
+        <div class="details-section">
+          <h3>Description & Intent</h3>
+          <p class="details-desc-display">${data.desc}</p>
+        </div>
+
+        <div class="details-section">
+          <h3>UX Copywriting Comparison</h3>
+          <div style="display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.5rem;">
+            ${copyHTML}
+          </div>
+        </div>
+
+        <div class="details-section">
+          <h3>TypeScript Validation Schema</h3>
+          <div class="code-wrapper">
+            <code>${escapeHtml(data.validationCode)}</code>
+          </div>
+        </div>
+
+        <div class="details-section">
+          <h3>Figma Design Specification Specs</h3>
+          <div style="font-size: 0.75rem; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-bg); padding: 0.75rem;">
+            <p><strong>Primary Theme Canvas:</strong> ${data.designSpecs.primaryColor}</p>
+            <p style="margin-top: 0.2rem;"><strong>Accent/Focus elements:</strong> ${data.designSpecs.accentColor}</p>
+            <p style="margin-top: 0.2rem;"><strong>Typography Pairing:</strong> Heading: ${data.designSpecs.displayFont}, Body: ${data.designSpecs.bodyFont}</p>
+            <p style="margin-top: 0.2rem;"><strong>Layout structure details:</strong> ${data.designSpecs.spacing || data.designSpecs.padding}</p>
+          </div>
+        </div>
+      `;
+    }
+
+    // Helper function to escape HTML special characters inside code display blocks
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g, "&amp;")
+        .replace(/&amp;nbsp;/g, "&nbsp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    // Initialize display on startup
+    window.onload = function() {
+      activateStep(1);
+    };
+  </script>
+</body>
+</html>

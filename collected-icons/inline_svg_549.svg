@@ -1,0 +1,22 @@
+<svg
+            className="w-32 h-32 text-neutral-300"
+            viewBox="0 0 120 120"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            {/* Bag Body */}
+            <path d="M30 40h60v50a10 10 0 0 1-10 10H40a10 10 0 0 1-10-10V40z" fill="var(--neutral-100)" />
+            {/* Bag handles */}
+            <path d="M45 40V30a15 15 0 0 1 30 0v10" />
+            {/* Soft decorative leaf */}
+            <path
+              d="M60 55c5 0 10 5 10 10s-5 10-10 10-10-5-10-10 5-10 10-10z M60 55v20"
+              stroke="var(--brand-primary)"
+              strokeWidth="2"
+              fill="rgba(19, 56, 43, 0.1)"
+            />
+          </svg>

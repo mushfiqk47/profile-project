@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-23T20:24:00.000Z",
+  "title": "Design System: FreshCart",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Forest Ink", "canonical": "oklch(28.3% 0.057 148.6)", "tonalRamp": ["#030a08", "#081b15", "#0e2c22", "#13382b", "#225644", "#3e7b64", "#77a694", "#ccdcd6"] },
+      "primary-hover": { "role": "primary", "displayName": "Forest Ink Hover", "canonical": "oklch(22.8% 0.046 148.6)", "tonalRamp": ["#020806", "#051510", "#09241c", "#0e2c22", "#1b4435", "#336551", "#669280", "#bdcfc7"] },
+      "accent": { "role": "accent", "displayName": "Terracotta Sunrise", "canonical": "oklch(56.8% 0.203 36.1)", "tonalRamp": ["#361103", "#641e06", "#992f09", "#d6460f", "#e05e2b", "#ed8257", "#f3a587", "#f8d5c6"] },
+      "accent-hover": { "role": "accent", "displayName": "Terracotta Sunrise Hover", "canonical": "oklch(51.2% 0.205 36.2)", "tonalRamp": ["#2e0c01", "#571603", "#862405", "#c64f20", "#d16335", "#dd8965", "#e9ad94", "#f4d7cb"] },
+      "neutral-bg": { "role": "neutral", "displayName": "Cream Parchment", "canonical": "oklch(97.9% 0.009 85.5)", "tonalRamp": ["#1c1e1b", "#464137", "#635c4e", "#807766", "#9e9582", "#d6d0c2", "#e8e4da", "#faf9f6"] },
+      "neutral-card": { "role": "neutral", "displayName": "White Linen", "canonical": "oklch(100% 0 0)", "tonalRamp": ["#111111", "#333333", "#555555", "#777777", "#999999", "#cccccc", "#eeeeee", "#ffffff"] },
+      "neutral-ink": { "role": "neutral", "displayName": "Charcoal Ink", "canonical": "oklch(18.5% 0.008 86.2)", "tonalRamp": ["#090a09", "#131412", "#1c1e1b", "#2f312c", "#4c4f48", "#767972", "#aaaca5", "#dadbd7"] },
+      "neutral-border": { "role": "neutral", "displayName": "Sandstone Border", "canonical": "oklch(91.7% 0.016 85.8)", "tonalRamp": ["#1b1c1a", "#42403b", "#5e5b53", "#7a776e", "#979389", "#bbb7ad", "#e8e4da", "#faf8f5"] },
+      "neutral-muted": { "role": "neutral", "displayName": "Sandstone Muted", "canonical": "oklch(65.4% 0.021 86.0)", "tonalRamp": ["#121311", "#2d2a24", "#423e36", "#5a554a", "#736b5c", "#9e9582", "#beb6a6", "#eae7e1"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display Title", "purpose": "Main headers, section titles, and key branding moments." },
+      "body": { "displayName": "Body Sans", "purpose": "Secondary descriptions, product labels, lists, and form labels." }
+    },
+    "shadows": [
+      { "name": "Interactive Rise", "value": "0 4px 6px -1px rgb(28 30 27 / 0.08), 0 2px 4px -2px rgb(28 30 27 / 0.05)", "purpose": "Hover/focus elevation feedback for interactive cards and components." }
+    ],
+    "motion": [
+      { "name": "Spring Default", "value": "cubic-bezier(0.25, 1, 0.5, 1)", "purpose": "Soft organic ease-out for hover transitions." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary action button, Forest Ink background.",
+      "html": "<button class=\"ds-btn-primary\">Add to Bag</button>",
+      "css": ".ds-btn-primary { background-color: #13382B; color: #FAF9F6; border-radius: 24px; padding: 12px 24px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 700; border: none; cursor: pointer; transition: background-color 0.2s ease, transform 0.1s ease; box-shadow: 0 1px 2px 0 rgb(28 30 27 / 0.05); } .ds-btn-primary:hover { background-color: #0E2C22; } .ds-btn-primary:focus-visible { outline: 2px solid #13382B; outline-offset: 2px; } .ds-btn-primary:active { transform: scale(0.98); }"
+    },
+    {
+      "name": "Accent Button",
+      "kind": "button",
+      "refersTo": "button-accent",
+      "description": "Secondary or promotional call to action button, Terracotta Orange background.",
+      "html": "<button class=\"ds-btn-accent\">Checkout Now</button>",
+      "css": ".ds-btn-accent { background-color: #E05E2B; color: #FAF9F6; border-radius: 24px; padding: 12px 24px; font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 700; border: none; cursor: pointer; transition: background-color 0.2s ease, transform 0.1s ease; box-shadow: 0 1px 2px 0 rgb(28 30 27 / 0.05); } .ds-btn-accent:hover { background-color: #C64F20; } .ds-btn-accent:focus-visible { outline: 2px solid #E05E2B; outline-offset: 2px; } .ds-btn-accent:active { transform: scale(0.98); }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "description": "Standard form input, flat parchment style with sandstone border.",
+      "html": "<input type=\"text\" class=\"ds-input\" placeholder=\"e.g. 124 Linden Ave…\" />",
+      "css": ".ds-input { width: 100%; px-3; py-2; background-color: #FAF9F6; border: 1px solid #E8E4DA; border-radius: 8px; font-family: 'DM Sans', sans-serif; font-size: 14px; padding: 10px 14px; color: #1C1E1B; outline: none; transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease; } .ds-input:focus { border-color: #13382B; background-color: #FFFFFF; box-shadow: 0 0 0 2px rgba(19, 56, 43, 0.1); } .ds-input::placeholder { color: #9E9582; }"
+    },
+    {
+      "name": "Product Card",
+      "kind": "card",
+      "description": "Artisanal product card container, flat border at rest rising on hover.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-card-img-placeholder\"></div><span class=\"ds-card-brand\">Organic Valley</span><h4 class=\"ds-card-title\">Fresh Organic Blueberries</h4><div class=\"ds-card-footer\"><span class=\"ds-card-price\">$4.99</span><button class=\"ds-btn-primary ds-btn-sm\">Add</button></div></div>",
+      "css": ".ds-card { background-color: #FFFFFF; border: 1px solid #E8E4DA; border-radius: 16px; padding: 12px; font-family: 'DM Sans', sans-serif; transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease; display: flex; flex-direction: column; width: 220px; box-shadow: 0 1px 2px 0 rgb(28 30 27 / 0.05); } .ds-card:hover { border-color: #D6D0C2; transform: translateY(-4px); box-shadow: 0 4px 6px -1px rgb(28 30 27 / 0.08), 0 2px 4px -2px rgb(28 30 27 / 0.05); } .ds-card-img-placeholder { aspect-ratio: 4/3; background-color: #FAF9F6; border-radius: 12px; margin-bottom: 12px; } .ds-card-brand { font-size: 10px; font-weight: 700; color: #9E9582; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 4px; } .ds-card-title { font-size: 12px; font-weight: 700; color: #1C1E1B; margin: 0 0 8px 0; line-height: 1.4; height: 34px; overflow: hidden; } .ds-card-footer { display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 8px; border-top: 1px solid #FAF9F6; } .ds-card-price { font-family: monospace; font-size: 12px; font-weight: 700; color: #1C1E1B; } .ds-btn-sm { padding: 6px 12px; font-size: 11px; border-radius: 16px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Artisanal Guild Market",
+    "overview": "FreshCart fuses the warm authenticity of a physical neighborhood farmers' market with the high-efficiency expectations of modern web delivery. Rather than using sterile, tech-first layouts or overused SaaS aesthetics, the design system focuses on raw organic textures, warm-toned typography contrast, and high-density, legible data surfaces. The system explicitly rejects SaaS generic patterns, neon gradients, glassmorphism, side-stripe borders, and all forms of artificial scaffolding.",
+    "keyCharacteristics": [
+      "Warm Contrast: Deep organic green text and backgrounds resting on soft, natural off-white papers.",
+      "Typographic Axis: Bold display serif headers paired with clean, geometric body type.",
+      "Flat at Rest: Surfaces are flat and layered. Elevation is used sparingly, primarily as an active state response to user hover or focus.",
+      "Tactile Inputs: Inputs and buttons feature generously rounded corners, solid borders, and clear micro-interactions."
+    ],
+    "rules": [
+      { "name": "The 10% Accent Rule", "body": "The primary accent, Terracotta Sunrise (#E05E2B), must occupy <=10% of any given screen. Its role is strictly to guide the user's attention to critical status updates, active selections, or promotional alerts.", "section": "colors" },
+      { "name": "The Tinted Ink Rule", "body": "Text must never use a generic pure black (#000000) or high-contrast cool grey. Body copy must always use Charcoal Ink (#1C1E1B) to preserve the organic visual warmth of the design.", "section": "colors" },
+      { "name": "The Widow Prevention Rule", "body": "All Display and Headline headings must use text-wrap: balance to prevent awkward single-word lines. Body elements must use text-wrap: pretty for clean margins.", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "All surfaces (cards, buttons, inputs) must rest flat at their default state. Shadows are prohibited at rest and must only appear as a micro-interaction feedback response to user hover or focus.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do check contrast ratios for body text and placeholders against tinted backgrounds (target >= 4.5:1).",
+      "Do wrap SVGs and set aria-hidden=\"true\" on decorative icons inside buttons and navigation.",
+      "Do assign explicit HTML width and height dimensions to all images to prevent layout shift (CLS).",
+      "Do use native buttons and links (<button>, <a>, <Link>) with focus-ring styles rather than generic divs.",
+      "Do specify descriptive autocompletes (autocomplete=\"cc-name\", autocomplete=\"cc-number\", etc.) for payment and checkout form inputs."
+    ],
+    "donts": [
+      "Don't use border-left or border-right side-stripes greater than 1px as color accents on alert cards.",
+      "Don't use gradient text or background-clip text configurations.",
+      "Don't apply frosted-glassmorphism or blurs decoratively as standard card backgrounds.",
+      "Don't use tiny, uppercase wide-tracked Kickers/Eyebrows above every section.",
+      "Don't use numbered section markers unless they denote a strict sequence.",
+      "Don't use double-nested cards or containers."
+    ]
+  }
+}

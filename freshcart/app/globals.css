@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+:root {
+  --brand-primary: #13382B;
+  --brand-primary-hover: #0E2C22;
+  --brand-primary-foreground: #FAF9F6;
+  --brand-accent: #E05E2B;
+  --brand-accent-hover: #C64F20;
+  --brand-accent-foreground: #FAF9F6;
+
+  --neutral-50: #FAF9F6;
+  --neutral-100: #F4F1EA;
+  --neutral-200: #E8E4DA;
+  --neutral-300: #D6D0C2;
+  --neutral-400: #BDB5A4;
+  --neutral-500: #9E9582;
+  --neutral-600: #807766;
+  --neutral-700: #635C4E;
+  --neutral-800: #464137;
+  --neutral-900: #1C1E1B;
+
+  --bg-page: #FAF9F6;
+  --bg-card: #FFFFFF;
+  --bg-elevated: #FFFFFF;
+  --bg-overlay: rgba(28, 30, 27, 0.4);
+
+  --semantic-success: #10B981;
+  --semantic-success-light: #ECFDF5;
+  --semantic-warning: #F59E0B;
+  --semantic-warning-light: #FEF3C7;
+  --semantic-error: #EF4444;
+  --semantic-error-light: #FEF2F2;
+  --semantic-info: #3B82F6;
+  --semantic-info-light: #EFF6FF;
+
+  --label-organic: #13382B;
+  --label-sale: #E05E2B;
+  --label-new: #2563EB;
+  --label-local: #D97706;
+  --label-out-of-stock: #6B7280;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  --shadow-xs: 0 1px 2px 0 rgb(28 30 27 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(28 30 27 / 0.08), 0 1px 2px -1px rgb(28 30 27 / 0.06);
+  --shadow-md: 0 4px 6px -1px rgb(28 30 27 / 0.08), 0 2px 4px -2px rgb(28 30 27 / 0.05);
+  --shadow-lg: 0 10px 15px -3px rgb(28 30 27 / 0.08), 0 4px 6px -4px rgb(28 30 27 / 0.05);
+  --shadow-xl: 0 20px 25px -5px rgb(28 30 27 / 0.08), 0 8px 10px -6px rgb(28 30 27 / 0.04);
+}
+
+@theme {
+  --color-brand-primary: var(--brand-primary);
+  --color-brand-primary-hover: var(--brand-primary-hover);
+  --color-brand-primary-foreground: var(--brand-primary-foreground);
+  --color-brand-accent: var(--brand-accent);
+  --color-brand-accent-hover: var(--brand-accent-hover);
+  --color-brand-accent-foreground: var(--brand-accent-foreground);
+
+  --color-neutral-50: var(--neutral-50);
+  --color-neutral-100: var(--neutral-100);
+  --color-neutral-200: var(--neutral-200);
+  --color-neutral-300: var(--neutral-300);
+  --color-neutral-400: var(--neutral-400);
+  --color-neutral-500: var(--neutral-500);
+  --color-neutral-600: var(--neutral-600);
+  --color-neutral-700: var(--neutral-700);
+  --color-neutral-800: var(--neutral-800);
+  --color-neutral-900: var(--neutral-900);
+
+  --color-bg-page: var(--bg-page);
+  --color-bg-card: var(--bg-card);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-bg-overlay: var(--bg-overlay);
+
+  --color-semantic-success: var(--semantic-success);
+  --color-semantic-success-light: var(--semantic-success-light);
+  --color-semantic-warning: var(--semantic-warning);
+  --color-semantic-warning-light: var(--semantic-warning-light);
+  --color-semantic-error: var(--semantic-error);
+  --color-semantic-error-light: var(--semantic-error-light);
+  --color-semantic-info: var(--semantic-info);
+  --color-semantic-info-light: var(--semantic-info-light);
+
+  --color-label-organic: var(--label-organic);
+  --color-label-sale: var(--label-sale);
+  --color-label-new: var(--label-new);
+  --color-label-local: var(--label-local);
+  --color-label-out-of-stock: var(--label-out-of-stock);
+
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-body: var(--font-dm-sans), sans-serif;
+
+  --radius-xs: var(--radius-xs);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  
+  --animate-shimmer: shimmer 2s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--neutral-900);
+  font-family: var(--font-dm-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--neutral-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--neutral-300);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neutral-400);
+}
+
+/* Custom transitions and shimmers */
+.shimmer-bg {
+  background: linear-gradient(90deg, var(--neutral-100) 25%, var(--neutral-200) 50%, var(--neutral-100) 75%);
+  background-size: 200% 100%;
+}
+
+.focus-ring {
+  @apply focus-visible:outline-hidden focus-visible:ring-2 focus-visible:ring-brand-primary focus-visible:ring-offset-2;
+}
+
+input, textarea, select {
+  font-size: 16px !important; /* Prevents iOS auto-zoom */
+}

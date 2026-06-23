@@ -1,0 +1,1335 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectName": "FreshCart E-Commerce Platform",
+  "documentTitle": "Desktop Homepage Hero & Product Card Grid Layout Spec",
+  "targetPlatform": "Figma / Web UI",
+  "metadata": {
+    "author": "Antigravity UI Design Agent",
+    "updatedAt": "2026-06-23T20:35:00Z",
+    "description": "Exhaustive specifications blueprint for exact visual recreation of the FreshCart desktop layout, incorporating 'The Artisanal Guild Market' styling and layout rules.",
+    "viewport": {
+      "width": 1440,
+      "height": 1400,
+      "device": "Desktop HD"
+    }
+  },
+  "global_tokens": {
+    "colors": {
+      "primary": {
+        "token": "colors.primary",
+        "name": "Forest Ink",
+        "hex": "#13382B",
+        "rgba": "rgba(19, 56, 43, 1.0)",
+        "oklch": "oklch(28.3% 0.057 148.6)",
+        "usage": "Brand markings, primary headings, primary button backgrounds, and strong action indicators."
+      },
+      "primary_hover": {
+        "token": "colors.primary-hover",
+        "name": "Forest Ink Hover",
+        "hex": "#0E2C22",
+        "rgba": "rgba(14, 44, 34, 1.0)",
+        "oklch": "oklch(22.8% 0.046 148.6)",
+        "usage": "Hover states on components using Forest Ink backgrounds."
+      },
+      "accent": {
+        "token": "colors.accent",
+        "name": "Terracotta Sunrise",
+        "hex": "#E05E2B",
+        "rgba": "rgba(224, 94, 43, 1.0)",
+        "oklch": "oklch(56.8% 0.203 36.1)",
+        "usage": "Action items, focus prompts, promotions, price highlight, active state badges. Max 10% screen density."
+      },
+      "accent_hover": {
+        "token": "colors.accent-hover",
+        "name": "Terracotta Sunrise Hover",
+        "hex": "#C64F20",
+        "rgba": "rgba(198, 79, 32, 1.0)",
+        "oklch": "oklch(51.2% 0.205 36.2)",
+        "usage": "Hover states on components using Terracotta Sunrise backgrounds."
+      },
+      "neutral_bg": {
+        "token": "colors.neutral-bg",
+        "name": "Cream Parchment",
+        "hex": "#FAF9F6",
+        "rgba": "rgba(250, 249, 246, 1.0)",
+        "oklch": "oklch(97.9% 0.009 85.5)",
+        "usage": "Base page canvas background. Offers low-strain reading backdrop."
+      },
+      "neutral_card": {
+        "token": "colors.neutral-card",
+        "name": "White Linen",
+        "hex": "#FFFFFF",
+        "rgba": "rgba(255, 255, 255, 1.0)",
+        "oklch": "oklch(100% 0 0)",
+        "usage": "Container backgrounds, product card background surfaces, popovers, dropdown lists, and modal bodies."
+      },
+      "neutral_ink": {
+        "token": "colors.neutral-ink",
+        "name": "Charcoal Ink",
+        "hex": "#1C1E1B",
+        "rgba": "rgba(28, 30, 27, 1.0)",
+        "oklch": "oklch(18.5% 0.008 86.2)",
+        "usage": "Primary text typography, primary SVG icons, and main outline boundaries."
+      },
+      "neutral_border": {
+        "token": "colors.neutral-border",
+        "name": "Sandstone Border",
+        "hex": "#E8E4DA",
+        "rgba": "rgba(232, 228, 218, 1.0)",
+        "oklch": "oklch(91.7% 0.016 85.8)",
+        "usage": "Light dividers, inputs at rest, and structural boundaries."
+      },
+      "neutral_muted": {
+        "token": "colors.neutral-muted",
+        "name": "Sandstone Muted",
+        "hex": "#9E9582",
+        "rgba": "rgba(158, 149, 130, 1.0)",
+        "oklch": "oklch(65.4% 0.021 86.0)",
+        "usage": "Secondary placeholder labels, product weight details, and disabled element styling."
+      }
+    },
+    "typography": {
+      "display": {
+        "fontFamily": "Playfair Display",
+        "fallback": "Georgia, serif",
+        "fontSize": 48,
+        "fontWeight": 800,
+        "fontWeightString": "ExtraBold",
+        "lineHeight": 54,
+        "lineHeightRatio": 1.125,
+        "letterSpacing": -0.96,
+        "letterSpacingPercent": "-2%",
+        "textTransform": "none"
+      },
+      "headline": {
+        "fontFamily": "Playfair Display",
+        "fallback": "Georgia, serif",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontWeightString": "Bold",
+        "lineHeight": 32,
+        "lineHeightRatio": 1.333,
+        "letterSpacing": -0.24,
+        "letterSpacingPercent": "-1%",
+        "textTransform": "none"
+      },
+      "title": {
+        "fontFamily": "DM Sans",
+        "fallback": "sans-serif",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontWeightString": "Bold",
+        "lineHeight": 24,
+        "lineHeightRatio": 1.333,
+        "letterSpacing": 0,
+        "letterSpacingPercent": "0%",
+        "textTransform": "none"
+      },
+      "body": {
+        "fontFamily": "DM Sans",
+        "fallback": "sans-serif",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontWeightString": "Regular",
+        "lineHeight": 22,
+        "lineHeightRatio": 1.571,
+        "letterSpacing": 0,
+        "letterSpacingPercent": "0%",
+        "textTransform": "none"
+      },
+      "label": {
+        "fontFamily": "DM Sans",
+        "fallback": "sans-serif",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontWeightString": "Bold",
+        "lineHeight": 16,
+        "lineHeightRatio": 1.333,
+        "letterSpacing": 0.6,
+        "letterSpacingPercent": "5%",
+        "textTransform": "uppercase"
+      },
+      "caption": {
+        "fontFamily": "DM Sans",
+        "fallback": "sans-serif",
+        "fontSize": 11,
+        "fontWeight": 500,
+        "fontWeightString": "Medium",
+        "lineHeight": 14,
+        "lineHeightRatio": 1.272,
+        "letterSpacing": 0,
+        "letterSpacingPercent": "0%",
+        "textTransform": "none"
+      }
+    },
+    "border_radius": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24,
+      "full": 9999
+    },
+    "shadows": {
+      "none": {
+        "type": "none",
+        "value": "none"
+      },
+      "interactive_rise": {
+        "type": "dropShadow",
+        "color": "rgba(28, 30, 27, 0.08)",
+        "offsetX": 0,
+        "offsetY": 4,
+        "blurRadius": 6,
+        "spreadRadius": -1,
+        "color2": "rgba(28, 30, 27, 0.05)",
+        "offsetX2": 0,
+        "offsetY2": 2,
+        "blurRadius2": 4,
+        "spreadRadius2": -2,
+        "usage": "Applied to cards, primary action items, and popovers only during active hover or focus interactions."
+      }
+    },
+    "layout_grid": {
+      "type": "Columns",
+      "count": 12,
+      "width": "Auto",
+      "gutter": 32,
+      "margin": 120,
+      "maxWidth": 1200,
+      "alignment": "Center"
+    }
+  },
+  "figma_layout": {
+    "id": "root_canvas",
+    "name": "FreshCart Desktop Home - 1440",
+    "type": "CANVAS",
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1400
+    },
+    "backgroundColor": "#FAF9F6",
+    "children": [
+      {
+        "id": "frame_header_nav",
+        "name": "Header Navigation Block",
+        "type": "FRAME",
+        "dimensions": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 80
+        },
+        "layout_properties": {
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisAlignItems": "CENTER",
+          "counterAxisAlignItems": "CENTER",
+          "paddingLeft": 120,
+          "paddingRight": 120,
+          "paddingTop": 16,
+          "paddingBottom": 16,
+          "itemSpacing": "SPACE_BETWEEN"
+        },
+        "fill": "#FAF9F6",
+        "stroke": {
+          "color": "#E8E4DA",
+          "thickness": 1,
+          "type": "BOTTOM"
+        },
+        "cornerRadius": 0,
+        "effects": [],
+        "notes": "Sticky navigation header. Has a soft border line at the bottom to transition cleanly into the Cream Parchment body.",
+        "children": [
+          {
+            "id": "group_brand_logo",
+            "name": "Brand Logo Frame",
+            "type": "FRAME",
+            "dimensions": {
+              "x": 120,
+              "y": 20,
+              "width": 180,
+              "height": 40
+            },
+            "layout_properties": {
+              "layoutMode": "HORIZONTAL",
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "CENTER",
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "itemSpacing": 8
+            },
+            "fill": "transparent",
+            "children": [
+              {
+                "id": "vector_logo_icon",
+                "name": "Logo Icon SVG",
+                "type": "VECTOR",
+                "dimensions": {
+                  "width": 28,
+                  "height": 28
+                },
+                "fill": "#13382B",
+                "path": "M14 2C7.38 2 2 7.38 2 14C2 20.62 7.38 26 14 26C20.62 26 26 20.62 26 14C26 7.38 20.62 2 14 2ZM18.5 16.5C18.5 17.88 17.38 19 16 19C14.62 19 13.5 17.88 13.5 16.5C13.5 15.12 14.62 14 16 14C17.38 14 18.5 15.12 18.5 16.5Z"
+              },
+              {
+                "id": "text_brand_name",
+                "name": "Brand Logo Typography",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 130,
+                  "height": 30
+                },
+                "fill": "#13382B",
+                "content": "FreshCart",
+                "typography": {
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 22,
+                  "fontWeight": 800,
+                  "lineHeight": 28,
+                  "letterSpacing": -0.44
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_search_container",
+            "name": "Search Bar Input",
+            "type": "FRAME",
+            "dimensions": {
+              "x": 340,
+              "y": 18,
+              "width": 450,
+              "height": 44
+            },
+            "layout_properties": {
+              "layoutMode": "HORIZONTAL",
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "CENTER",
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 10,
+              "paddingBottom": 10,
+              "itemSpacing": 10
+            },
+            "fill": "#FAF9F6",
+            "stroke": {
+              "color": "#E8E4DA",
+              "thickness": 1,
+              "type": "ALL"
+            },
+            "cornerRadius": 8,
+            "children": [
+              {
+                "id": "vector_search_icon",
+                "name": "Search Icon SVG",
+                "type": "VECTOR",
+                "dimensions": {
+                  "width": 18,
+                  "height": 18
+                },
+                "fill": "#9E9582"
+              },
+              {
+                "id": "text_search_placeholder",
+                "name": "Search Input Placeholder",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 380,
+                  "height": 20
+                },
+                "fill": "#9E9582",
+                "content": "Search catalog for organic groceries…",
+                "typography": {
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": 400,
+                  "lineHeight": 20,
+                  "letterSpacing": 0
+                }
+              }
+            ],
+            "notes": "Target element for active state focus rings. Focus outline is a 2px stroke in Forest Ink (#13382B) with 2px offset."
+          },
+          {
+            "id": "frame_nav_links",
+            "name": "Navigation Link Group",
+            "type": "FRAME",
+            "dimensions": {
+              "x": 830,
+              "y": 20,
+              "width": 250,
+              "height": 40
+            },
+            "layout_properties": {
+              "layoutMode": "HORIZONTAL",
+              "primaryAxisAlignItems": "CENTER",
+              "counterAxisAlignItems": "CENTER",
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "itemSpacing": 24
+            },
+            "fill": "transparent",
+            "children": [
+              {
+                "id": "text_nav_shop",
+                "name": "Shop Link",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 45,
+                  "height": 20
+                },
+                "fill": "#1C1E1B",
+                "content": "Shop",
+                "typography": {
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": 700,
+                  "lineHeight": 20,
+                  "letterSpacing": 0
+                }
+              },
+              {
+                "id": "text_nav_promotions",
+                "name": "Promotions Link",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 90,
+                  "height": 20
+                },
+                "fill": "#1C1E1B",
+                "content": "Promotions",
+                "typography": {
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "lineHeight": 20,
+                  "letterSpacing": 0
+                }
+              },
+              {
+                "id": "text_nav_help",
+                "name": "Help Link",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 40,
+                  "height": 20
+                },
+                "fill": "#1C1E1B",
+                "content": "Help",
+                "typography": {
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": 500,
+                  "lineHeight": 20,
+                  "letterSpacing": 0
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_action_items",
+            "name": "User Utilities Group",
+            "type": "FRAME",
+            "dimensions": {
+              "x": 1120,
+              "y": 18,
+              "width": 200,
+              "height": 44
+            },
+            "layout_properties": {
+              "layoutMode": "HORIZONTAL",
+              "primaryAxisAlignItems": "MAX",
+              "counterAxisAlignItems": "CENTER",
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "itemSpacing": 20
+            },
+            "fill": "transparent",
+            "children": [
+              {
+                "id": "button_favorites",
+                "name": "Favorites Toggle Icon",
+                "type": "FRAME",
+                "dimensions": {
+                  "width": 40,
+                  "height": 40
+                },
+                "layout_properties": {
+                  "layoutMode": "CENTER",
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER",
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                  "paddingTop": 10,
+                  "paddingBottom": 10,
+                  "itemSpacing": 0
+                },
+                "fill": "transparent",
+                "stroke": {
+                  "color": "#E8E4DA",
+                  "thickness": 1,
+                  "type": "ALL"
+                },
+                "cornerRadius": 9999,
+                "children": [
+                  {
+                    "id": "vector_heart_icon",
+                    "name": "Heart Icon SVG",
+                    "type": "VECTOR",
+                    "dimensions": {
+                      "width": 18,
+                      "height": 18
+                    },
+                    "fill": "#1C1E1B"
+                  }
+                ]
+              },
+              {
+                "id": "button_cart_drawer",
+                "name": "Shopping Bag Trigger Button",
+                "type": "FRAME",
+                "dimensions": {
+                  "width": 110,
+                  "height": 44
+                },
+                "layout_properties": {
+                  "layoutMode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER",
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 10,
+                  "paddingBottom": 10,
+                  "itemSpacing": 8
+                },
+                "fill": "#13382B",
+                "cornerRadius": 24,
+                "children": [
+                  {
+                    "id": "vector_cart_icon",
+                    "name": "Cart Icon SVG",
+                    "type": "VECTOR",
+                    "dimensions": {
+                      "width": 18,
+                      "height": 18
+                    },
+                    "fill": "#FAF9F6"
+                  },
+                  {
+                    "id": "text_cart_label",
+                    "name": "Cart Button Label",
+                    "type": "TEXT",
+                    "dimensions": {
+                      "width": 50,
+                      "height": 16
+                    },
+                    "fill": "#FAF9F6",
+                    "content": "Bag (0)",
+                    "typography": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": 700,
+                      "lineHeight": 16,
+                      "letterSpacing": 0
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "frame_hero_section",
+        "name": "Hero Banner Block",
+        "type": "FRAME",
+        "dimensions": {
+          "x": 0,
+          "y": 80,
+          "width": 1440,
+          "height": 480
+        },
+        "layout_properties": {
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisAlignItems": "CENTER",
+          "counterAxisAlignItems": "CENTER",
+          "paddingLeft": 120,
+          "paddingRight": 120,
+          "paddingTop": 64,
+          "paddingBottom": 64,
+          "itemSpacing": 64
+        },
+        "fill": "#13382B",
+        "children": [
+          {
+            "id": "frame_hero_copy_container",
+            "name": "Hero Text & Callouts Block",
+            "type": "FRAME",
+            "dimensions": {
+              "x": 120,
+              "y": 144,
+              "width": 620,
+              "height": 352
+            },
+            "layout_properties": {
+              "layoutMode": "VERTICAL",
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "MIN",
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "itemSpacing": 24
+            },
+            "fill": "transparent",
+            "children": [
+              {
+                "id": "text_hero_eyebrow",
+                "name": "Hero Eyebrow Label",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 200,
+                  "height": 16
+                },
+                "fill": "#E05E2B",
+                "content": "Direct from local growers",
+                "typography": {
+                  "fontFamily": "DM Sans",
+                  "fontSize": 12,
+                  "fontWeight": 700,
+                  "lineHeight": 16,
+                  "letterSpacing": 1.2
+                }
+              },
+              {
+                "id": "text_hero_title",
+                "name": "Hero Title Copy",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 620,
+                  "height": 162
+                },
+                "fill": "#FAF9F6",
+                "content": "Hand-picked organic groceries delivered to your door.",
+                "typography": {
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 48,
+                  "fontWeight": 800,
+                  "lineHeight": 54,
+                  "letterSpacing": -0.96
+                },
+                "notes": "Apply 'text-wrap: balance' to prevent layout widows in client side rendering."
+              },
+              {
+                "id": "text_hero_description",
+                "name": "Hero Body Description",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 540,
+                  "height": 44
+                },
+                "fill": "#ccdcd6",
+                "content": "Experience local, organic fruits, vegetables, and pantry items sourced and curated by local neighborhoods.",
+                "typography": {
+                  "fontFamily": "DM Sans",
+                  "fontSize": 16,
+                  "fontWeight": 400,
+                  "lineHeight": 22,
+                  "letterSpacing": 0
+                }
+              },
+              {
+                "id": "frame_hero_cta_group",
+                "name": "Hero Action Button Group",
+                "type": "FRAME",
+                "dimensions": {
+                  "width": 400,
+                  "height": 56
+                },
+                "layout_properties": {
+                  "layoutMode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "CENTER",
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                  "paddingTop": 0,
+                  "paddingBottom": 0,
+                  "itemSpacing": 16
+                },
+                "fill": "transparent",
+                "children": [
+                  {
+                    "id": "button_cta_shop",
+                    "name": "Primary CTA (Accent Button)",
+                    "type": "FRAME",
+                    "dimensions": {
+                      "width": 170,
+                      "height": 52
+                    },
+                    "layout_properties": {
+                      "layoutMode": "HORIZONTAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "paddingLeft": 28,
+                      "paddingRight": 28,
+                      "paddingTop": 14,
+                      "paddingBottom": 14,
+                      "itemSpacing": 0
+                    },
+                    "fill": "#E05E2B",
+                    "cornerRadius": 24,
+                    "effects": [],
+                    "children": [
+                      {
+                        "id": "text_cta_shop_label",
+                        "name": "Button Text Label",
+                        "type": "TEXT",
+                        "dimensions": {
+                          "width": 114,
+                          "height": 20
+                        },
+                        "fill": "#FAF9F6",
+                        "content": "Shop Fresh Now",
+                        "typography": {
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "lineHeight": 20,
+                          "letterSpacing": 0
+                        }
+                      }
+                    ],
+                    "notes": "Hover state transitions background color to Accent Hover (#C64F20) using a 200ms spring ease transition."
+                  },
+                  {
+                    "id": "button_cta_learn_more",
+                    "name": "Secondary CTA (Tertiary Outline)",
+                    "type": "FRAME",
+                    "dimensions": {
+                      "width": 150,
+                      "height": 52
+                    },
+                    "layout_properties": {
+                      "layoutMode": "HORIZONTAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "paddingLeft": 28,
+                      "paddingRight": 28,
+                      "paddingTop": 14,
+                      "paddingBottom": 14,
+                      "itemSpacing": 0
+                    },
+                    "fill": "transparent",
+                    "stroke": {
+                      "color": "#FAF9F6",
+                      "thickness": 1.5,
+                      "type": "ALL"
+                    },
+                    "cornerRadius": 24,
+                    "children": [
+                      {
+                        "id": "text_cta_learn_label",
+                        "name": "Button Text Label",
+                        "type": "TEXT",
+                        "dimensions": {
+                          "width": 94,
+                          "height": 20
+                        },
+                        "fill": "#FAF9F6",
+                        "content": "Our Standards",
+                        "typography": {
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "lineHeight": 20,
+                          "letterSpacing": 0
+                        }
+                      }
+                    ],
+                    "notes": "Hover state changes fill to rgba(250, 249, 246, 0.1) and borders remain solid."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "frame_hero_media_container",
+            "name": "Hero Media Mask Box",
+            "type": "FRAME",
+            "dimensions": {
+              "x": 804,
+              "y": 144,
+              "width": 516,
+              "height": 352
+            },
+            "fill": "#0E2C22",
+            "cornerRadius": 24,
+            "stroke": {
+              "color": "#225644",
+              "thickness": 1,
+              "type": "ALL"
+            },
+            "children": [
+              {
+                "id": "image_hero_visual",
+                "name": "Artisanal Grocery Crop Image",
+                "type": "IMAGE",
+                "dimensions": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 516,
+                  "height": 352
+                },
+                "fill": "#0E2C22",
+                "notes": "Rich color photo showing high-contrast green organic plants and fresh market goods. Fits exactly inside bounds."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "frame_product_section",
+        "name": "Product Grid Section Container",
+        "type": "FRAME",
+        "dimensions": {
+          "x": 0,
+          "y": 560,
+          "width": 1440,
+          "height": 720
+        },
+        "layout_properties": {
+          "layoutMode": "VERTICAL",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingLeft": 120,
+          "paddingRight": 120,
+          "paddingTop": 80,
+          "paddingBottom": 80,
+          "itemSpacing": 40
+        },
+        "fill": "#FAF9F6",
+        "children": [
+          {
+            "id": "frame_section_headers",
+            "name": "Section Headers Block",
+            "type": "FRAME",
+            "dimensions": {
+              "width": 1200,
+              "height": 60
+            },
+            "layout_properties": {
+              "layoutMode": "HORIZONTAL",
+              "primaryAxisAlignItems": "SPACE_BETWEEN",
+              "counterAxisAlignItems": "BOTTOM",
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "itemSpacing": 0
+            },
+            "fill": "transparent",
+            "children": [
+              {
+                "id": "frame_titles_box",
+                "name": "Title & Subtitle Wrapper",
+                "type": "FRAME",
+                "dimensions": {
+                  "width": 600,
+                  "height": 60
+                },
+                "layout_properties": {
+                  "layoutMode": "VERTICAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                  "paddingTop": 0,
+                  "paddingBottom": 0,
+                  "itemSpacing": 6
+                },
+                "fill": "transparent",
+                "children": [
+                  {
+                    "id": "text_section_title",
+                    "name": "Section Title Label",
+                    "type": "TEXT",
+                    "dimensions": {
+                      "width": 600,
+                      "height": 32
+                    },
+                    "fill": "#1C1E1B",
+                    "content": "Fresh Pick of the Week",
+                    "typography": {
+                      "fontFamily": "Playfair Display",
+                      "fontSize": 24,
+                      "fontWeight": 700,
+                      "lineHeight": 32,
+                      "letterSpacing": -0.24
+                    }
+                  },
+                  {
+                    "id": "text_section_subtitle",
+                    "name": "Section Subheading Descriptor",
+                    "type": "TEXT",
+                    "dimensions": {
+                      "width": 600,
+                      "height": 22
+                    },
+                    "fill": "#9E9582",
+                    "content": "Organic produce, handpicked and delivered straight from the farm.",
+                    "typography": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": 400,
+                      "lineHeight": 22,
+                      "letterSpacing": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "button_view_all_shop",
+                "name": "View All Category Link",
+                "type": "FRAME",
+                "dimensions": {
+                  "width": 110,
+                  "height": 30
+                },
+                "layout_properties": {
+                  "layoutMode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER",
+                  "paddingLeft": 12,
+                  "paddingRight": 12,
+                  "paddingTop": 6,
+                  "paddingBottom": 6,
+                  "itemSpacing": 4
+                },
+                "fill": "transparent",
+                "cornerRadius": 12,
+                "children": [
+                  {
+                    "id": "text_view_all_label",
+                    "name": "Link Label Text",
+                    "type": "TEXT",
+                    "dimensions": {
+                      "width": 70,
+                      "height": 16
+                    },
+                    "fill": "#E05E2B",
+                    "content": "See all items",
+                    "typography": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 13,
+                      "fontWeight": 700,
+                      "lineHeight": 16,
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "vector_arrow_right",
+                    "name": "Arrow Right SVG",
+                    "type": "VECTOR",
+                    "dimensions": {
+                      "width": 14,
+                      "height": 14
+                    },
+                    "fill": "#E05E2B"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "grid_product_items",
+            "name": "Product Grid (4 Columns)",
+            "type": "FRAME",
+            "dimensions": {
+              "width": 1200,
+              "height": 420
+            },
+            "layout_properties": {
+              "layoutMode": "GRID",
+              "gridType": "COLUMNS",
+              "count": 4,
+              "itemSpacing": 32,
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "paddingBottom": 0
+            },
+            "fill": "transparent",
+            "children": [
+              {
+                "id": "component_product_card_template",
+                "name": "Product Card Component / Instance",
+                "type": "INSTANCE",
+                "dimensions": {
+                  "width": 276,
+                  "height": 380
+                },
+                "layout_properties": {
+                  "layoutMode": "VERTICAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "FILL",
+                  "paddingLeft": 16,
+                  "paddingRight": 16,
+                  "paddingTop": 16,
+                  "paddingBottom": 16,
+                  "itemSpacing": 12
+                },
+                "fill": "#FFFFFF",
+                "stroke": {
+                  "color": "#E8E4DA",
+                  "thickness": 1,
+                  "type": "ALL"
+                },
+                "cornerRadius": 16,
+                "effects": [],
+                "notes": "This represents the base card at rest. On hover, apply interactive_rise shadow token, adjust border to #D6D0C2, and shift frame Y position by -4px.",
+                "children": [
+                  {
+                    "id": "frame_image_container",
+                    "name": "Card Thumbnail Frame",
+                    "type": "FRAME",
+                    "dimensions": {
+                      "width": 244,
+                      "height": 183
+                    },
+                    "layout_properties": {
+                      "layoutMode": "ABSOLUTE",
+                      "width": 244,
+                      "height": 183
+                    },
+                    "fill": "#FAF9F6",
+                    "cornerRadius": 12,
+                    "children": [
+                      {
+                        "id": "image_product_thumbnail",
+                        "name": "Product Photo Asset",
+                        "type": "IMAGE",
+                        "dimensions": {
+                          "x": 0,
+                          "y": 0,
+                          "width": 244,
+                          "height": 183
+                        },
+                        "fill": "#FAF9F6",
+                        "notes": "Aspect ratio constraint exactly 4:3."
+                      },
+                      {
+                        "id": "badge_tag_status",
+                        "name": "Product Status Badge Tag",
+                        "type": "FRAME",
+                        "dimensions": {
+                          "x": 10,
+                          "y": 10,
+                          "width": 64,
+                          "height": 22
+                        },
+                        "layout_properties": {
+                          "layoutMode": "HORIZONTAL",
+                          "primaryAxisAlignItems": "CENTER",
+                          "counterAxisAlignItems": "CENTER",
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
+                          "paddingTop": 3,
+                          "paddingBottom": 3,
+                          "itemSpacing": 0
+                        },
+                        "fill": "#13382B",
+                        "cornerRadius": 6,
+                        "children": [
+                          {
+                            "id": "text_badge_label",
+                            "name": "Badge Text",
+                            "type": "TEXT",
+                            "dimensions": {
+                              "width": 48,
+                              "height": 16
+                            },
+                            "fill": "#FAF9F6",
+                            "content": "ORGANIC",
+                            "typography": {
+                              "fontFamily": "DM Sans",
+                              "fontSize": 9,
+                              "fontWeight": 700,
+                              "lineHeight": 16,
+                              "letterSpacing": 0.5
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "id": "button_card_favorite",
+                        "name": "Favorite Heart Outline Icon",
+                        "type": "FRAME",
+                        "dimensions": {
+                          "x": 198,
+                          "y": 10,
+                          "width": 36,
+                          "height": 36
+                        },
+                        "layout_properties": {
+                          "layoutMode": "CENTER",
+                          "primaryAxisAlignItems": "CENTER",
+                          "counterAxisAlignItems": "CENTER",
+                          "paddingLeft": 8,
+                          "paddingRight": 8,
+                          "paddingTop": 8,
+                          "paddingBottom": 8
+                        },
+                        "fill": "rgba(255, 255, 255, 0.8)",
+                        "stroke": {
+                          "color": "rgba(232, 228, 218, 0.5)",
+                          "thickness": 1,
+                          "type": "ALL"
+                        },
+                        "cornerRadius": 9999,
+                        "children": [
+                          {
+                            "id": "vector_heart_card",
+                            "name": "Heart Vector SVG",
+                            "type": "VECTOR",
+                            "dimensions": {
+                              "width": 16,
+                              "height": 16
+                            },
+                            "fill": "#9E9582"
+                          }
+                        ],
+                        "notes": "Hover state fills heart with Terracotta Sunrise (#E05E2B) and turns background pure white."
+                      }
+                    ]
+                  },
+                  {
+                    "id": "frame_card_details",
+                    "name": "Product Metadata Block",
+                    "type": "FRAME",
+                    "dimensions": {
+                      "width": 244,
+                      "height": 153
+                    },
+                    "layout_properties": {
+                      "layoutMode": "VERTICAL",
+                      "primaryAxisAlignItems": "MIN",
+                      "counterAxisAlignItems": "FILL",
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 0,
+                      "paddingBottom": 0,
+                      "itemSpacing": 6
+                    },
+                    "fill": "transparent",
+                    "children":                       {
+                        "id": "text_product_brand",
+                        "name": "Brand Name Label",
+                        "type": "TEXT",
+                        "dimensions": {
+                          "width": 244,
+                          "height": 12
+                        },
+                        "fill": "#9E9582",
+                        "content": "RAJSHAHI ORCHARDS",
+                        "typography": {
+                          "fontFamily": "DM Sans",
+                          "fontSize": 10,
+                          "fontWeight": 700,
+                          "lineHeight": 12,
+                          "letterSpacing": 1.0
+                        }
+                      },
+                      {
+                        "id": "text_product_title",
+                        "name": "Product Name Title",
+                        "type": "TEXT",
+                        "dimensions": {
+                          "width": 244,
+                          "height": 40
+                        },
+                        "fill": "#1C1E1B",
+                        "content": "Premium Rajshahi Himchagor Mangoes",
+                        "typography": {
+                          "fontFamily": "DM Sans",
+                          "fontSize": 14,
+                          "fontWeight": 700,
+                          "lineHeight": 20,
+                          "letterSpacing": 0
+                        },
+                        "notes": "Line clamp set to exactly 2 lines. Height fixed at 40px to prevent card structural shifting."
+                      },
+                      {
+                        "id": "text_product_weight",
+                        "name": "Weight Label",
+                        "type": "TEXT",
+                        "dimensions": {
+                          "width": 244,
+                          "height": 16
+                        },
+                        "fill": "#9E9582",
+                        "content": "1 kg Pack (approx. 5-6 pcs)",",
+                        "typography": {
+                          "fontFamily": "DM Sans",
+                          "fontSize": 11,
+                          "fontWeight": 400,
+                          "lineHeight": 16,
+                          "letterSpacing": 0
+                        }
+                      },
+                      {
+                        "id": "frame_card_bottom_row",
+                        "name": "Price & Action Stepper Block",
+                        "type": "FRAME",
+                        "dimensions": {
+                          "width": 244,
+                          "height": 44
+                        },
+                        "layout_properties": {
+                          "layoutMode": "HORIZONTAL",
+                          "primaryAxisAlignItems": "SPACE_BETWEEN",
+                          "counterAxisAlignItems": "CENTER",
+                          "paddingLeft": 0,
+                          "paddingRight": 0,
+                          "paddingTop": 8,
+                          "paddingBottom": 0,
+                          "itemSpacing": 0
+                        },
+                        "fill": "transparent",
+                        "stroke": {
+                          "color": "rgba(232, 228, 218, 0.3)",
+                          "thickness": 1,
+                          "type": "TOP"
+                        },
+                        "children": [
+                          {
+                            "id": "frame_price_display",
+                            "name": "Product Price Wrapper",
+                            "type": "FRAME",
+                            "dimensions": {
+                              "width": 100,
+                              "height": 36
+                            },
+                            "layout_properties": {
+                              "layoutMode": "VERTICAL",
+                              "primaryAxisAlignItems": "CENTER",
+                              "counterAxisAlignItems": "MIN",
+                              "paddingLeft": 0,
+                              "paddingRight": 0,
+                              "paddingTop": 0,
+                              "paddingBottom": 0,
+                              "itemSpacing": 2
+                            },
+                            "fill": "transparent",
+                            "children": [
+                              {
+                                "id": "text_active_price",
+                                "name": "Current Sale Price Text",
+                                "type": "TEXT",
+                                "dimensions": {
+                                  "width": 60,
+                                  "height": 18
+                                },
+                                "fill": "#1C1E1B",
+                                "content": "৳320",
+                                "typography": {
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 15,
+                                  "fontWeight": 700,
+                                  "lineHeight": 18,
+                                  "letterSpacing": 0
+                                }
+                              },
+                              {
+                                "id": "text_original_price",
+                                "name": "Original Price Strike-through",
+                                "type": "TEXT",
+                                "dimensions": {
+                                  "width": 50,
+                                  "height": 14
+                                },
+                                "fill": "#9E9582",
+                                "content": "৳380",
+                                "typography": {
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 11,
+                                  "fontWeight": 400,
+                                  "lineHeight": 14,
+                                  "letterSpacing": 0
+                                },
+                                "notes": "Figma styled with text-decoration: line-through."
+                              }
+                            ]
+                          },
+                          {
+                            "id": "button_card_add",
+                            "name": "Add to Bag Button Instance",
+                            "type": "FRAME",
+                            "dimensions": {
+                              "width": 78,
+                              "height": 36
+                            },
+                            "layout_properties": {
+                              "layoutMode": "HORIZONTAL",
+                              "primaryAxisAlignItems": "CENTER",
+                              "counterAxisAlignItems": "CENTER",
+                              "paddingLeft": 14,
+                              "paddingRight": 14,
+                              "paddingTop": 8,
+                              "paddingBottom": 8,
+                              "itemSpacing": 4
+                            },
+                            "fill": "#13382B",
+                            "cornerRadius": 18,
+                            "children": [
+                              {
+                                "id": "vector_plus_icon",
+                                "name": "Plus Icon Vector SVG",
+                                "type": "VECTOR",
+                                "dimensions": {
+                                  "width": 12,
+                                  "height": 12
+                                },
+                                "fill": "#FAF9F6"
+                              },
+                              {
+                                "id": "text_add_label",
+                                "name": "Button Add Word Label",
+                                "type": "TEXT",
+                                "dimensions": {
+                                  "width": 30,
+                                  "height": 16
+                                },
+                                "fill": "#FAF9F6",
+                                "content": "Add",
+                                "typography": {
+                                  "fontFamily": "DM Sans",
+                                  "fontSize": 12,
+                                  "fontWeight": 700,
+                                  "lineHeight": 16,
+                                  "letterSpacing": 0
+                                }
+                              }
+                            ],
+                            "notes": "Hover state transitions background to primary_hover (#0E2C22)."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

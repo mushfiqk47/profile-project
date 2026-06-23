@@ -1,0 +1,46 @@
+[
+  {
+    "id": "promo-1",
+    "code": "FRESH20",
+    "title": "20% Off Your First Order",
+    "description": "Welcome to the market! Enjoy 20% off your initial purchase of hand-picked local goods.",
+    "discountType": "percentage",
+    "value": 20,
+    "minSpend": 1500.00,
+    "expiryDate": "2026-12-31",
+    "terms": "Valid for new accounts only. Minimum spend of ৳1,500 required."
+  },
+  {
+    "id": "promo-2",
+    "code": "DESHI200",
+    "title": "৳200 Off Local Farm Picks",
+    "description": "Support our local growers. Save ৳200 on orders containing local farm-fresh curations.",
+    "discountType": "fixed",
+    "value": 200,
+    "minSpend": 2500.00,
+    "expiryDate": "2026-09-30",
+    "terms": "Applies to orders of ৳2,500 or more."
+  },
+  {
+    "id": "promo-3",
+    "code": "ORGANIC15",
+    "title": "15% Off All Organic Picks",
+    "description": "Fill your kitchen with health. Save 15% on any items bearing the Organic label.",
+    "discountType": "percentage",
+    "value": 15,
+    "minSpend": 2000.00,
+    "expiryDate": "2026-08-31",
+    "terms": "Applies to organic products only. Min spend ৳2,000."
+  },
+  {
+    "id": "promo-4",
+    "code": "FREESHIP",
+    "title": "Free Home Delivery",
+    "description": "Skip the delivery fee entirely. Groceries delivered straight to your door on us.",
+    "discountType": "shipping",
+    "value": 60,
+    "minSpend": 1500.00,
+    "expiryDate": "2026-11-30",
+    "terms": "Valid on orders over ৳1,500."
+  }
+]

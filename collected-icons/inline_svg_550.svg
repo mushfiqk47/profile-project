@@ -1,0 +1,16 @@
+<svg
+            className="w-32 h-32 text-neutral-300"
+            viewBox="0 0 120 120"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2.5"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            {/* Magnifying Glass */}
+            <circle cx="55" cy="55" r="25" fill="var(--neutral-100)" />
+            <path d="M73 73l22 22" />
+            {/* Disappointing question mark */}
+            <path d="M55 47c3 0 5 2 5 5 0 3-2 4-4 6v2 M55 67h.01" stroke="var(--brand-accent)" strokeWidth="3" />
+          </svg>

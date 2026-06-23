@@ -1,0 +1,36 @@
+<svg className="w-full h-full text-neutral-300" viewBox="0 0 200 120" fill="none">
+                  {/* Grid Lines background */}
+                  <path d="M0 20h200M0 50h200M0 80h200M0 110h200M30 0v120M70 0v120M110 0v120M150 0v120" stroke="rgba(0,0,0,0.03)" strokeWidth="1" />
+                  
+                  {/* Transit path road */}
+                  <path
+                    d="M30 30h100v60h40"
+                    stroke="#EFECE6"
+                    strokeWidth="10"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M30 30h100v60h40"
+                    stroke="var(--brand-primary)"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeDasharray="4 4"
+                    className="animate-pulse"
+                  />
+                  
+                  {/* Farm Depot */}
+                  <circle cx="30" cy="30" r="6" fill="#13382B" />
+                  <text x="24" y="20" fill="#807766" fontSize="8" fontWeight="bold">DEPOT</text>
+                  
+                  {/* Destination Dropoff */}
+                  <circle cx="170" cy="90" r="6" fill="var(--brand-accent)" />
+                  <text x="156" y="104" fill="var(--brand-accent)" fontSize="8" fontWeight="bold">HOME</text>
+
+                  {/* Courier Car indicator */}
+                  <g transform="translate(100, 30)">
+                    <circle cx="0" cy="0" r="5" fill="#E05E2B" className="animate-ping" />
+                    <circle cx="0" cy="0" r="4.5" fill="#E05E2B" />
+                  </g>
+                </svg>

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "cat-1",
+    "name": "Fresh Produce",
+    "slug": "fresh-produce",
+    "icon": "Leaf",
+    "description": "Organic local fruits and fresh vegetables (Sabji).",
+    "color": "#EAF5EA"
+  },
+  {
+    "id": "cat-2",
+    "name": "Dairy & Eggs",
+    "slug": "dairy-eggs",
+    "icon": "Egg",
+    "description": "Aarong dairy liquid milk, organic farm eggs, local ghee, and paneer.",
+    "color": "#FEF9E6"
+  },
+  {
+    "id": "cat-3",
+    "name": "Meat & Seafood",
+    "slug": "meat-seafood",
+    "icon": "Beef",
+    "description": "Padma Hilsha (Ilish), Rupchanda, local mutton, fresh chicken, and Rui fish.",
+    "color": "#FDF2F2"
+  },
+  {
+    "id": "cat-4",
+    "name": "Bakery",
+    "slug": "bakery",
+    "icon": "Wheat",
+    "description": "Fresh daily breads, roti, parathas, buns, and local tea cookies.",
+    "color": "#FDF6EC"
+  },
+  {
+    "id": "cat-5",
+    "name": "Beverages",
+    "slug": "beverages",
+    "icon": "CupSoda",
+    "description": "Sylhet organic teas, fresh coconut water (Daab), and local fruit juices.",
+    "color": "#E6F4FE"
+  },
+  {
+    "id": "cat-6",
+    "name": "Pantry Staples",
+    "slug": "pantry-staples",
+    "icon": "Container",
+    "description": "Mustard oil (Shorishar Tel), Chinigura rice, Radhuni spices, and lentils (Dal).",
+    "color": "#F5F3FF"
+  },
+  {
+    "id": "cat-7",
+    "name": "Snacks & Sweets",
+    "slug": "snacks-sweets",
+    "icon": "Cookie",
+    "description": "Local chanachur, premium sweets, raw nuts, and potato chips.",
+    "color": "#FFF1F2"
+  },
+  {
+    "id": "cat-8",
+    "name": "Breakfast & Oats",
+    "slug": "breakfast-oats",
+    "icon": "Apple",
+    "description": "Puffed rice (Muri), flat rice (Chira), local Sundarban honey (Modhu), and oats.",
+    "color": "#FEF3C7"
+  },
+  {
+    "id": "cat-9",
+    "name": "Frozen Foods",
+    "slug": "frozen-foods",
+    "icon": "Snowflake",
+    "description": "Frozen parathas, local samosas, frozen veggies, and ice cream.",
+    "color": "#E0F2FE"
+  },
+  {
+    "id": "cat-10",
+    "name": "Household & Clean",
+    "slug": "household-clean",
+    "icon": "Sparkles",
+    "description": "Cleaning supplies, toilet cleaners, and daily paper essentials.",
+    "color": "#F3F4F6"
+  },
+  {
+    "id": "cat-11",
+    "name": "Personal Care",
+    "slug": "personal-care",
+    "icon": "Heart",
+    "description": "Daily bath soaps, natural hair oils, and skincare essentials.",
+    "color": "#FAE8FF"
+  },
+  {
+    "id": "cat-12",
+    "name": "Local Farms",
+    "slug": "local-farms",
+    "icon": "Store",
+    "description": "Specialty items sourced directly from farms in Rajshahi, Jessore & Sylhet.",
+    "color": "#FEF3F2"
+  }
+]
