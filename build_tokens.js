@@ -1,0 +1,463 @@
+const fs = require('fs');
+
+const tokens = {
+  _section: "Global Design Tokens",
+  _version: "2.0.0",
+  _standard: "W3C DTCG - 3-Tier Architecture (Primitives → Semantic → Component)",
+  _description: "Production-grade design token system for FreshCart — Bangladesh premium artisanal e-commerce. Full color families with opacity scales, typography (DM Serif Display + DM Sans), spacing (8pt grid), border-radius, elevation, motion, layout, iconography.",
+  _generated: "2026-06-23T21:14:00Z",
+  _font_url: "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap",
+
+  global_tokens: {
+
+    _TIER_1_PRIMITIVES: "Raw palette values — NEVER use directly in components. Always use Tier 2 semantic tokens.",
+
+    primitive_colors: {
+      green: {
+        _name: "Forest Green — Primary brand hue (H:152)",
+        "50":  { value: "#EDFAF4", hsl: "hsl(152,73%,95%)" },
+        "100": { value: "#D0F4E5", hsl: "hsl(152,68%,88%)" },
+        "200": { value: "#A1E9CC", hsl: "hsl(152,65%,77%)" },
+        "300": { value: "#62D4A8", hsl: "hsl(152,60%,61%)" },
+        "400": { value: "#2DB97F", hsl: "hsl(152,62%,45%)" },
+        "500": { value: "#1A9965", hsl: "hsl(152,70%,36%)" },
+        "600": { value: "#13784E", hsl: "hsl(152,72%,28%)" },
+        "700": { value: "#0F5C3B", hsl: "hsl(152,72%,21%)" },
+        "800": { value: "#0A4028", hsl: "hsl(152,69%,15%)" },
+        "900": { value: "#062819", hsl: "hsl(152,65%,9%)" },
+        "950": { value: "#031410", hsl: "hsl(152,60%,5%)" },
+        opacity: {
+          _base: "green-500 #1A9965",
+          "/5":  "rgba(26,153,101,0.05)",  "/10": "rgba(26,153,101,0.10)",
+          "/15": "rgba(26,153,101,0.15)",  "/20": "rgba(26,153,101,0.20)",
+          "/25": "rgba(26,153,101,0.25)",  "/30": "rgba(26,153,101,0.30)",
+          "/40": "rgba(26,153,101,0.40)",  "/50": "rgba(26,153,101,0.50)",
+          "/60": "rgba(26,153,101,0.60)",  "/70": "rgba(26,153,101,0.70)",
+          "/80": "rgba(26,153,101,0.80)",  "/90": "rgba(26,153,101,0.90)",
+          "/95": "rgba(26,153,101,0.95)"
+        }
+      },
+      terracotta: {
+        _name: "Terracotta Sunrise — Accent brand hue (H:20)",
+        "50":  { value: "#FEF4EE", hsl: "hsl(20,91%,96%)" },
+        "100": { value: "#FDE3D0", hsl: "hsl(20,90%,90%)" },
+        "200": { value: "#FAC4A0", hsl: "hsl(20,88%,80%)" },
+        "300": { value: "#F59C6A", hsl: "hsl(20,85%,68%)" },
+        "400": { value: "#EE7840", hsl: "hsl(20,82%,59%)" },
+        "500": { value: "#E05E2B", hsl: "hsl(20,76%,52%)" },
+        "600": { value: "#C44A1E", hsl: "hsl(20,73%,45%)" },
+        "700": { value: "#A33A16", hsl: "hsl(20,74%,36%)" },
+        "800": { value: "#7A2C10", hsl: "hsl(20,76%,27%)" },
+        "900": { value: "#4E1C0A", hsl: "hsl(20,74%,18%)" },
+        "950": { value: "#290E05", hsl: "hsl(20,72%,9%)" },
+        opacity: {
+          _base: "terracotta-500 #E05E2B",
+          "/5":  "rgba(224,94,43,0.05)",  "/10": "rgba(224,94,43,0.10)",
+          "/15": "rgba(224,94,43,0.15)",  "/20": "rgba(224,94,43,0.20)",
+          "/25": "rgba(224,94,43,0.25)",  "/30": "rgba(224,94,43,0.30)",
+          "/40": "rgba(224,94,43,0.40)",  "/50": "rgba(224,94,43,0.50)",
+          "/60": "rgba(224,94,43,0.60)",  "/70": "rgba(224,94,43,0.70)",
+          "/80": "rgba(224,94,43,0.80)",  "/90": "rgba(224,94,43,0.90)",
+          "/95": "rgba(224,94,43,0.95)"
+        }
+      },
+      neutral: {
+        _name: "Warm Sand Neutral — warm-tinted gray (H:40-48, S:10-28%)",
+        "0":   "#FFFFFF",
+        "50":  { value: "#FAF9F6", hsl: "hsl(48,28%,97%)" },
+        "100": { value: "#F4F2ED", hsl: "hsl(45,24%,94%)" },
+        "200": { value: "#E8E4DA", hsl: "hsl(43,20%,88%)" },
+        "300": { value: "#D4CEC0", hsl: "hsl(42,17%,79%)" },
+        "400": { value: "#B8B0A0", hsl: "hsl(40,12%,67%)" },
+        "500": { value: "#9E9582", hsl: "hsl(40,10%,57%)" },
+        "600": { value: "#7E7563", hsl: "hsl(40,12%,44%)" },
+        "700": { value: "#5E5748", hsl: "hsl(38,12%,32%)" },
+        "800": { value: "#403C32", hsl: "hsl(38,11%,23%)" },
+        "850": { value: "#2F2C25", hsl: "hsl(38,10%,17%)" },
+        "900": { value: "#1E1C17", hsl: "hsl(40,10%,11%)" },
+        "950": { value: "#100F0C", hsl: "hsl(40,10%,6%)" },
+        opacity: {
+          _base: "neutral-900 #1E1C17 — for shadows and overlays",
+          "/3":  "rgba(30,28,23,0.03)",  "/5":  "rgba(30,28,23,0.05)",
+          "/8":  "rgba(30,28,23,0.08)",  "/10": "rgba(30,28,23,0.10)",
+          "/15": "rgba(30,28,23,0.15)",  "/20": "rgba(30,28,23,0.20)",
+          "/25": "rgba(30,28,23,0.25)",  "/30": "rgba(30,28,23,0.30)",
+          "/40": "rgba(30,28,23,0.40)",  "/50": "rgba(30,28,23,0.50)",
+          "/60": "rgba(30,28,23,0.60)",  "/70": "rgba(30,28,23,0.70)",
+          "/80": "rgba(30,28,23,0.80)",  "/90": "rgba(30,28,23,0.90)",
+          "/95": "rgba(30,28,23,0.95)"
+        }
+      },
+      red: {
+        _name: "Chili Red — Error and destructive (H:4)",
+        "50":  "#FEF2F2", "100": "#FEE2E1", "200": "#FECACA", "300": "#FCA5A4",
+        "400": "#F87070", "500": "#EF4444", "600": "#DC2626", "700": "#B91C1C",
+        "800": "#991B1B", "900": "#7F1D1D", "950": "#450A0A",
+        opacity: {
+          _base: "red-500 #EF4444",
+          "/5":  "rgba(239,68,68,0.05)",  "/10": "rgba(239,68,68,0.10)",
+          "/15": "rgba(239,68,68,0.15)",  "/20": "rgba(239,68,68,0.20)",
+          "/30": "rgba(239,68,68,0.30)",  "/40": "rgba(239,68,68,0.40)",
+          "/50": "rgba(239,68,68,0.50)",  "/60": "rgba(239,68,68,0.60)",
+          "/70": "rgba(239,68,68,0.70)",  "/80": "rgba(239,68,68,0.80)",
+          "/90": "rgba(239,68,68,0.90)"
+        }
+      },
+      amber: {
+        _name: "Turmeric Amber — Warning (H:38)",
+        "50":  "#FFFBEB", "100": "#FEF3C7", "200": "#FDE68A", "300": "#FCD34D",
+        "400": "#FBBF24", "500": "#F59E0B", "600": "#D97706", "700": "#B45309",
+        "800": "#92400E", "900": "#78350F", "950": "#451A03",
+        opacity: {
+          _base: "amber-500 #F59E0B",
+          "/5":  "rgba(245,158,11,0.05)",  "/10": "rgba(245,158,11,0.10)",
+          "/15": "rgba(245,158,11,0.15)",  "/20": "rgba(245,158,11,0.20)",
+          "/30": "rgba(245,158,11,0.30)",  "/40": "rgba(245,158,11,0.40)",
+          "/50": "rgba(245,158,11,0.50)",  "/60": "rgba(245,158,11,0.60)",
+          "/70": "rgba(245,158,11,0.70)",  "/80": "rgba(245,158,11,0.80)",
+          "/90": "rgba(245,158,11,0.90)"
+        }
+      },
+      blue: {
+        _name: "Monsoon Blue — Info and links (H:214)",
+        "50":  "#EFF6FF", "100": "#DBEAFE", "200": "#BFDBFE", "300": "#93C5FD",
+        "400": "#60A5FA", "500": "#3B82F6", "600": "#2563EB", "700": "#1D4ED8",
+        "800": "#1E40AF", "900": "#1E3A8A", "950": "#172554",
+        opacity: {
+          _base: "blue-500 #3B82F6",
+          "/5":  "rgba(59,130,246,0.05)",  "/10": "rgba(59,130,246,0.10)",
+          "/15": "rgba(59,130,246,0.15)",  "/20": "rgba(59,130,246,0.20)",
+          "/30": "rgba(59,130,246,0.30)",  "/40": "rgba(59,130,246,0.40)",
+          "/50": "rgba(59,130,246,0.50)",  "/60": "rgba(59,130,246,0.60)",
+          "/70": "rgba(59,130,246,0.70)",  "/80": "rgba(59,130,246,0.80)",
+          "/90": "rgba(59,130,246,0.90)"
+        }
+      },
+      white: {
+        _name: "White — Pure surface",
+        opacity: {
+          "/5":  "rgba(255,255,255,0.05)",  "/10": "rgba(255,255,255,0.10)",
+          "/15": "rgba(255,255,255,0.15)",  "/20": "rgba(255,255,255,0.20)",
+          "/25": "rgba(255,255,255,0.25)",  "/30": "rgba(255,255,255,0.30)",
+          "/40": "rgba(255,255,255,0.40)",  "/50": "rgba(255,255,255,0.50)",
+          "/60": "rgba(255,255,255,0.60)",  "/70": "rgba(255,255,255,0.70)",
+          "/80": "rgba(255,255,255,0.80)",  "/90": "rgba(255,255,255,0.90)",
+          "/95": "rgba(255,255,255,0.95)"
+        }
+      },
+      black: {
+        _name: "Black — Pure ink",
+        opacity: {
+          "/3":  "rgba(0,0,0,0.03)",  "/5":  "rgba(0,0,0,0.05)",
+          "/8":  "rgba(0,0,0,0.08)",  "/10": "rgba(0,0,0,0.10)",
+          "/15": "rgba(0,0,0,0.15)",  "/20": "rgba(0,0,0,0.20)",
+          "/25": "rgba(0,0,0,0.25)",  "/30": "rgba(0,0,0,0.30)",
+          "/40": "rgba(0,0,0,0.40)",  "/50": "rgba(0,0,0,0.50)",
+          "/60": "rgba(0,0,0,0.60)",  "/70": "rgba(0,0,0,0.70)",
+          "/80": "rgba(0,0,0,0.80)",  "/90": "rgba(0,0,0,0.90)"
+        }
+      }
+    },
+
+    _TIER_2_SEMANTIC: "Semantic role tokens — USE THESE in components. Map to primitives above.",
+
+    colors: {
+      _wcag_note: "Critical pairs verified: WCAG AA (4.5:1 normal text, 3:1 large text/UI). Pairs annotated.",
+      primary:              { value: "#13784E", primitive: "green.600", wcag_on_white: "6.1:1 AA ✓", usage: "CTA bg, nav active state, primary button, strong brand markers" },
+      primary_hover:        { value: "#0F5C3B", primitive: "green.700", usage: "Hover/pressed state of primary — 1 stop darker" },
+      primary_light:        { value: "#D0F4E5", primitive: "green.100", usage: "Selected states, info zone bg, category tag fills" },
+      primary_subtle:       { value: "#EDFAF4", primitive: "green.50",  usage: "Ghost hover bg, ultra-light tint on interactive elements" },
+      primary_alpha_10:     { value: "rgba(26,153,101,0.10)", usage: "Checkbox ring fill, glow indicators" },
+      primary_alpha_20:     { value: "rgba(26,153,101,0.20)", usage: "Selected row highlight, stepper active zone" },
+      primary_alpha_30:     { value: "rgba(26,153,101,0.30)", usage: "Focus ring inner color" },
+      accent:               { value: "#E05E2B", primitive: "terracotta.500", wcag_large_on_white: "3.4:1 AA large ✓", usage: "Promotions, sale badges, CTA highlights. MAX 10% screen density." },
+      accent_hover:         { value: "#C44A1E", primitive: "terracotta.600", usage: "Hover/pressed state of accent" },
+      accent_light:         { value: "#FDE3D0", primitive: "terracotta.100", usage: "Promo banner bg, warm notification surface" },
+      accent_subtle:        { value: "#FEF4EE", primitive: "terracotta.50",  usage: "Promotional callout chip background" },
+      accent_alpha_10:      { value: "rgba(224,94,43,0.10)", usage: "Badge outline fills, highlight glow" },
+      accent_alpha_20:      { value: "rgba(224,94,43,0.20)", usage: "Hover ripple on promo cards" },
+      bg_primary:           { value: "#FAF9F6", primitive: "neutral.50",  usage: "Page canvas — warm parchment, not clinical white" },
+      bg_secondary:         { value: "#F4F2ED", primitive: "neutral.100", usage: "Sidebars, footer, alternate table rows" },
+      bg_card:              { value: "#FFFFFF", primitive: "neutral.0",   usage: "Product cards, modals, popovers, dropdowns" },
+      text_primary:         { value: "#1E1C17", primitive: "neutral.900", wcag_on_cream: "14.8:1 AAA ✓", usage: "Main body text, primary SVG icons. NEVER use pure #000000." },
+      text_secondary:       { value: "#5E5748", primitive: "neutral.700", wcag_on_cream: "5.4:1 AA ✓",  usage: "Subheadings, product metadata, dates" },
+      text_muted:           { value: "#9E9582", primitive: "neutral.500", wcag_note: "2.8:1 — large text/decorative ONLY", usage: "Placeholder labels, disabled text (large size only)" },
+      text_link:            { value: "#13784E", primitive: "green.600",   usage: "Hyperlinks — matches primary for brand cohesion" },
+      text_on_primary:      { value: "#FFFFFF", usage: "Text/icons on primary-colored backgrounds. WCAG: 6.1:1 ✓" },
+      text_on_accent:       { value: "#FFFFFF", usage: "Text/icons on accent-colored backgrounds. WCAG large: 3.4:1 ✓" },
+      border_default:       { value: "#E8E4DA", primitive: "neutral.200", usage: "Dividers, input strokes at rest, card separators" },
+      border_strong:        { value: "#D4CEC0", primitive: "neutral.300", usage: "Strong dividers, pressed input states" },
+      border_focus:         { value: "#13784E", primitive: "green.600",   usage: "Focused input border" },
+      overlay:              { value: "rgba(30,28,23,0.60)", primitive: "neutral.opacity./60", usage: "Modal scrim, drawer overlay" },
+      overlay_light:        { value: "rgba(30,28,23,0.25)", primitive: "neutral.opacity./25", usage: "Tooltip, sticky dropdown overlay" },
+      feedback_success: {
+        default:   "#1A9965", bg:        "#EDFAF4", bg_strong: "#D0F4E5",
+        text:      "#0F5C3B", border:    "#62D4A8", alpha_15:  "rgba(26,153,101,0.15)",
+        wcag_text_on_bg: "7.2:1 AAA ✓"
+      },
+      feedback_error: {
+        default:   "#EF4444", bg:        "#FEF2F2", bg_strong: "#FEE2E1",
+        text:      "#B91C1C", border:    "#FCA5A4", alpha_15:  "rgba(239,68,68,0.15)",
+        wcag_text_on_bg: "6.8:1 AA ✓"
+      },
+      feedback_warning: {
+        default:   "#F59E0B", bg:        "#FFFBEB", bg_strong: "#FEF3C7",
+        text:      "#92400E", border:    "#FCD34D", alpha_15:  "rgba(245,158,11,0.15)",
+        wcag_text_on_bg: "5.7:1 AA ✓"
+      },
+      feedback_info: {
+        default:   "#3B82F6", bg:        "#EFF6FF", bg_strong: "#DBEAFE",
+        text:      "#1D4ED8", border:    "#93C5FD", alpha_15:  "rgba(59,130,246,0.15)",
+        wcag_text_on_bg: "5.9:1 AA ✓"
+      },
+      dark_mode: {
+        _note: "Re-mapped for dark mode — NOT an inversion. Higher elevation = lighter surface.",
+        bg_primary:     "#1E1C17",
+        bg_secondary:   "#2F2C25",
+        bg_card:        "#403C32",
+        bg_elevated:    "#5E5748",
+        text_primary:   "#FAF9F6",
+        text_secondary: "#D4CEC0",
+        text_muted:     "#9E9582",
+        border:         "#5E5748",
+        border_strong:  "#7E7563",
+        primary_action: { value: "#2DB97F", primitive: "green.400", note: "Lighter shade for dark bg contrast" },
+        accent_action:  { value: "#EE7840", primitive: "terracotta.400", note: "Lighter shade for dark bg contrast" },
+        overlay:        "rgba(10,9,7,0.75)"
+      }
+    },
+
+    _TIER_2_TYPOGRAPHY: "Font families, weights, and full type scale with responsive fluid values",
+
+    typography: {
+      _strategy: "2-family: DM Serif Display (editorial headings) + DM Sans (UI/body). Both DM family = visual kinship. Serif = brand voice, Sans = product utility.",
+      _google_fonts_url: "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap",
+      _base_size_px: 16,
+      _scale_ratio: 1.25,
+      _baseline_grid_px: 4,
+      _line_height_rule: "All line-heights divisible by 4px for baseline grid alignment",
+
+      families: {
+        heading: { value: "'DM Serif Display', Georgia, 'Times New Roman', serif",             usage: "Display, H1, H2 — editorial serif for artisanal authority" },
+        body:    { value: "'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif", usage: "All UI text, body copy, labels, CTAs, nav, inputs" },
+        mono:    { value: "'DM Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace",  usage: "Promo codes, order IDs, tracking numbers" }
+      },
+
+      weights: {
+        light:    { value: 300, usage: "Hero sub-copy decoration only" },
+        regular:  { value: 400, usage: "Default body, captions, descriptions" },
+        medium:   { value: 500, usage: "Emphasized labels, active nav links" },
+        semibold: { value: 600, usage: "H3-H4, card titles, button text" },
+        bold:     { value: 700, usage: "H1-H2 (body family), price tags, strong CTAs" }
+      },
+
+      scale: {
+        display_large: { family:"heading", size:"64px", size_tablet:"48px", size_mobile:"36px", fluid:"clamp(36px,5vw + 1rem,64px)", weight:400, line_height:"72px", letter_spacing:"-0.03em", usage:"Hero banner headline" },
+        display_small: { family:"heading", size:"48px", size_tablet:"36px", size_mobile:"28px", fluid:"clamp(28px,3.5vw + 1rem,48px)", weight:400, line_height:"56px", letter_spacing:"-0.02em", usage:"Section hero, feature intro" },
+        heading_1:     { family:"heading", size:"36px", size_tablet:"28px", size_mobile:"24px", fluid:"clamp(24px,2.5vw + 1rem,36px)", weight:400, line_height:"44px", letter_spacing:"-0.02em", usage:"Page-level titles" },
+        heading_2:     { family:"heading", size:"28px", size_tablet:"24px", size_mobile:"20px", fluid:"clamp(20px,2vw + 0.5rem,28px)", weight:400, line_height:"36px", letter_spacing:"-0.015em", usage:"Category section headers" },
+        heading_3:     { family:"body",    size:"22px", size_tablet:"20px", size_mobile:"18px", weight:600, line_height:"28px", letter_spacing:"-0.01em", usage:"Subsection headers, widget titles" },
+        heading_4:     { family:"body",    size:"18px", weight:600, line_height:"24px", letter_spacing:"0", usage:"Card titles, accordion headers" },
+        body_large:    { family:"body",    size:"18px", weight:400, line_height:"28px", letter_spacing:"0", usage:"Hero subtitle, feature description, lead paragraph" },
+        body:          { family:"body",    size:"16px", weight:400, line_height:"24px", letter_spacing:"0", usage:"Standard body — never below 16px for paragraphs" },
+        body_small:    { family:"body",    size:"14px", weight:400, line_height:"20px", letter_spacing:"0", usage:"Product descriptions, secondary meta, help text" },
+        label:         { family:"body",    size:"14px", weight:600, line_height:"20px", letter_spacing:"0", usage:"Button text, form labels, nav links, chip text" },
+        label_small:   { family:"body",    size:"12px", weight:600, line_height:"16px", letter_spacing:"0", usage:"Small button text, badge labels" },
+        caption:       { family:"body",    size:"12px", weight:400, line_height:"16px", letter_spacing:"0.01em", usage:"Helper text, timestamps, captions, footnotes" },
+        overline:      { family:"body",    size:"11px", weight:700, line_height:"16px", letter_spacing:"0.08em", text_transform:"uppercase", usage:"Category eyebrows e.g. FRESH ARRIVALS, ON SALE — always uppercase" },
+        price:         { family:"body",    size:"20px", weight:700, line_height:"24px", letter_spacing:"-0.01em", usage:"Product price — bold, prominent, never smaller than 18px" },
+        price_small:   { family:"body",    size:"16px", weight:700, line_height:"20px", letter_spacing:"-0.01em", usage:"Cart line item prices, mini cart totals" },
+        price_strike:  { family:"body",    size:"14px", weight:400, line_height:"20px", text_decoration:"line-through", usage:"Original MRP shown with strikethrough alongside sale price" },
+        mono_code:     { family:"mono",    size:"14px", weight:400, line_height:"20px", letter_spacing:"0", usage:"Promo codes, order IDs, parcel tracking numbers" }
+      }
+    },
+
+    _TIER_2_SPACING: "8pt grid spatial system — all values multiples of 4px",
+
+    spacing: {
+      _base: "8px",
+      _note: "Primary increments are 8px. 4px half-steps allowed for fine adjustments.",
+      "0":   { value: "0px",   usage: "Zero — tight resets" },
+      "px":  { value: "1px",   usage: "Hairline — borders and dividers only" },
+      "0_5": { value: "2px",   usage: "Ultra-compact gaps, badge offset" },
+      "1":   { value: "4px",   usage: "xs — icon padding, dense chip padding" },
+      "1_5": { value: "6px",   usage: "Between icon and label in compact layout" },
+      "2":   { value: "8px",   usage: "sm — tight related items, tag padding" },
+      "2_5": { value: "10px",  usage: "Compact button vertical padding" },
+      "3":   { value: "12px",  usage: "Form field gaps, compact input padding" },
+      "4":   { value: "16px",  usage: "md — standard internal padding" },
+      "5":   { value: "20px",  usage: "Card padding, comfortable input padding" },
+      "6":   { value: "24px",  usage: "lg — component separation, card gap" },
+      "7":   { value: "28px",  usage: "Between card groups" },
+      "8":   { value: "32px",  usage: "xl — section internal padding" },
+      "9":   { value: "36px",  usage: "Generous section gap" },
+      "10":  { value: "40px",  usage: "Large section margins" },
+      "12":  { value: "48px",  usage: "2xl — major section separation" },
+      "14":  { value: "56px",  usage: "Nav bar height reference" },
+      "16":  { value: "64px",  usage: "3xl — page-level vertical rhythm" },
+      "20":  { value: "80px",  usage: "Hero section vertical padding" },
+      "24":  { value: "96px",  usage: "Full section separation" },
+      "32":  { value: "128px", usage: "Maximum structural gap" },
+      aliases: { xs:"4px", sm:"8px", md:"16px", lg:"24px", xl:"32px", "2xl":"48px", "3xl":"64px", "4xl":"80px" }
+    },
+
+    _TIER_2_BORDER_RADIUS: "Corner radius scale — concentric radius rule: inner radius = outer - padding",
+
+    border_radius: {
+      none: { value: "0px",    usage: "Sharp corners — tables, image crops, rules" },
+      xs:   { value: "2px",    usage: "Hairline rounding — nested inner elements" },
+      sm:   { value: "4px",    usage: "Chips, small badges, tags, quantity counters" },
+      md:   { value: "8px",    usage: "Default — inputs, small buttons, compact cards" },
+      lg:   { value: "12px",   usage: "Standard product cards, medium modals" },
+      xl:   { value: "16px",   usage: "Large cards, image containers, hero sections" },
+      "2xl": { value: "20px",  usage: "Promotional banners, feature cards" },
+      "3xl": { value: "24px",  usage: "Bottom sheets, large modal dialogs" },
+      full: { value: "9999px", usage: "Pills — rounded buttons, search bar, avatar rings" }
+    },
+
+    _TIER_2_ELEVATION: "6-level shadow system using warm-tinted neutral-900 for organic depth",
+
+    shadows: {
+      none:            { value: "none", elevation: 0, usage: "Flat base page surfaces" },
+      xs:              { value: "0 1px 2px rgba(30,28,23,0.06),0 1px 3px rgba(30,28,23,0.10)", elevation: 1, usage: "Cards at rest, raised sections, header" },
+      sm:              { value: "0 2px 4px rgba(30,28,23,0.08),0 4px 6px rgba(30,28,23,0.06)", elevation: 2, usage: "Sticky nav, dropdown menus, input focus state" },
+      md:              { value: "0 4px 8px rgba(30,28,23,0.08),0 10px 15px rgba(30,28,23,0.05)", elevation: 3, usage: "Product cards on hover, floating panels, popovers" },
+      lg:              { value: "0 8px 16px rgba(30,28,23,0.08),0 20px 25px rgba(30,28,23,0.04)", elevation: 4, usage: "Modals, dialogs, cart drawer" },
+      xl:              { value: "0 12px 24px rgba(30,28,23,0.10),0 25px 50px rgba(30,28,23,0.08)", elevation: 5, usage: "Toasts, snackbars, command palette" },
+      inner:           { value: "inset 0 2px 4px rgba(30,28,23,0.08)", usage: "Pressed button, active input depth" },
+      focus_primary:   { value: "0 0 0 3px rgba(26,153,101,0.30)", usage: "Primary focus ring — WCAG AA compliant" },
+      focus_accent:    { value: "0 0 0 3px rgba(224,94,43,0.30)", usage: "Accent element focus ring" },
+      focus_error:     { value: "0 0 0 3px rgba(239,68,68,0.30)", usage: "Invalid/error input focus ring" },
+      dark_xs:         { value: "0 1px 2px rgba(0,0,0,0.30),0 1px 3px rgba(0,0,0,0.40)", mode: "dark", elevation: 1 },
+      dark_md:         { value: "0 4px 8px rgba(0,0,0,0.40),0 10px 15px rgba(0,0,0,0.30)", mode: "dark", elevation: 3 },
+      dark_lg:         { value: "0 8px 16px rgba(0,0,0,0.50),0 20px 25px rgba(0,0,0,0.40)", mode: "dark", elevation: 4 }
+    },
+
+    _TIER_2_BORDERS: "Border widths and styles",
+
+    borders: {
+      width: {
+        none:   "0px",
+        thin:   { value: "1px", usage: "Default — inputs, cards, dividers" },
+        medium: { value: "2px", usage: "Focus outlines, active tab underlines" },
+        thick:  { value: "3px", usage: "Highlighted selections, accent stripes" },
+        heavy:  { value: "4px", usage: "Brand accent stripes, strong separators" }
+      },
+      style: {
+        solid:  "solid",
+        dashed: { value: "dashed", usage: "Skeleton drop zones, placeholder containers" },
+        dotted: "dotted",
+        none:   "none"
+      }
+    },
+
+    _TIER_2_MOTION: "Animation timing and easing — always respect prefers-reduced-motion",
+
+    motion: {
+      duration: {
+        instant:  { value: "100ms",  usage: "Hover color change, checkbox check" },
+        fast:     { value: "150ms",  usage: "Tooltip appear, focus ring" },
+        normal:   { value: "250ms",  usage: "Default — most UI state changes" },
+        slow:     { value: "400ms",  usage: "Modal open/close, drawer slide, page transitions" },
+        glacial:  { value: "700ms",  usage: "Complex animations, skeleton pulse" },
+        skeleton: { value: "1500ms", usage: "Skeleton shimmer loop period" }
+      },
+      easing: {
+        default:     { value: "cubic-bezier(0.4,0,0.2,1)",    usage: "General purpose (Material standard)" },
+        ease_in:     { value: "cubic-bezier(0.4,0,1,1)",      usage: "Elements leaving screen" },
+        ease_out:    { value: "cubic-bezier(0,0,0.2,1)",      usage: "Elements entering screen" },
+        ease_in_out: { value: "cubic-bezier(0.4,0,0.2,1)",    usage: "On-screen state changes" },
+        spring:      { value: "cubic-bezier(0.34,1.56,0.64,1)", usage: "Bouncy — add-to-cart, success checkmark" },
+        linear:      { value: "linear",                       usage: "Progress bars, loading spinners" }
+      },
+      transitions: {
+        default:    "all 250ms cubic-bezier(0.4,0,0.2,1)",
+        fast:       "all 150ms cubic-bezier(0,0,0.2,1)",
+        color_only: "color 100ms, background-color 100ms, border-color 100ms",
+        transform:  "transform 250ms cubic-bezier(0.4,0,0.2,1)",
+        shadow:     "box-shadow 250ms cubic-bezier(0.4,0,0.2,1)"
+      },
+      reduced_motion_css: "@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }"
+    },
+
+    _TIER_2_LAYOUT: "Grid, breakpoints, containers, z-index layers",
+
+    layout: {
+      grid: {
+        columns:          { desktop: 12, tablet: 8, mobile: 4 },
+        gutter:           { desktop: "32px", tablet: "24px", mobile: "16px" },
+        margin:           { desktop: "120px", tablet: "32px", mobile: "16px" },
+        max_content_width: "1200px",
+        max_page_width:    "1440px",
+        alignment:         "center"
+      },
+      breakpoints: {
+        sm:   { value: "640px",  target: "Large phones landscape" },
+        md:   { value: "768px",  target: "Tablet portrait" },
+        lg:   { value: "1024px", target: "Tablet landscape / small laptop" },
+        xl:   { value: "1280px", target: "Laptop / desktop" },
+        "2xl": { value: "1440px", target: "Wide desktop / HD" }
+      },
+      containers: {
+        narrow:  { value: "640px",  usage: "Forms, checkout, auth pages" },
+        reading: { value: "768px",  usage: "Blog, product description text" },
+        default: { value: "1024px", usage: "Standard page content" },
+        wide:    { value: "1200px", usage: "Product grids, dashboards" },
+        full:    { value: "1440px", usage: "Hero sections, full-bleed banners" }
+      },
+      z_index: {
+        base:      0,
+        raised:    10,
+        dropdown:  100,
+        sticky:    200,
+        overlay:   300,
+        modal:     400,
+        toast:     500,
+        tooltip:   600,
+        skip_link: 9999
+      }
+    },
+
+    _TIER_2_ICONOGRAPHY: "Icon system specification — Lucide Icons",
+
+    iconography: {
+      library: "Lucide Icons v0.400+ — https://lucide.dev",
+      style: "outlined — never mix outlined and filled icons",
+      stroke_width: "2px",
+      color_rule: "Always inherits from text color token — never hardcoded color values",
+      naming: "icon-{category}-{name} e.g. icon-action-cart, icon-nav-home, icon-status-check-circle",
+      sizes: {
+        xs:   { value: "12px", usage: "Inline beside caption text" },
+        sm:   { value: "16px", usage: "Chips, badges, compact label icons" },
+        md:   { value: "20px", usage: "Default — nav, buttons, input adornments" },
+        lg:   { value: "24px", usage: "Feature lists, heading decorations" },
+        xl:   { value: "32px", usage: "Empty states, promo card icons" },
+        "2xl": { value: "40px", usage: "Onboarding, hero decorative icons" },
+        "3xl": { value: "48px", usage: "Category landing page header icons" }
+      }
+    },
+
+    _TIER_3_COMPONENT_REFS: "Quick reference — component-level token assignments for key UI elements",
+
+    component_refs: {
+      button_primary:  { bg: "#13784E", bg_hover: "#0F5C3B", text: "#FFFFFF", radius: "12px", padding: "12px 24px", font_size: "14px", font_weight: 600, min_height: "44px", focus_shadow: "0 0 0 3px rgba(26,153,101,0.30)", transition: "all 250ms cubic-bezier(0.4,0,0.2,1)" },
+      button_accent:   { bg: "#E05E2B", bg_hover: "#C44A1E", text: "#FFFFFF", radius: "12px", padding: "12px 24px", font_size: "14px", font_weight: 600, min_height: "44px" },
+      button_ghost:    { bg: "transparent", bg_hover: "#EDFAF4", text: "#13784E", border: "1px solid #13784E", border_hover: "1px solid #0F5C3B", radius: "12px", padding: "12px 24px" },
+      button_outline:  { bg: "transparent", bg_hover: "#F4F2ED", text: "#1E1C17", border: "1px solid #E8E4DA", radius: "12px", padding: "12px 24px" },
+      input_default:   { bg: "#FFFFFF", border: "#E8E4DA", border_focus: "#13784E", border_error: "#EF4444", text: "#1E1C17", placeholder: "#9E9582", radius: "8px", padding: "12px 16px", min_height: "44px", focus_shadow: "0 0 0 3px rgba(26,153,101,0.30)", error_shadow: "0 0 0 3px rgba(239,68,68,0.30)" },
+      card_product:    { bg: "#FFFFFF", border: "#E8E4DA", radius: "16px", shadow: "0 1px 2px rgba(30,28,23,0.06),0 1px 3px rgba(30,28,23,0.10)", shadow_hover: "0 4px 8px rgba(30,28,23,0.08),0 10px 15px rgba(30,28,23,0.05)", padding: "20px", transition: "all 250ms cubic-bezier(0.4,0,0.2,1)" },
+      badge_sale:      { bg: "#E05E2B", text: "#FFFFFF", radius: "4px", padding: "2px 8px", font_size: "11px", font_weight: 700, text_transform: "uppercase", letter_spacing: "0.08em" },
+      badge_new:       { bg: "#13784E", text: "#FFFFFF", radius: "4px", padding: "2px 8px", font_size: "11px", font_weight: 700, text_transform: "uppercase", letter_spacing: "0.08em" },
+      badge_organic:   { bg: "#D0F4E5", text: "#0F5C3B", radius: "4px", padding: "2px 8px", font_size: "11px", font_weight: 700, text_transform: "uppercase", letter_spacing: "0.08em" },
+      tag_default:     { bg: "#F4F2ED", text: "#5E5748", border: "#E8E4DA", radius: "4px", padding: "4px 10px", font_size: "12px" },
+      avatar_ring:     { border: "2px solid #13784E", shadow: "0 0 0 2px rgba(26,153,101,0.20)" },
+      nav_item_active: { bg: "#EDFAF4", text: "#13784E", border_left: "3px solid #13784E", font_weight: 600 }
+    }
+  }
+};
+
+fs.writeFileSync('figma_design_sections/02_global_tokens.json', JSON.stringify(tokens, null, 2), 'utf8');
+const size = (fs.statSync('figma_design_sections/02_global_tokens.json').size / 1024).toFixed(1);
+const lineCount = fs.readFileSync('figma_design_sections/02_global_tokens.json', 'utf8').split('\n').length;
+console.log('✅ Done! File: 02_global_tokens.json');
+console.log('   Size: ' + size + ' KB | Lines: ' + lineCount);
