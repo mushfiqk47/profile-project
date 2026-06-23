@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo } from "react";
+import React, { useMemo, use } from "react";
 import Link from "next/link";
 import { Check, Clipboard, ClipboardCheck, Compass, ArrowRight, MapPin, Calendar } from "lucide-react";
 import { motion } from "framer-motion";
@@ -11,11 +11,11 @@ import { formatPrice } from "@/lib/utils";
 import { Order } from "@/lib/types";
 
 interface ConfirmationPageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 export default function ConfirmationPage({ params }: ConfirmationPageProps) {
-  const { id } = params;
+  const { id } = use(params);
   const { toast } = useToast();
   const { orders } = useUserStore();
 

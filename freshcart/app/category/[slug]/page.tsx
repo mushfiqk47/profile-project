@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, use } from "react";
 import Link from "next/link";
 import { ArrowLeft, Sparkles, Tag } from "lucide-react";
 import PageWrapper from "@/components/layout/PageWrapper";
@@ -12,11 +12,11 @@ import { Product, Category } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 interface CategoryPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export default function CategoryPage({ params }: CategoryPageProps) {
-  const { slug } = params;
+  const { slug } = use(params);
 
   // Find active category
   const category = useMemo(() => {

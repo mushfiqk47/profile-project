@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, use } from "react";
 import Link from "next/link";
 import { ArrowLeft, Check, Clock, Phone, MapPin, ChevronDown, ChevronUp, ShieldQuestion, UserCheck } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -10,11 +10,11 @@ import { cn, formatPrice } from "@/lib/utils";
 import { Order } from "@/lib/types";
 
 interface TrackPageProps {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }
 
 export default function OrderTrackingPage({ params }: TrackPageProps) {
-  const { id } = params;
+  const { id } = use(params);
   const { orders } = useUserStore();
 
   const order = useMemo(() => {

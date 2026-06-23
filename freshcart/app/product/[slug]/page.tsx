@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useMemo, useEffect, use } from "react";
 import Link from "next/link";
 import { ArrowLeft, Heart, ShoppingBag, Check, Plus, AlertCircle, ChevronDown, Star } from "lucide-react";
 import PageWrapper from "@/components/layout/PageWrapper";
@@ -18,11 +18,11 @@ import { Product } from "@/lib/types";
 import { cn, formatPrice } from "@/lib/utils";
 
 interface ProductDetailPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export default function ProductDetailPage({ params }: ProductDetailPageProps) {
-  const { slug } = params;
+  const { slug } = use(params);
   const { toast } = useToast();
 
   const product = useMemo(() => {
