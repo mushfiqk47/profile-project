@@ -1,0 +1,1819 @@
+{
+  "primitives/color": {
+    "color": {
+      "green": {
+        "50": {
+          "value": "#EDFAF4",
+          "type": "color",
+          "description": "Forest Green 50 — ultra light tint"
+        },
+        "100": {
+          "value": "#D0F4E5",
+          "type": "color",
+          "description": "Forest Green 100"
+        },
+        "200": {
+          "value": "#A1E9CC",
+          "type": "color",
+          "description": "Forest Green 200"
+        },
+        "300": {
+          "value": "#62D4A8",
+          "type": "color",
+          "description": "Forest Green 300"
+        },
+        "400": {
+          "value": "#2DB97F",
+          "type": "color",
+          "description": "Forest Green 400"
+        },
+        "500": {
+          "value": "#1A9965",
+          "type": "color",
+          "description": "Forest Green 500 — base for opacity scale"
+        },
+        "600": {
+          "value": "#13784E",
+          "type": "color",
+          "description": "Forest Green 600 — semantic primary"
+        },
+        "700": {
+          "value": "#0F5C3B",
+          "type": "color",
+          "description": "Forest Green 700 — semantic primary hover"
+        },
+        "800": {
+          "value": "#0A4028",
+          "type": "color",
+          "description": "Forest Green 800"
+        },
+        "900": {
+          "value": "#062819",
+          "type": "color",
+          "description": "Forest Green 900"
+        },
+        "950": {
+          "value": "#031410",
+          "type": "color",
+          "description": "Forest Green 950 — deepest"
+        },
+        "a05": {
+          "value": "rgba(26, 153, 101, 0.05)",
+          "type": "color",
+          "description": "Green 5% opacity"
+        },
+        "a10": {
+          "value": "rgba(26, 153, 101, 0.10)",
+          "type": "color",
+          "description": "Green 10% opacity"
+        },
+        "a15": {
+          "value": "rgba(26, 153, 101, 0.15)",
+          "type": "color",
+          "description": "Green 15% opacity"
+        },
+        "a20": {
+          "value": "rgba(26, 153, 101, 0.20)",
+          "type": "color",
+          "description": "Green 20% opacity"
+        },
+        "a25": {
+          "value": "rgba(26, 153, 101, 0.25)",
+          "type": "color",
+          "description": "Green 25% opacity"
+        },
+        "a30": {
+          "value": "rgba(26, 153, 101, 0.30)",
+          "type": "color",
+          "description": "Green 30% opacity — focus ring"
+        },
+        "a40": {
+          "value": "rgba(26, 153, 101, 0.40)",
+          "type": "color",
+          "description": "Green 40% opacity"
+        },
+        "a50": {
+          "value": "rgba(26, 153, 101, 0.50)",
+          "type": "color",
+          "description": "Green 50% opacity"
+        },
+        "a60": {
+          "value": "rgba(26, 153, 101, 0.60)",
+          "type": "color",
+          "description": "Green 60% opacity"
+        },
+        "a70": {
+          "value": "rgba(26, 153, 101, 0.70)",
+          "type": "color",
+          "description": "Green 70% opacity"
+        },
+        "a80": {
+          "value": "rgba(26, 153, 101, 0.80)",
+          "type": "color",
+          "description": "Green 80% opacity"
+        },
+        "a90": {
+          "value": "rgba(26, 153, 101, 0.90)",
+          "type": "color",
+          "description": "Green 90% opacity"
+        }
+      },
+      "terracotta": {
+        "50": {
+          "value": "#FEF4EE",
+          "type": "color",
+          "description": "Terracotta 50 — ultra light"
+        },
+        "100": {
+          "value": "#FDE3D0",
+          "type": "color",
+          "description": "Terracotta 100"
+        },
+        "200": {
+          "value": "#FAC4A0",
+          "type": "color",
+          "description": "Terracotta 200"
+        },
+        "300": {
+          "value": "#F59C6A",
+          "type": "color",
+          "description": "Terracotta 300"
+        },
+        "400": {
+          "value": "#EE7840",
+          "type": "color",
+          "description": "Terracotta 400 — dark mode accent"
+        },
+        "500": {
+          "value": "#E05E2B",
+          "type": "color",
+          "description": "Terracotta 500 — semantic accent"
+        },
+        "600": {
+          "value": "#C44A1E",
+          "type": "color",
+          "description": "Terracotta 600 — accent hover"
+        },
+        "700": {
+          "value": "#A33A16",
+          "type": "color",
+          "description": "Terracotta 700"
+        },
+        "800": {
+          "value": "#7A2C10",
+          "type": "color",
+          "description": "Terracotta 800"
+        },
+        "900": {
+          "value": "#4E1C0A",
+          "type": "color",
+          "description": "Terracotta 900"
+        },
+        "950": {
+          "value": "#290E05",
+          "type": "color",
+          "description": "Terracotta 950 — deepest"
+        },
+        "a05": {
+          "value": "rgba(224, 94, 43, 0.05)",
+          "type": "color",
+          "description": "Terracotta 5% opacity"
+        },
+        "a10": {
+          "value": "rgba(224, 94, 43, 0.10)",
+          "type": "color",
+          "description": "Terracotta 10% opacity"
+        },
+        "a15": {
+          "value": "rgba(224, 94, 43, 0.15)",
+          "type": "color",
+          "description": "Terracotta 15% opacity"
+        },
+        "a20": {
+          "value": "rgba(224, 94, 43, 0.20)",
+          "type": "color",
+          "description": "Terracotta 20% opacity"
+        },
+        "a25": {
+          "value": "rgba(224, 94, 43, 0.25)",
+          "type": "color",
+          "description": "Terracotta 25% opacity"
+        },
+        "a30": {
+          "value": "rgba(224, 94, 43, 0.30)",
+          "type": "color",
+          "description": "Terracotta 30% opacity"
+        },
+        "a40": {
+          "value": "rgba(224, 94, 43, 0.40)",
+          "type": "color",
+          "description": "Terracotta 40% opacity"
+        },
+        "a50": {
+          "value": "rgba(224, 94, 43, 0.50)",
+          "type": "color",
+          "description": "Terracotta 50% opacity"
+        },
+        "a60": {
+          "value": "rgba(224, 94, 43, 0.60)",
+          "type": "color",
+          "description": "Terracotta 60% opacity"
+        },
+        "a70": {
+          "value": "rgba(224, 94, 43, 0.70)",
+          "type": "color",
+          "description": "Terracotta 70% opacity"
+        },
+        "a80": {
+          "value": "rgba(224, 94, 43, 0.80)",
+          "type": "color",
+          "description": "Terracotta 80% opacity"
+        },
+        "a90": {
+          "value": "rgba(224, 94, 43, 0.90)",
+          "type": "color",
+          "description": "Terracotta 90% opacity"
+        }
+      },
+      "neutral": {
+        "0": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "Pure white"
+        },
+        "50": {
+          "value": "#FAF9F6",
+          "type": "color",
+          "description": "Neutral 50 — Cream Parchment page bg"
+        },
+        "100": {
+          "value": "#F4F2ED",
+          "type": "color",
+          "description": "Neutral 100 — Linen secondary bg"
+        },
+        "200": {
+          "value": "#E8E4DA",
+          "type": "color",
+          "description": "Neutral 200 — Sandstone border default"
+        },
+        "300": {
+          "value": "#D4CEC0",
+          "type": "color",
+          "description": "Neutral 300 — strong border"
+        },
+        "400": {
+          "value": "#B8B0A0",
+          "type": "color",
+          "description": "Neutral 400"
+        },
+        "500": {
+          "value": "#9E9582",
+          "type": "color",
+          "description": "Neutral 500 — Sandstone muted text"
+        },
+        "600": {
+          "value": "#7E7563",
+          "type": "color",
+          "description": "Neutral 600"
+        },
+        "700": {
+          "value": "#5E5748",
+          "type": "color",
+          "description": "Neutral 700 — Pewter secondary text"
+        },
+        "800": {
+          "value": "#403C32",
+          "type": "color",
+          "description": "Neutral 800 — dark card bg"
+        },
+        "850": {
+          "value": "#2F2C25",
+          "type": "color",
+          "description": "Neutral 850 — dark secondary bg"
+        },
+        "900": {
+          "value": "#1E1C17",
+          "type": "color",
+          "description": "Neutral 900 — Charcoal Ink primary text"
+        },
+        "950": {
+          "value": "#100F0C",
+          "type": "color",
+          "description": "Neutral 950 — near black"
+        },
+        "a05": {
+          "value": "rgba(30, 28, 23, 0.05)",
+          "type": "color",
+          "description": "Neutral 5% opacity"
+        },
+        "a08": {
+          "value": "rgba(30, 28, 23, 0.08)",
+          "type": "color",
+          "description": "Neutral 8% opacity — subtle shadow"
+        },
+        "a10": {
+          "value": "rgba(30, 28, 23, 0.10)",
+          "type": "color",
+          "description": "Neutral 10% opacity"
+        },
+        "a15": {
+          "value": "rgba(30, 28, 23, 0.15)",
+          "type": "color",
+          "description": "Neutral 15% opacity"
+        },
+        "a20": {
+          "value": "rgba(30, 28, 23, 0.20)",
+          "type": "color",
+          "description": "Neutral 20% opacity"
+        },
+        "a25": {
+          "value": "rgba(30, 28, 23, 0.25)",
+          "type": "color",
+          "description": "Neutral 25% opacity — light overlay"
+        },
+        "a30": {
+          "value": "rgba(30, 28, 23, 0.30)",
+          "type": "color",
+          "description": "Neutral 30% opacity"
+        },
+        "a40": {
+          "value": "rgba(30, 28, 23, 0.40)",
+          "type": "color",
+          "description": "Neutral 40% opacity"
+        },
+        "a50": {
+          "value": "rgba(30, 28, 23, 0.50)",
+          "type": "color",
+          "description": "Neutral 50% opacity"
+        },
+        "a60": {
+          "value": "rgba(30, 28, 23, 0.60)",
+          "type": "color",
+          "description": "Neutral 60% opacity — modal scrim"
+        },
+        "a70": {
+          "value": "rgba(30, 28, 23, 0.70)",
+          "type": "color",
+          "description": "Neutral 70% opacity"
+        },
+        "a80": {
+          "value": "rgba(30, 28, 23, 0.80)",
+          "type": "color",
+          "description": "Neutral 80% opacity"
+        },
+        "a90": {
+          "value": "rgba(30, 28, 23, 0.90)",
+          "type": "color",
+          "description": "Neutral 90% opacity"
+        }
+      },
+      "red": {
+        "50": {
+          "value": "#FEF2F2",
+          "type": "color"
+        },
+        "100": {
+          "value": "#FEE2E1",
+          "type": "color"
+        },
+        "200": {
+          "value": "#FECACA",
+          "type": "color"
+        },
+        "300": {
+          "value": "#FCA5A4",
+          "type": "color",
+          "description": "Red 300 — error border"
+        },
+        "400": {
+          "value": "#F87070",
+          "type": "color"
+        },
+        "500": {
+          "value": "#EF4444",
+          "type": "color",
+          "description": "Red 500 — error default"
+        },
+        "600": {
+          "value": "#DC2626",
+          "type": "color"
+        },
+        "700": {
+          "value": "#B91C1C",
+          "type": "color",
+          "description": "Red 700 — error text"
+        },
+        "800": {
+          "value": "#991B1B",
+          "type": "color"
+        },
+        "900": {
+          "value": "#7F1D1D",
+          "type": "color"
+        },
+        "950": {
+          "value": "#450A0A",
+          "type": "color"
+        },
+        "a10": {
+          "value": "rgba(239, 68, 68, 0.10)",
+          "type": "color"
+        },
+        "a15": {
+          "value": "rgba(239, 68, 68, 0.15)",
+          "type": "color",
+          "description": "Red 15% — error tint overlay"
+        },
+        "a20": {
+          "value": "rgba(239, 68, 68, 0.20)",
+          "type": "color"
+        },
+        "a30": {
+          "value": "rgba(239, 68, 68, 0.30)",
+          "type": "color",
+          "description": "Red 30% — error focus ring"
+        },
+        "a50": {
+          "value": "rgba(239, 68, 68, 0.50)",
+          "type": "color"
+        }
+      },
+      "amber": {
+        "50": {
+          "value": "#FFFBEB",
+          "type": "color"
+        },
+        "100": {
+          "value": "#FEF3C7",
+          "type": "color"
+        },
+        "200": {
+          "value": "#FDE68A",
+          "type": "color"
+        },
+        "300": {
+          "value": "#FCD34D",
+          "type": "color",
+          "description": "Amber 300 — warning border"
+        },
+        "400": {
+          "value": "#FBBF24",
+          "type": "color"
+        },
+        "500": {
+          "value": "#F59E0B",
+          "type": "color",
+          "description": "Amber 500 — warning default"
+        },
+        "600": {
+          "value": "#D97706",
+          "type": "color"
+        },
+        "700": {
+          "value": "#B45309",
+          "type": "color"
+        },
+        "800": {
+          "value": "#92400E",
+          "type": "color",
+          "description": "Amber 800 — warning text"
+        },
+        "900": {
+          "value": "#78350F",
+          "type": "color"
+        },
+        "950": {
+          "value": "#451A03",
+          "type": "color"
+        },
+        "a10": {
+          "value": "rgba(245, 158, 11, 0.10)",
+          "type": "color"
+        },
+        "a15": {
+          "value": "rgba(245, 158, 11, 0.15)",
+          "type": "color",
+          "description": "Amber 15% — warning tint"
+        },
+        "a20": {
+          "value": "rgba(245, 158, 11, 0.20)",
+          "type": "color"
+        },
+        "a30": {
+          "value": "rgba(245, 158, 11, 0.30)",
+          "type": "color"
+        },
+        "a50": {
+          "value": "rgba(245, 158, 11, 0.50)",
+          "type": "color"
+        }
+      },
+      "blue": {
+        "50": {
+          "value": "#EFF6FF",
+          "type": "color"
+        },
+        "100": {
+          "value": "#DBEAFE",
+          "type": "color"
+        },
+        "200": {
+          "value": "#BFDBFE",
+          "type": "color"
+        },
+        "300": {
+          "value": "#93C5FD",
+          "type": "color",
+          "description": "Blue 300 — info border"
+        },
+        "400": {
+          "value": "#60A5FA",
+          "type": "color"
+        },
+        "500": {
+          "value": "#3B82F6",
+          "type": "color",
+          "description": "Blue 500 — info default"
+        },
+        "600": {
+          "value": "#2563EB",
+          "type": "color"
+        },
+        "700": {
+          "value": "#1D4ED8",
+          "type": "color",
+          "description": "Blue 700 — info text"
+        },
+        "800": {
+          "value": "#1E40AF",
+          "type": "color"
+        },
+        "900": {
+          "value": "#1E3A8A",
+          "type": "color"
+        },
+        "950": {
+          "value": "#172554",
+          "type": "color"
+        },
+        "a10": {
+          "value": "rgba(59, 130, 246, 0.10)",
+          "type": "color"
+        },
+        "a15": {
+          "value": "rgba(59, 130, 246, 0.15)",
+          "type": "color",
+          "description": "Blue 15% — info tint"
+        },
+        "a20": {
+          "value": "rgba(59, 130, 246, 0.20)",
+          "type": "color"
+        },
+        "a30": {
+          "value": "rgba(59, 130, 246, 0.30)",
+          "type": "color"
+        },
+        "a50": {
+          "value": "rgba(59, 130, 246, 0.50)",
+          "type": "color"
+        }
+      },
+      "white": {
+        "a05": {
+          "value": "rgba(255, 255, 255, 0.05)",
+          "type": "color"
+        },
+        "a10": {
+          "value": "rgba(255, 255, 255, 0.10)",
+          "type": "color"
+        },
+        "a15": {
+          "value": "rgba(255, 255, 255, 0.15)",
+          "type": "color"
+        },
+        "a20": {
+          "value": "rgba(255, 255, 255, 0.20)",
+          "type": "color"
+        },
+        "a25": {
+          "value": "rgba(255, 255, 255, 0.25)",
+          "type": "color"
+        },
+        "a30": {
+          "value": "rgba(255, 255, 255, 0.30)",
+          "type": "color"
+        },
+        "a40": {
+          "value": "rgba(255, 255, 255, 0.40)",
+          "type": "color"
+        },
+        "a50": {
+          "value": "rgba(255, 255, 255, 0.50)",
+          "type": "color"
+        },
+        "a60": {
+          "value": "rgba(255, 255, 255, 0.60)",
+          "type": "color"
+        },
+        "a70": {
+          "value": "rgba(255, 255, 255, 0.70)",
+          "type": "color"
+        },
+        "a80": {
+          "value": "rgba(255, 255, 255, 0.80)",
+          "type": "color"
+        },
+        "a90": {
+          "value": "rgba(255, 255, 255, 0.90)",
+          "type": "color"
+        },
+        "a95": {
+          "value": "rgba(255, 255, 255, 0.95)",
+          "type": "color"
+        }
+      },
+      "black": {
+        "a03": {
+          "value": "rgba(0, 0, 0, 0.03)",
+          "type": "color"
+        },
+        "a05": {
+          "value": "rgba(0, 0, 0, 0.05)",
+          "type": "color"
+        },
+        "a08": {
+          "value": "rgba(0, 0, 0, 0.08)",
+          "type": "color"
+        },
+        "a10": {
+          "value": "rgba(0, 0, 0, 0.10)",
+          "type": "color"
+        },
+        "a15": {
+          "value": "rgba(0, 0, 0, 0.15)",
+          "type": "color"
+        },
+        "a20": {
+          "value": "rgba(0, 0, 0, 0.20)",
+          "type": "color"
+        },
+        "a25": {
+          "value": "rgba(0, 0, 0, 0.25)",
+          "type": "color"
+        },
+        "a30": {
+          "value": "rgba(0, 0, 0, 0.30)",
+          "type": "color"
+        },
+        "a40": {
+          "value": "rgba(0, 0, 0, 0.40)",
+          "type": "color"
+        },
+        "a50": {
+          "value": "rgba(0, 0, 0, 0.50)",
+          "type": "color"
+        },
+        "a60": {
+          "value": "rgba(0, 0, 0, 0.60)",
+          "type": "color"
+        },
+        "a70": {
+          "value": "rgba(0, 0, 0, 0.70)",
+          "type": "color"
+        },
+        "a80": {
+          "value": "rgba(0, 0, 0, 0.80)",
+          "type": "color"
+        },
+        "a90": {
+          "value": "rgba(0, 0, 0, 0.90)",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "semantic/color/light": {
+    "color": {
+      "primary": {
+        "default": {
+          "value": "{primitives.color.green.600}",
+          "type": "color",
+          "description": "Brand primary — CTA, nav active, button fill. WCAG AA 6.1:1 on white ✓"
+        },
+        "hover": {
+          "value": "{primitives.color.green.700}",
+          "type": "color",
+          "description": "Primary hover/pressed — 1 stop darker"
+        },
+        "light": {
+          "value": "{primitives.color.green.100}",
+          "type": "color",
+          "description": "Selected state bg, tag fill, info zone bg"
+        },
+        "subtle": {
+          "value": "{primitives.color.green.50}",
+          "type": "color",
+          "description": "Ghost hover bg, ultra-light tint"
+        },
+        "alpha10": {
+          "value": "{primitives.color.green.a10}",
+          "type": "color",
+          "description": "Checkbox ring, glow indicators"
+        },
+        "alpha20": {
+          "value": "{primitives.color.green.a20}",
+          "type": "color",
+          "description": "Selected row highlight"
+        },
+        "alpha30": {
+          "value": "{primitives.color.green.a30}",
+          "type": "color",
+          "description": "Focus ring color — applied as box-shadow"
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{primitives.color.terracotta.500}",
+          "type": "color",
+          "description": "Accent — promotions, sale badges, highlights. Max 10% density."
+        },
+        "hover": {
+          "value": "{primitives.color.terracotta.600}",
+          "type": "color",
+          "description": "Accent hover/pressed"
+        },
+        "light": {
+          "value": "{primitives.color.terracotta.100}",
+          "type": "color",
+          "description": "Promo banner bg, warm notification surface"
+        },
+        "subtle": {
+          "value": "{primitives.color.terracotta.50}",
+          "type": "color",
+          "description": "Promo callout chip background"
+        },
+        "alpha10": {
+          "value": "{primitives.color.terracotta.a10}",
+          "type": "color",
+          "description": "Badge outline fill, glow"
+        },
+        "alpha20": {
+          "value": "{primitives.color.terracotta.a20}",
+          "type": "color",
+          "description": "Hover ripple on promo cards"
+        }
+      },
+      "bg": {
+        "primary": {
+          "value": "{primitives.color.neutral.50}",
+          "type": "color",
+          "description": "Page canvas — Cream Parchment. Warm, not clinical white."
+        },
+        "secondary": {
+          "value": "{primitives.color.neutral.100}",
+          "type": "color",
+          "description": "Sidebar, footer, alternate table rows — Linen"
+        },
+        "card": {
+          "value": "{primitives.color.neutral.0}",
+          "type": "color",
+          "description": "Product cards, modals, popovers, dropdowns"
+        },
+        "overlay": {
+          "value": "{primitives.color.neutral.a60}",
+          "type": "color",
+          "description": "Modal scrim / drawer overlay"
+        },
+        "overlay-light": {
+          "value": "{primitives.color.neutral.a25}",
+          "type": "color",
+          "description": "Tooltip, sticky dropdown overlay"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "{primitives.color.neutral.900}",
+          "type": "color",
+          "description": "Main body text — Charcoal Ink. WCAG AAA 14.8:1 ✓. Never #000000."
+        },
+        "secondary": {
+          "value": "{primitives.color.neutral.700}",
+          "type": "color",
+          "description": "Subheadings, metadata, dates — Pewter. WCAG AA 5.4:1 ✓"
+        },
+        "muted": {
+          "value": "{primitives.color.neutral.500}",
+          "type": "color",
+          "description": "Placeholder, disabled (large text only). 2.8:1 — decorative use only."
+        },
+        "link": {
+          "value": "{primitives.color.green.600}",
+          "type": "color",
+          "description": "Hyperlinks — matches primary"
+        },
+        "onPrimary": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "Text/icons on primary-colored bg. 6.1:1 ✓"
+        },
+        "onAccent": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "Text/icons on accent-colored bg. 3.4:1 large ✓"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{primitives.color.neutral.200}",
+          "type": "color",
+          "description": "Dividers, input strokes at rest, card separators"
+        },
+        "strong": {
+          "value": "{primitives.color.neutral.300}",
+          "type": "color",
+          "description": "Strong dividers, pressed inputs"
+        },
+        "focus": {
+          "value": "{primitives.color.green.600}",
+          "type": "color",
+          "description": "Input focus border — matches primary"
+        }
+      },
+      "feedback": {
+        "success": {
+          "default": {
+            "value": "{primitives.color.green.500}",
+            "type": "color",
+            "description": "Success icon + text on light bg"
+          },
+          "bg": {
+            "value": "{primitives.color.green.50}",
+            "type": "color",
+            "description": "Success banner background"
+          },
+          "bgStrong": {
+            "value": "{primitives.color.green.100}",
+            "type": "color",
+            "description": "Vivid success surface"
+          },
+          "text": {
+            "value": "{primitives.color.green.700}",
+            "type": "color",
+            "description": "Success text on success-bg. 7.2:1 AAA ✓"
+          },
+          "border": {
+            "value": "{primitives.color.green.300}",
+            "type": "color",
+            "description": "Success border stroke"
+          },
+          "alpha15": {
+            "value": "{primitives.color.green.a15}",
+            "type": "color",
+            "description": "Success tint overlay on image/surface"
+          }
+        },
+        "error": {
+          "default": {
+            "value": "{primitives.color.red.500}",
+            "type": "color",
+            "description": "Error icon + inline text"
+          },
+          "bg": {
+            "value": "{primitives.color.red.50}",
+            "type": "color",
+            "description": "Error banner background"
+          },
+          "bgStrong": {
+            "value": "{primitives.color.red.100}",
+            "type": "color",
+            "description": "Vivid error surface"
+          },
+          "text": {
+            "value": "{primitives.color.red.700}",
+            "type": "color",
+            "description": "Error text on error-bg. 6.8:1 AA ✓"
+          },
+          "border": {
+            "value": "{primitives.color.red.300}",
+            "type": "color",
+            "description": "Error input border"
+          },
+          "alpha15": {
+            "value": "{primitives.color.red.a15}",
+            "type": "color",
+            "description": "Error tint overlay"
+          }
+        },
+        "warning": {
+          "default": {
+            "value": "{primitives.color.amber.500}",
+            "type": "color",
+            "description": "Warning icon"
+          },
+          "bg": {
+            "value": "{primitives.color.amber.50}",
+            "type": "color",
+            "description": "Warning banner background"
+          },
+          "bgStrong": {
+            "value": "{primitives.color.amber.100}",
+            "type": "color",
+            "description": "Vivid warning surface"
+          },
+          "text": {
+            "value": "{primitives.color.amber.800}",
+            "type": "color",
+            "description": "Warning text. 5.7:1 AA ✓"
+          },
+          "border": {
+            "value": "{primitives.color.amber.300}",
+            "type": "color",
+            "description": "Warning border"
+          },
+          "alpha15": {
+            "value": "{primitives.color.amber.a15}",
+            "type": "color",
+            "description": "Warning tint overlay"
+          }
+        },
+        "info": {
+          "default": {
+            "value": "{primitives.color.blue.500}",
+            "type": "color",
+            "description": "Info icon"
+          },
+          "bg": {
+            "value": "{primitives.color.blue.50}",
+            "type": "color",
+            "description": "Info banner background"
+          },
+          "bgStrong": {
+            "value": "{primitives.color.blue.100}",
+            "type": "color",
+            "description": "Vivid info surface"
+          },
+          "text": {
+            "value": "{primitives.color.blue.700}",
+            "type": "color",
+            "description": "Info text. 5.9:1 AA ✓"
+          },
+          "border": {
+            "value": "{primitives.color.blue.300}",
+            "type": "color",
+            "description": "Info border"
+          },
+          "alpha15": {
+            "value": "{primitives.color.blue.a15}",
+            "type": "color",
+            "description": "Info tint overlay"
+          }
+        }
+      }
+    }
+  },
+  "semantic/color/dark": {
+    "color": {
+      "primary": {
+        "default": {
+          "value": "{primitives.color.green.400}",
+          "type": "color",
+          "description": "Dark mode CTA — lighter for contrast on dark bg"
+        },
+        "hover": {
+          "value": "{primitives.color.green.300}",
+          "type": "color",
+          "description": "Dark mode primary hover"
+        },
+        "light": {
+          "value": "{primitives.color.green.900}",
+          "type": "color",
+          "description": "Dark mode primary light — very dark tint"
+        },
+        "subtle": {
+          "value": "{primitives.color.green.950}",
+          "type": "color",
+          "description": "Dark mode primary subtle"
+        }
+      },
+      "accent": {
+        "default": {
+          "value": "{primitives.color.terracotta.400}",
+          "type": "color",
+          "description": "Dark mode accent — lighter terracotta"
+        },
+        "hover": {
+          "value": "{primitives.color.terracotta.300}",
+          "type": "color",
+          "description": "Dark mode accent hover"
+        }
+      },
+      "bg": {
+        "primary": {
+          "value": "{primitives.color.neutral.900}",
+          "type": "color",
+          "description": "Dark page bg — Charcoal, NOT pure #000"
+        },
+        "secondary": {
+          "value": "{primitives.color.neutral.850}",
+          "type": "color",
+          "description": "Dark sidebar, footer"
+        },
+        "card": {
+          "value": "{primitives.color.neutral.800}",
+          "type": "color",
+          "description": "Dark card surface — elevated above bg"
+        },
+        "overlay": {
+          "value": "rgba(10, 9, 7, 0.75)",
+          "type": "color",
+          "description": "Dark mode modal scrim — deeper black"
+        },
+        "overlay-light": {
+          "value": "rgba(10, 9, 7, 0.50)",
+          "type": "color",
+          "description": "Dark light overlay"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "{primitives.color.neutral.50}",
+          "type": "color",
+          "description": "Dark text — warm off-white, NOT #FFFFFF"
+        },
+        "secondary": {
+          "value": "{primitives.color.neutral.300}",
+          "type": "color",
+          "description": "Dark secondary text"
+        },
+        "muted": {
+          "value": "{primitives.color.neutral.500}",
+          "type": "color",
+          "description": "Dark muted text — same stop as light mode"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{primitives.color.neutral.700}",
+          "type": "color",
+          "description": "Dark border — subtle separation"
+        },
+        "strong": {
+          "value": "{primitives.color.neutral.600}",
+          "type": "color",
+          "description": "Dark strong border"
+        },
+        "focus": {
+          "value": "{primitives.color.green.400}",
+          "type": "color",
+          "description": "Dark mode focus border"
+        }
+      }
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "heading": {
+        "value": "DM Serif Display",
+        "type": "fontFamilies",
+        "description": "Editorial serif — brand authority. Pair with body for contrast."
+      },
+      "body": {
+        "value": "DM Sans",
+        "type": "fontFamilies",
+        "description": "Geometric humanist sans — all UI text, labels, CTAs."
+      },
+      "mono": {
+        "value": "DM Mono",
+        "type": "fontFamilies",
+        "description": "Monospace — promo codes, order IDs, tracking numbers."
+      }
+    },
+    "fontWeight": {
+      "light": {
+        "value": "300",
+        "type": "fontWeights",
+        "description": "Hero sub-copy — decoration only"
+      },
+      "regular": {
+        "value": "400",
+        "type": "fontWeights",
+        "description": "Default body text"
+      },
+      "medium": {
+        "value": "500",
+        "type": "fontWeights",
+        "description": "Emphasized labels, active nav links"
+      },
+      "semibold": {
+        "value": "600",
+        "type": "fontWeights",
+        "description": "H3-H4, card titles, button text"
+      },
+      "bold": {
+        "value": "700",
+        "type": "fontWeights",
+        "description": "H1-H2 (DM Sans), price tags, strong CTA"
+      }
+    },
+    "fontSize": {
+      "11": {
+        "value": "11",
+        "type": "fontSizes",
+        "description": "Overline — always uppercase"
+      },
+      "12": {
+        "value": "12",
+        "type": "fontSizes",
+        "description": "Caption, label-small"
+      },
+      "14": {
+        "value": "14",
+        "type": "fontSizes",
+        "description": "Body-small, label, price-strike"
+      },
+      "16": {
+        "value": "16",
+        "type": "fontSizes",
+        "description": "Body — never below this for paragraphs"
+      },
+      "18": {
+        "value": "18",
+        "type": "fontSizes",
+        "description": "Body-large, H4"
+      },
+      "20": {
+        "value": "20",
+        "type": "fontSizes",
+        "description": "Price display"
+      },
+      "22": {
+        "value": "22",
+        "type": "fontSizes",
+        "description": "H3 desktop"
+      },
+      "28": {
+        "value": "28",
+        "type": "fontSizes",
+        "description": "H2 desktop"
+      },
+      "36": {
+        "value": "36",
+        "type": "fontSizes",
+        "description": "H1 desktop"
+      },
+      "48": {
+        "value": "48",
+        "type": "fontSizes",
+        "description": "Display-small desktop"
+      },
+      "64": {
+        "value": "64",
+        "type": "fontSizes",
+        "description": "Display-large desktop"
+      }
+    },
+    "lineHeight": {
+      "none": {
+        "value": "100%",
+        "type": "lineHeights"
+      },
+      "tight": {
+        "value": "110%",
+        "type": "lineHeights",
+        "description": "Display text"
+      },
+      "snug": {
+        "value": "120%",
+        "type": "lineHeights",
+        "description": "Large headings"
+      },
+      "normal": {
+        "value": "133%",
+        "type": "lineHeights",
+        "description": "Headings H3-H4"
+      },
+      "relaxed": {
+        "value": "143%",
+        "type": "lineHeights",
+        "description": "Body-small, label"
+      },
+      "loose": {
+        "value": "150%",
+        "type": "lineHeights",
+        "description": "Body standard"
+      },
+      "spacious": {
+        "value": "156%",
+        "type": "lineHeights",
+        "description": "Body-large"
+      }
+    },
+    "letterSpacing": {
+      "tightest": {
+        "value": "-3%",
+        "type": "letterSpacing",
+        "description": "Display-large (-0.03em)"
+      },
+      "tighter": {
+        "value": "-2%",
+        "type": "letterSpacing",
+        "description": "Display-small, H1 (-0.02em)"
+      },
+      "tight": {
+        "value": "-1.5%",
+        "type": "letterSpacing",
+        "description": "H2 (-0.015em)"
+      },
+      "snug": {
+        "value": "-1%",
+        "type": "letterSpacing",
+        "description": "H3 (-0.01em), price"
+      },
+      "normal": {
+        "value": "0%",
+        "type": "letterSpacing",
+        "description": "Body, labels — no tracking"
+      },
+      "wide": {
+        "value": "1%",
+        "type": "letterSpacing",
+        "description": "Caption (0.01em)"
+      },
+      "wider": {
+        "value": "8%",
+        "type": "letterSpacing",
+        "description": "Overline (0.08em) — always uppercase"
+      }
+    },
+    "typography": {
+      "displayLarge": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.heading}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "fontSize": "{typography.fontSize.64}",
+          "lineHeight": "{typography.lineHeight.tight}",
+          "letterSpacing": "{typography.letterSpacing.tightest}"
+        },
+        "type": "typography",
+        "description": "Hero banner headline — massive editorial statement"
+      },
+      "displaySmall": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.heading}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "fontSize": "{typography.fontSize.48}",
+          "lineHeight": "{typography.lineHeight.snug}",
+          "letterSpacing": "{typography.letterSpacing.tighter}"
+        },
+        "type": "typography",
+        "description": "Section hero, feature intro title"
+      },
+      "heading1": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.heading}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "fontSize": "{typography.fontSize.36}",
+          "lineHeight": "{typography.lineHeight.snug}",
+          "letterSpacing": "{typography.letterSpacing.tighter}"
+        },
+        "type": "typography",
+        "description": "Page-level title — Shop All, Cart Summary"
+      },
+      "heading2": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.heading}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "fontSize": "{typography.fontSize.28}",
+          "lineHeight": "{typography.lineHeight.normal}",
+          "letterSpacing": "{typography.letterSpacing.tight}"
+        },
+        "type": "typography",
+        "description": "Category section headers, major card groups"
+      },
+      "heading3": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.semibold}",
+          "fontSize": "{typography.fontSize.22}",
+          "lineHeight": "{typography.lineHeight.normal}",
+          "letterSpacing": "{typography.letterSpacing.snug}"
+        },
+        "type": "typography",
+        "description": "Subsection headers, widget titles"
+      },
+      "heading4": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.semibold}",
+          "fontSize": "{typography.fontSize.18}",
+          "lineHeight": "{typography.lineHeight.normal}",
+          "letterSpacing": "{typography.letterSpacing.normal}"
+        },
+        "type": "typography",
+        "description": "Card titles, accordion headers, table col headers"
+      },
+      "bodyLarge": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "fontSize": "{typography.fontSize.18}",
+          "lineHeight": "{typography.lineHeight.spacious}",
+          "letterSpacing": "{typography.letterSpacing.normal}"
+        },
+        "type": "typography",
+        "description": "Hero subtitle, feature description, lead paragraph"
+      },
+      "body": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "fontSize": "{typography.fontSize.16}",
+          "lineHeight": "{typography.lineHeight.loose}",
+          "letterSpacing": "{typography.letterSpacing.normal}"
+        },
+        "type": "typography",
+        "description": "Standard body — never below 16px for paragraphs"
+      },
+      "bodySmall": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "fontSize": "{typography.fontSize.14}",
+          "lineHeight": "{typography.lineHeight.relaxed}",
+          "letterSpacing": "{typography.letterSpacing.normal}"
+        },
+        "type": "typography",
+        "description": "Product descriptions, secondary meta, help text"
+      },
+      "label": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.semibold}",
+          "fontSize": "{typography.fontSize.14}",
+          "lineHeight": "{typography.lineHeight.relaxed}",
+          "letterSpacing": "{typography.letterSpacing.normal}"
+        },
+        "type": "typography",
+        "description": "Button text, form labels, nav links, chip text"
+      },
+      "labelSmall": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.semibold}",
+          "fontSize": "{typography.fontSize.12}",
+          "lineHeight": "{typography.lineHeight.normal}",
+          "letterSpacing": "{typography.letterSpacing.normal}"
+        },
+        "type": "typography",
+        "description": "Small buttons, badge labels, icon labels"
+      },
+      "caption": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.regular}",
+          "fontSize": "{typography.fontSize.12}",
+          "lineHeight": "{typography.lineHeight.normal}",
+          "letterSpacing": "{typography.letterSpacing.wide}"
+        },
+        "type": "typography",
+        "description": "Helper text, timestamps, captions, footnotes"
+      },
+      "overline": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.bold}",
+          "fontSize": "{typography.fontSize.11}",
+          "lineHeight": "{typography.lineHeight.normal}",
+          "letterSpacing": "{typography.letterSpacing.wider}"
+        },
+        "type": "typography",
+        "description": "Category eyebrows — FRESH ARRIVALS, ON SALE. Always uppercase."
+      },
+      "price": {
+        "value": {
+          "fontFamily": "{typography.fontFamily.body}",
+          "fontWeight": "{typography.fontWeight.bold}",
+          "fontSize": "{typography.fontSize.20}",
+          "lineHeight": "{typography.lineHeight.snug}",
+          "letterSpacing": "{typography.letterSpacing.snug}"
+        },
+        "type": "typography",
+        "description": "Product price — bold, prominent, never < 18px"
+      }
+    }
+  },
+  "spacing": {
+    "spacing": {
+      "0": {
+        "value": "0",
+        "type": "spacing",
+        "description": "Zero"
+      },
+      "1": {
+        "value": "4",
+        "type": "spacing",
+        "description": "xs — 4px icon padding"
+      },
+      "2": {
+        "value": "8",
+        "type": "spacing",
+        "description": "sm — 8px tight gap"
+      },
+      "3": {
+        "value": "12",
+        "type": "spacing",
+        "description": "12px form gaps"
+      },
+      "4": {
+        "value": "16",
+        "type": "spacing",
+        "description": "md — 16px standard padding"
+      },
+      "5": {
+        "value": "20",
+        "type": "spacing",
+        "description": "20px card padding"
+      },
+      "6": {
+        "value": "24",
+        "type": "spacing",
+        "description": "lg — 24px component gap"
+      },
+      "7": {
+        "value": "28",
+        "type": "spacing",
+        "description": "28px between card groups"
+      },
+      "8": {
+        "value": "32",
+        "type": "spacing",
+        "description": "xl — 32px section padding"
+      },
+      "9": {
+        "value": "36",
+        "type": "spacing",
+        "description": "36px generous gap"
+      },
+      "10": {
+        "value": "40",
+        "type": "spacing",
+        "description": "40px section margins"
+      },
+      "12": {
+        "value": "48",
+        "type": "spacing",
+        "description": "2xl — 48px major separation"
+      },
+      "14": {
+        "value": "56",
+        "type": "spacing",
+        "description": "56px nav height"
+      },
+      "16": {
+        "value": "64",
+        "type": "spacing",
+        "description": "3xl — 64px page rhythm"
+      },
+      "20": {
+        "value": "80",
+        "type": "spacing",
+        "description": "80px hero padding"
+      },
+      "24": {
+        "value": "96",
+        "type": "spacing",
+        "description": "96px full section gap"
+      },
+      "32": {
+        "value": "128",
+        "type": "spacing",
+        "description": "128px max structural gap"
+      }
+    }
+  },
+  "borderRadius": {
+    "borderRadius": {
+      "none": {
+        "value": "0",
+        "type": "borderRadius",
+        "description": "Sharp — tables, image crops"
+      },
+      "xs": {
+        "value": "2",
+        "type": "borderRadius",
+        "description": "Hairline — nested inner elements"
+      },
+      "sm": {
+        "value": "4",
+        "type": "borderRadius",
+        "description": "Chips, small badges, tags"
+      },
+      "md": {
+        "value": "8",
+        "type": "borderRadius",
+        "description": "Default — inputs, small buttons"
+      },
+      "lg": {
+        "value": "12",
+        "type": "borderRadius",
+        "description": "Standard product cards, modals"
+      },
+      "xl": {
+        "value": "16",
+        "type": "borderRadius",
+        "description": "Large cards, hero sections"
+      },
+      "2xl": {
+        "value": "20",
+        "type": "borderRadius",
+        "description": "Promotional banners, feature cards"
+      },
+      "3xl": {
+        "value": "24",
+        "type": "borderRadius",
+        "description": "Bottom sheets, large dialogs"
+      },
+      "full": {
+        "value": "9999",
+        "type": "borderRadius",
+        "description": "Pills — rounded buttons, search bar"
+      }
+    }
+  },
+  "elevation": {
+    "boxShadow": {
+      "none": {
+        "value": "none",
+        "type": "boxShadow",
+        "description": "Level 0 — flat"
+      },
+      "xs": {
+        "value": [
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.06)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "3",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.10)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Level 1 — cards at rest, header"
+      },
+      "sm": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.08)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "6",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.06)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Level 2 — sticky nav, dropdowns"
+      },
+      "md": {
+        "value": [
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.08)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "10",
+            "blur": "15",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.05)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Level 3 — product card hover, popovers"
+      },
+      "lg": {
+        "value": [
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "16",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.08)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "20",
+            "blur": "25",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.04)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Level 4 — modals, cart drawer"
+      },
+      "xl": {
+        "value": [
+          {
+            "x": "0",
+            "y": "12",
+            "blur": "24",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.10)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "25",
+            "blur": "50",
+            "spread": "0",
+            "color": "rgba(30,28,23,0.08)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Level 5 — toasts, snackbars"
+      },
+      "inner": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba(30,28,23,0.08)",
+          "type": "innerShadow"
+        },
+        "type": "boxShadow",
+        "description": "Inset — pressed button, active input"
+      },
+      "focusPrimary": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "rgba(26,153,101,0.30)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Primary focus ring — WCAG AA compliant"
+      },
+      "focusAccent": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "rgba(224,94,43,0.30)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Accent element focus ring"
+      },
+      "focusError": {
+        "value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "3",
+          "color": "rgba(239,68,68,0.30)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow",
+        "description": "Error/invalid input focus ring"
+      }
+    }
+  },
+  "motion": {
+    "duration": {
+      "instant": {
+        "value": "100",
+        "type": "other",
+        "description": "ms — hover color, checkbox"
+      },
+      "fast": {
+        "value": "150",
+        "type": "other",
+        "description": "ms — tooltips, focus rings"
+      },
+      "normal": {
+        "value": "250",
+        "type": "other",
+        "description": "ms — default UI transitions"
+      },
+      "slow": {
+        "value": "400",
+        "type": "other",
+        "description": "ms — modal, drawer, page"
+      },
+      "glacial": {
+        "value": "700",
+        "type": "other",
+        "description": "ms — complex animations"
+      },
+      "skeleton": {
+        "value": "1500",
+        "type": "other",
+        "description": "ms — skeleton shimmer loop"
+      }
+    },
+    "easing": {
+      "default": {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "other",
+        "description": "General purpose (Material standard)"
+      },
+      "easeIn": {
+        "value": "cubic-bezier(0.4, 0, 1, 1)",
+        "type": "other",
+        "description": "Elements exiting screen"
+      },
+      "easeOut": {
+        "value": "cubic-bezier(0, 0, 0.2, 1)",
+        "type": "other",
+        "description": "Elements entering screen"
+      },
+      "easeInOut": {
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "type": "other",
+        "description": "On-screen state changes"
+      },
+      "spring": {
+        "value": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+        "type": "other",
+        "description": "Bouncy — add-to-cart, success checkmark"
+      },
+      "linear": {
+        "value": "linear",
+        "type": "other",
+        "description": "Progress bars, spinners"
+      }
+    }
+  },
+  "$metadata": {
+    "tokenSetOrder": [
+      "primitives/color",
+      "semantic/color/light",
+      "typography",
+      "spacing",
+      "borderRadius",
+      "elevation",
+      "motion"
+    ]
+  },
+  "$themes": [
+    {
+      "id": "light",
+      "name": "Light Mode",
+      "selectedTokenSets": {
+        "primitives/color": "enabled",
+        "semantic/color/light": "enabled",
+        "semantic/color/dark": "disabled",
+        "typography": "enabled",
+        "spacing": "enabled",
+        "borderRadius": "enabled",
+        "elevation": "enabled",
+        "motion": "enabled"
+      },
+      "group": "Theme"
+    },
+    {
+      "id": "dark",
+      "name": "Dark Mode",
+      "selectedTokenSets": {
+        "primitives/color": "enabled",
+        "semantic/color/light": "enabled",
+        "semantic/color/dark": "enabled",
+        "typography": "enabled",
+        "spacing": "enabled",
+        "borderRadius": "enabled",
+        "elevation": "enabled",
+        "motion": "enabled"
+      },
+      "group": "Theme"
+    }
+  ]
+}
