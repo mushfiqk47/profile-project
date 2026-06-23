@@ -1,0 +1,254 @@
+{
+  "_section": "Hero Banner Block",
+  "_description": "Layout specification for the \"Hero Banner Block\" frame/group.",
+  "_parent": "figma_layout",
+  "_childIndex": 1,
+  "component": {
+    "id": "frame_hero_section",
+    "name": "Hero Banner Block",
+    "type": "FRAME",
+    "dimensions": {
+      "x": 0,
+      "y": 80,
+      "width": 1440,
+      "height": 480
+    },
+    "layout_properties": {
+      "layoutMode": "HORIZONTAL",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "paddingLeft": 120,
+      "paddingRight": 120,
+      "paddingTop": 64,
+      "paddingBottom": 64,
+      "itemSpacing": 64
+    },
+    "fill": "#13382B",
+    "children": [
+      {
+        "id": "frame_hero_copy_container",
+        "name": "Hero Text & Callouts Block",
+        "type": "FRAME",
+        "dimensions": {
+          "x": 120,
+          "y": 144,
+          "width": 620,
+          "height": 352
+        },
+        "layout_properties": {
+          "layoutMode": "VERTICAL",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "itemSpacing": 24
+        },
+        "fill": "transparent",
+        "children": [
+          {
+            "id": "text_hero_eyebrow",
+            "name": "Hero Eyebrow Label",
+            "type": "TEXT",
+            "dimensions": {
+              "width": 200,
+              "height": 16
+            },
+            "fill": "#E05E2B",
+            "content": "Direct from local growers",
+            "typography": {
+              "fontFamily": "DM Sans",
+              "fontSize": 12,
+              "fontWeight": 700,
+              "lineHeight": 16,
+              "letterSpacing": 1.2
+            }
+          },
+          {
+            "id": "text_hero_title",
+            "name": "Hero Title Copy",
+            "type": "TEXT",
+            "dimensions": {
+              "width": 620,
+              "height": 162
+            },
+            "fill": "#FAF9F6",
+            "content": "Hand-picked organic groceries delivered to your door.",
+            "typography": {
+              "fontFamily": "Playfair Display",
+              "fontSize": 48,
+              "fontWeight": 800,
+              "lineHeight": 54,
+              "letterSpacing": -0.96
+            },
+            "notes": "Apply 'text-wrap: balance' to prevent layout widows in client side rendering."
+          },
+          {
+            "id": "text_hero_description",
+            "name": "Hero Body Description",
+            "type": "TEXT",
+            "dimensions": {
+              "width": 540,
+              "height": 44
+            },
+            "fill": "#ccdcd6",
+            "content": "Experience local, organic fruits, vegetables, and pantry items sourced and curated by local neighborhoods.",
+            "typography": {
+              "fontFamily": "DM Sans",
+              "fontSize": 16,
+              "fontWeight": 400,
+              "lineHeight": 22,
+              "letterSpacing": 0
+            }
+          },
+          {
+            "id": "frame_hero_cta_group",
+            "name": "Hero Action Button Group",
+            "type": "FRAME",
+            "dimensions": {
+              "width": 400,
+              "height": 56
+            },
+            "layout_properties": {
+              "layoutMode": "HORIZONTAL",
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "CENTER",
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "itemSpacing": 16
+            },
+            "fill": "transparent",
+            "children": [
+              {
+                "id": "button_cta_shop",
+                "name": "Primary CTA (Accent Button)",
+                "type": "FRAME",
+                "dimensions": {
+                  "width": 170,
+                  "height": 52
+                },
+                "layout_properties": {
+                  "layoutMode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER",
+                  "paddingLeft": 28,
+                  "paddingRight": 28,
+                  "paddingTop": 14,
+                  "paddingBottom": 14,
+                  "itemSpacing": 0
+                },
+                "fill": "#E05E2B",
+                "cornerRadius": 24,
+                "effects": [],
+                "children": [
+                  {
+                    "id": "text_cta_shop_label",
+                    "name": "Button Text Label",
+                    "type": "TEXT",
+                    "dimensions": {
+                      "width": 114,
+                      "height": 20
+                    },
+                    "fill": "#FAF9F6",
+                    "content": "Shop Fresh Now",
+                    "typography": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "lineHeight": 20,
+                      "letterSpacing": 0
+                    }
+                  }
+                ],
+                "notes": "Hover state transitions background color to Accent Hover (#C64F20) using a 200ms spring ease transition."
+              },
+              {
+                "id": "button_cta_learn_more",
+                "name": "Secondary CTA (Tertiary Outline)",
+                "type": "FRAME",
+                "dimensions": {
+                  "width": 150,
+                  "height": 52
+                },
+                "layout_properties": {
+                  "layoutMode": "HORIZONTAL",
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER",
+                  "paddingLeft": 28,
+                  "paddingRight": 28,
+                  "paddingTop": 14,
+                  "paddingBottom": 14,
+                  "itemSpacing": 0
+                },
+                "fill": "transparent",
+                "stroke": {
+                  "color": "#FAF9F6",
+                  "thickness": 1.5,
+                  "type": "ALL"
+                },
+                "cornerRadius": 24,
+                "children": [
+                  {
+                    "id": "text_cta_learn_label",
+                    "name": "Button Text Label",
+                    "type": "TEXT",
+                    "dimensions": {
+                      "width": 94,
+                      "height": 20
+                    },
+                    "fill": "#FAF9F6",
+                    "content": "Our Standards",
+                    "typography": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "lineHeight": 20,
+                      "letterSpacing": 0
+                    }
+                  }
+                ],
+                "notes": "Hover state changes fill to rgba(250, 249, 246, 0.1) and borders remain solid."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "frame_hero_media_container",
+        "name": "Hero Media Mask Box",
+        "type": "FRAME",
+        "dimensions": {
+          "x": 804,
+          "y": 144,
+          "width": 516,
+          "height": 352
+        },
+        "fill": "#0E2C22",
+        "cornerRadius": 24,
+        "stroke": {
+          "color": "#225644",
+          "thickness": 1,
+          "type": "ALL"
+        },
+        "children": [
+          {
+            "id": "image_hero_visual",
+            "name": "Artisanal Grocery Crop Image",
+            "type": "IMAGE",
+            "dimensions": {
+              "x": 0,
+              "y": 0,
+              "width": 516,
+              "height": 352
+            },
+            "fill": "#0E2C22",
+            "notes": "Rich color photo showing high-contrast green organic plants and fresh market goods. Fits exactly inside bounds."
+          }
+        ]
+      }
+    ]
+  }
+}

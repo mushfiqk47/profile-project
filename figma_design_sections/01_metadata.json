@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectName": "FreshCart E-Commerce Platform",
+  "documentTitle": "Desktop Homepage Hero & Product Card Grid Layout Spec",
+  "targetPlatform": "Figma / Web UI",
+  "metadata": {
+    "author": "Antigravity UI Design Agent",
+    "updatedAt": "2026-06-23T20:35:00Z",
+    "description": "Exhaustive specifications blueprint for exact visual recreation of the FreshCart desktop layout, incorporating 'The Artisanal Guild Market' styling and layout rules.",
+    "viewport": {
+      "width": 1440,
+      "height": 1400,
+      "device": "Desktop HD"
+    }
+  }
+}

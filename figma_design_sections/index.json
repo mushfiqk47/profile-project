@@ -1,0 +1,31 @@
+{
+  "_description": "Index of all figma design spec section files. Each file contains a focused subset of the full design specification.",
+  "_source": "figma_design_specs.json",
+  "_generatedAt": "2026-06-23T14:58:27.129Z",
+  "sections": [
+    {
+      "file": "01_metadata.json",
+      "path": "./figma_design_sections/01_metadata.json"
+    },
+    {
+      "file": "02_global_tokens.json",
+      "path": "./figma_design_sections/02_global_tokens.json"
+    },
+    {
+      "file": "03_layout_root.json",
+      "path": "./figma_design_sections/03_layout_root.json"
+    },
+    {
+      "file": "04_header_navigation_block.json",
+      "path": "./figma_design_sections/04_header_navigation_block.json"
+    },
+    {
+      "file": "05_hero_banner_block.json",
+      "path": "./figma_design_sections/05_hero_banner_block.json"
+    },
+    {
+      "file": "06_product_grid_section_container.json",
+      "path": "./figma_design_sections/06_product_grid_section_container.json"
+    }
+  ]
+}

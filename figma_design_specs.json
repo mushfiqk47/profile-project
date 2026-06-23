@@ -1129,7 +1129,8 @@
                       "itemSpacing": 6
                     },
                     "fill": "transparent",
-                    "children":                       {
+                    "children": [
+                      {
                         "id": "text_product_brand",
                         "name": "Brand Name Label",
                         "type": "TEXT",

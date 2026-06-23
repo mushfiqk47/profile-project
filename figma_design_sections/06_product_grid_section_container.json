@@ -1,0 +1,542 @@
+{
+  "_section": "Product Grid Section Container",
+  "_description": "Layout specification for the \"Product Grid Section Container\" frame/group.",
+  "_parent": "figma_layout",
+  "_childIndex": 2,
+  "component": {
+    "id": "frame_product_section",
+    "name": "Product Grid Section Container",
+    "type": "FRAME",
+    "dimensions": {
+      "x": 0,
+      "y": 560,
+      "width": 1440,
+      "height": 720
+    },
+    "layout_properties": {
+      "layoutMode": "VERTICAL",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "CENTER",
+      "paddingLeft": 120,
+      "paddingRight": 120,
+      "paddingTop": 80,
+      "paddingBottom": 80,
+      "itemSpacing": 40
+    },
+    "fill": "#FAF9F6",
+    "children": [
+      {
+        "id": "frame_section_headers",
+        "name": "Section Headers Block",
+        "type": "FRAME",
+        "dimensions": {
+          "width": 1200,
+          "height": 60
+        },
+        "layout_properties": {
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisAlignItems": "SPACE_BETWEEN",
+          "counterAxisAlignItems": "BOTTOM",
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0,
+          "itemSpacing": 0
+        },
+        "fill": "transparent",
+        "children": [
+          {
+            "id": "frame_titles_box",
+            "name": "Title & Subtitle Wrapper",
+            "type": "FRAME",
+            "dimensions": {
+              "width": 600,
+              "height": 60
+            },
+            "layout_properties": {
+              "layoutMode": "VERTICAL",
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "MIN",
+              "paddingLeft": 0,
+              "paddingRight": 0,
+              "paddingTop": 0,
+              "paddingBottom": 0,
+              "itemSpacing": 6
+            },
+            "fill": "transparent",
+            "children": [
+              {
+                "id": "text_section_title",
+                "name": "Section Title Label",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 600,
+                  "height": 32
+                },
+                "fill": "#1C1E1B",
+                "content": "Fresh Pick of the Week",
+                "typography": {
+                  "fontFamily": "Playfair Display",
+                  "fontSize": 24,
+                  "fontWeight": 700,
+                  "lineHeight": 32,
+                  "letterSpacing": -0.24
+                }
+              },
+              {
+                "id": "text_section_subtitle",
+                "name": "Section Subheading Descriptor",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 600,
+                  "height": 22
+                },
+                "fill": "#9E9582",
+                "content": "Organic produce, handpicked and delivered straight from the farm.",
+                "typography": {
+                  "fontFamily": "DM Sans",
+                  "fontSize": 14,
+                  "fontWeight": 400,
+                  "lineHeight": 22,
+                  "letterSpacing": 0
+                }
+              }
+            ]
+          },
+          {
+            "id": "button_view_all_shop",
+            "name": "View All Category Link",
+            "type": "FRAME",
+            "dimensions": {
+              "width": 110,
+              "height": 30
+            },
+            "layout_properties": {
+              "layoutMode": "HORIZONTAL",
+              "primaryAxisAlignItems": "CENTER",
+              "counterAxisAlignItems": "CENTER",
+              "paddingLeft": 12,
+              "paddingRight": 12,
+              "paddingTop": 6,
+              "paddingBottom": 6,
+              "itemSpacing": 4
+            },
+            "fill": "transparent",
+            "cornerRadius": 12,
+            "children": [
+              {
+                "id": "text_view_all_label",
+                "name": "Link Label Text",
+                "type": "TEXT",
+                "dimensions": {
+                  "width": 70,
+                  "height": 16
+                },
+                "fill": "#E05E2B",
+                "content": "See all items",
+                "typography": {
+                  "fontFamily": "DM Sans",
+                  "fontSize": 13,
+                  "fontWeight": 700,
+                  "lineHeight": 16,
+                  "letterSpacing": 0
+                }
+              },
+              {
+                "id": "vector_arrow_right",
+                "name": "Arrow Right SVG",
+                "type": "VECTOR",
+                "dimensions": {
+                  "width": 14,
+                  "height": 14
+                },
+                "fill": "#E05E2B"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "grid_product_items",
+        "name": "Product Grid (4 Columns)",
+        "type": "FRAME",
+        "dimensions": {
+          "width": 1200,
+          "height": 420
+        },
+        "layout_properties": {
+          "layoutMode": "GRID",
+          "gridType": "COLUMNS",
+          "count": 4,
+          "itemSpacing": 32,
+          "paddingLeft": 0,
+          "paddingRight": 0,
+          "paddingTop": 0,
+          "paddingBottom": 0
+        },
+        "fill": "transparent",
+        "children": [
+          {
+            "id": "component_product_card_template",
+            "name": "Product Card Component / Instance",
+            "type": "INSTANCE",
+            "dimensions": {
+              "width": 276,
+              "height": 380
+            },
+            "layout_properties": {
+              "layoutMode": "VERTICAL",
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "FILL",
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 16,
+              "paddingBottom": 16,
+              "itemSpacing": 12
+            },
+            "fill": "#FFFFFF",
+            "stroke": {
+              "color": "#E8E4DA",
+              "thickness": 1,
+              "type": "ALL"
+            },
+            "cornerRadius": 16,
+            "effects": [],
+            "notes": "This represents the base card at rest. On hover, apply interactive_rise shadow token, adjust border to #D6D0C2, and shift frame Y position by -4px.",
+            "children": [
+              {
+                "id": "frame_image_container",
+                "name": "Card Thumbnail Frame",
+                "type": "FRAME",
+                "dimensions": {
+                  "width": 244,
+                  "height": 183
+                },
+                "layout_properties": {
+                  "layoutMode": "ABSOLUTE",
+                  "width": 244,
+                  "height": 183
+                },
+                "fill": "#FAF9F6",
+                "cornerRadius": 12,
+                "children": [
+                  {
+                    "id": "image_product_thumbnail",
+                    "name": "Product Photo Asset",
+                    "type": "IMAGE",
+                    "dimensions": {
+                      "x": 0,
+                      "y": 0,
+                      "width": 244,
+                      "height": 183
+                    },
+                    "fill": "#FAF9F6",
+                    "notes": "Aspect ratio constraint exactly 4:3."
+                  },
+                  {
+                    "id": "badge_tag_status",
+                    "name": "Product Status Badge Tag",
+                    "type": "FRAME",
+                    "dimensions": {
+                      "x": 10,
+                      "y": 10,
+                      "width": 64,
+                      "height": 22
+                    },
+                    "layout_properties": {
+                      "layoutMode": "HORIZONTAL",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "paddingLeft": 8,
+                      "paddingRight": 8,
+                      "paddingTop": 3,
+                      "paddingBottom": 3,
+                      "itemSpacing": 0
+                    },
+                    "fill": "#13382B",
+                    "cornerRadius": 6,
+                    "children": [
+                      {
+                        "id": "text_badge_label",
+                        "name": "Badge Text",
+                        "type": "TEXT",
+                        "dimensions": {
+                          "width": 48,
+                          "height": 16
+                        },
+                        "fill": "#FAF9F6",
+                        "content": "ORGANIC",
+                        "typography": {
+                          "fontFamily": "DM Sans",
+                          "fontSize": 9,
+                          "fontWeight": 700,
+                          "lineHeight": 16,
+                          "letterSpacing": 0.5
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "button_card_favorite",
+                    "name": "Favorite Heart Outline Icon",
+                    "type": "FRAME",
+                    "dimensions": {
+                      "x": 198,
+                      "y": 10,
+                      "width": 36,
+                      "height": 36
+                    },
+                    "layout_properties": {
+                      "layoutMode": "CENTER",
+                      "primaryAxisAlignItems": "CENTER",
+                      "counterAxisAlignItems": "CENTER",
+                      "paddingLeft": 8,
+                      "paddingRight": 8,
+                      "paddingTop": 8,
+                      "paddingBottom": 8
+                    },
+                    "fill": "rgba(255, 255, 255, 0.8)",
+                    "stroke": {
+                      "color": "rgba(232, 228, 218, 0.5)",
+                      "thickness": 1,
+                      "type": "ALL"
+                    },
+                    "cornerRadius": 9999,
+                    "children": [
+                      {
+                        "id": "vector_heart_card",
+                        "name": "Heart Vector SVG",
+                        "type": "VECTOR",
+                        "dimensions": {
+                          "width": 16,
+                          "height": 16
+                        },
+                        "fill": "#9E9582"
+                      }
+                    ],
+                    "notes": "Hover state fills heart with Terracotta Sunrise (#E05E2B) and turns background pure white."
+                  }
+                ]
+              },
+              {
+                "id": "frame_card_details",
+                "name": "Product Metadata Block",
+                "type": "FRAME",
+                "dimensions": {
+                  "width": 244,
+                  "height": 153
+                },
+                "layout_properties": {
+                  "layoutMode": "VERTICAL",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "FILL",
+                  "paddingLeft": 0,
+                  "paddingRight": 0,
+                  "paddingTop": 0,
+                  "paddingBottom": 0,
+                  "itemSpacing": 6
+                },
+                "fill": "transparent",
+                "children": [
+                  {
+                    "id": "text_product_brand",
+                    "name": "Brand Name Label",
+                    "type": "TEXT",
+                    "dimensions": {
+                      "width": 244,
+                      "height": 12
+                    },
+                    "fill": "#9E9582",
+                    "content": "RAJSHAHI ORCHARDS",
+                    "typography": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 10,
+                      "fontWeight": 700,
+                      "lineHeight": 12,
+                      "letterSpacing": 1
+                    }
+                  },
+                  {
+                    "id": "text_product_title",
+                    "name": "Product Name Title",
+                    "type": "TEXT",
+                    "dimensions": {
+                      "width": 244,
+                      "height": 40
+                    },
+                    "fill": "#1C1E1B",
+                    "content": "Premium Rajshahi Himchagor Mangoes",
+                    "typography": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 14,
+                      "fontWeight": 700,
+                      "lineHeight": 20,
+                      "letterSpacing": 0
+                    },
+                    "notes": "Line clamp set to exactly 2 lines. Height fixed at 40px to prevent card structural shifting."
+                  },
+                  {
+                    "id": "text_product_weight",
+                    "name": "Weight Label",
+                    "type": "TEXT",
+                    "dimensions": {
+                      "width": 244,
+                      "height": 16
+                    },
+                    "fill": "#9E9582",
+                    "content": "1 kg Pack (approx. 5-6 pcs)",
+                    "typography": {
+                      "fontFamily": "DM Sans",
+                      "fontSize": 11,
+                      "fontWeight": 400,
+                      "lineHeight": 16,
+                      "letterSpacing": 0
+                    }
+                  },
+                  {
+                    "id": "frame_card_bottom_row",
+                    "name": "Price & Action Stepper Block",
+                    "type": "FRAME",
+                    "dimensions": {
+                      "width": 244,
+                      "height": 44
+                    },
+                    "layout_properties": {
+                      "layoutMode": "HORIZONTAL",
+                      "primaryAxisAlignItems": "SPACE_BETWEEN",
+                      "counterAxisAlignItems": "CENTER",
+                      "paddingLeft": 0,
+                      "paddingRight": 0,
+                      "paddingTop": 8,
+                      "paddingBottom": 0,
+                      "itemSpacing": 0
+                    },
+                    "fill": "transparent",
+                    "stroke": {
+                      "color": "rgba(232, 228, 218, 0.3)",
+                      "thickness": 1,
+                      "type": "TOP"
+                    },
+                    "children": [
+                      {
+                        "id": "frame_price_display",
+                        "name": "Product Price Wrapper",
+                        "type": "FRAME",
+                        "dimensions": {
+                          "width": 100,
+                          "height": 36
+                        },
+                        "layout_properties": {
+                          "layoutMode": "VERTICAL",
+                          "primaryAxisAlignItems": "CENTER",
+                          "counterAxisAlignItems": "MIN",
+                          "paddingLeft": 0,
+                          "paddingRight": 0,
+                          "paddingTop": 0,
+                          "paddingBottom": 0,
+                          "itemSpacing": 2
+                        },
+                        "fill": "transparent",
+                        "children": [
+                          {
+                            "id": "text_active_price",
+                            "name": "Current Sale Price Text",
+                            "type": "TEXT",
+                            "dimensions": {
+                              "width": 60,
+                              "height": 18
+                            },
+                            "fill": "#1C1E1B",
+                            "content": "৳320",
+                            "typography": {
+                              "fontFamily": "DM Sans",
+                              "fontSize": 15,
+                              "fontWeight": 700,
+                              "lineHeight": 18,
+                              "letterSpacing": 0
+                            }
+                          },
+                          {
+                            "id": "text_original_price",
+                            "name": "Original Price Strike-through",
+                            "type": "TEXT",
+                            "dimensions": {
+                              "width": 50,
+                              "height": 14
+                            },
+                            "fill": "#9E9582",
+                            "content": "৳380",
+                            "typography": {
+                              "fontFamily": "DM Sans",
+                              "fontSize": 11,
+                              "fontWeight": 400,
+                              "lineHeight": 14,
+                              "letterSpacing": 0
+                            },
+                            "notes": "Figma styled with text-decoration: line-through."
+                          }
+                        ]
+                      },
+                      {
+                        "id": "button_card_add",
+                        "name": "Add to Bag Button Instance",
+                        "type": "FRAME",
+                        "dimensions": {
+                          "width": 78,
+                          "height": 36
+                        },
+                        "layout_properties": {
+                          "layoutMode": "HORIZONTAL",
+                          "primaryAxisAlignItems": "CENTER",
+                          "counterAxisAlignItems": "CENTER",
+                          "paddingLeft": 14,
+                          "paddingRight": 14,
+                          "paddingTop": 8,
+                          "paddingBottom": 8,
+                          "itemSpacing": 4
+                        },
+                        "fill": "#13382B",
+                        "cornerRadius": 18,
+                        "children": [
+                          {
+                            "id": "vector_plus_icon",
+                            "name": "Plus Icon Vector SVG",
+                            "type": "VECTOR",
+                            "dimensions": {
+                              "width": 12,
+                              "height": 12
+                            },
+                            "fill": "#FAF9F6"
+                          },
+                          {
+                            "id": "text_add_label",
+                            "name": "Button Add Word Label",
+                            "type": "TEXT",
+                            "dimensions": {
+                              "width": 30,
+                              "height": 16
+                            },
+                            "fill": "#FAF9F6",
+                            "content": "Add",
+                            "typography": {
+                              "fontFamily": "DM Sans",
+                              "fontSize": 12,
+                              "fontWeight": 700,
+                              "lineHeight": 16,
+                              "letterSpacing": 0
+                            }
+                          }
+                        ],
+                        "notes": "Hover state transitions background to primary_hover (#0E2C22)."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

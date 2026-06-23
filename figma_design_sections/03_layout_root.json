@@ -1,0 +1,16 @@
+{
+  "_section": "Figma Layout Root",
+  "_description": "Root frame dimensions, background, and layout mode for the entire Figma document.",
+  "figma_layout_meta": {
+    "id": "root_canvas",
+    "name": "FreshCart Desktop Home - 1440",
+    "type": "CANVAS",
+    "dimensions": {
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1400
+    },
+    "backgroundColor": "#FAF9F6"
+  }
+}

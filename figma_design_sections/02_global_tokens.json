@@ -1,0 +1,191 @@
+{
+  "_section": "Global Design Tokens",
+  "_description": "Colors, typography, spacing, shadows, borders, and z-index tokens used across the entire design system.",
+  "global_tokens": {
+    "colors": {
+      "primary": {
+        "token": "colors.primary",
+        "name": "Forest Ink",
+        "hex": "#13382B",
+        "rgba": "rgba(19, 56, 43, 1.0)",
+        "oklch": "oklch(28.3% 0.057 148.6)",
+        "usage": "Brand markings, primary headings, primary button backgrounds, and strong action indicators."
+      },
+      "primary_hover": {
+        "token": "colors.primary-hover",
+        "name": "Forest Ink Hover",
+        "hex": "#0E2C22",
+        "rgba": "rgba(14, 44, 34, 1.0)",
+        "oklch": "oklch(22.8% 0.046 148.6)",
+        "usage": "Hover states on components using Forest Ink backgrounds."
+      },
+      "accent": {
+        "token": "colors.accent",
+        "name": "Terracotta Sunrise",
+        "hex": "#E05E2B",
+        "rgba": "rgba(224, 94, 43, 1.0)",
+        "oklch": "oklch(56.8% 0.203 36.1)",
+        "usage": "Action items, focus prompts, promotions, price highlight, active state badges. Max 10% screen density."
+      },
+      "accent_hover": {
+        "token": "colors.accent-hover",
+        "name": "Terracotta Sunrise Hover",
+        "hex": "#C64F20",
+        "rgba": "rgba(198, 79, 32, 1.0)",
+        "oklch": "oklch(51.2% 0.205 36.2)",
+        "usage": "Hover states on components using Terracotta Sunrise backgrounds."
+      },
+      "neutral_bg": {
+        "token": "colors.neutral-bg",
+        "name": "Cream Parchment",
+        "hex": "#FAF9F6",
+        "rgba": "rgba(250, 249, 246, 1.0)",
+        "oklch": "oklch(97.9% 0.009 85.5)",
+        "usage": "Base page canvas background. Offers low-strain reading backdrop."
+      },
+      "neutral_card": {
+        "token": "colors.neutral-card",
+        "name": "White Linen",
+        "hex": "#FFFFFF",
+        "rgba": "rgba(255, 255, 255, 1.0)",
+        "oklch": "oklch(100% 0 0)",
+        "usage": "Container backgrounds, product card background surfaces, popovers, dropdown lists, and modal bodies."
+      },
+      "neutral_ink": {
+        "token": "colors.neutral-ink",
+        "name": "Charcoal Ink",
+        "hex": "#1C1E1B",
+        "rgba": "rgba(28, 30, 27, 1.0)",
+        "oklch": "oklch(18.5% 0.008 86.2)",
+        "usage": "Primary text typography, primary SVG icons, and main outline boundaries."
+      },
+      "neutral_border": {
+        "token": "colors.neutral-border",
+        "name": "Sandstone Border",
+        "hex": "#E8E4DA",
+        "rgba": "rgba(232, 228, 218, 1.0)",
+        "oklch": "oklch(91.7% 0.016 85.8)",
+        "usage": "Light dividers, inputs at rest, and structural boundaries."
+      },
+      "neutral_muted": {
+        "token": "colors.neutral-muted",
+        "name": "Sandstone Muted",
+        "hex": "#9E9582",
+        "rgba": "rgba(158, 149, 130, 1.0)",
+        "oklch": "oklch(65.4% 0.021 86.0)",
+        "usage": "Secondary placeholder labels, product weight details, and disabled element styling."
+      }
+    },
+    "typography": {
+      "display": {
+        "fontFamily": "Playfair Display",
+        "fallback": "Georgia, serif",
+        "fontSize": 48,
+        "fontWeight": 800,
+        "fontWeightString": "ExtraBold",
+        "lineHeight": 54,
+        "lineHeightRatio": 1.125,
+        "letterSpacing": -0.96,
+        "letterSpacingPercent": "-2%",
+        "textTransform": "none"
+      },
+      "headline": {
+        "fontFamily": "Playfair Display",
+        "fallback": "Georgia, serif",
+        "fontSize": 24,
+        "fontWeight": 700,
+        "fontWeightString": "Bold",
+        "lineHeight": 32,
+        "lineHeightRatio": 1.333,
+        "letterSpacing": -0.24,
+        "letterSpacingPercent": "-1%",
+        "textTransform": "none"
+      },
+      "title": {
+        "fontFamily": "DM Sans",
+        "fallback": "sans-serif",
+        "fontSize": 18,
+        "fontWeight": 700,
+        "fontWeightString": "Bold",
+        "lineHeight": 24,
+        "lineHeightRatio": 1.333,
+        "letterSpacing": 0,
+        "letterSpacingPercent": "0%",
+        "textTransform": "none"
+      },
+      "body": {
+        "fontFamily": "DM Sans",
+        "fallback": "sans-serif",
+        "fontSize": 14,
+        "fontWeight": 400,
+        "fontWeightString": "Regular",
+        "lineHeight": 22,
+        "lineHeightRatio": 1.571,
+        "letterSpacing": 0,
+        "letterSpacingPercent": "0%",
+        "textTransform": "none"
+      },
+      "label": {
+        "fontFamily": "DM Sans",
+        "fallback": "sans-serif",
+        "fontSize": 12,
+        "fontWeight": 700,
+        "fontWeightString": "Bold",
+        "lineHeight": 16,
+        "lineHeightRatio": 1.333,
+        "letterSpacing": 0.6,
+        "letterSpacingPercent": "5%",
+        "textTransform": "uppercase"
+      },
+      "caption": {
+        "fontFamily": "DM Sans",
+        "fallback": "sans-serif",
+        "fontSize": 11,
+        "fontWeight": 500,
+        "fontWeightString": "Medium",
+        "lineHeight": 14,
+        "lineHeightRatio": 1.272,
+        "letterSpacing": 0,
+        "letterSpacingPercent": "0%",
+        "textTransform": "none"
+      }
+    },
+    "border_radius": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24,
+      "full": 9999
+    },
+    "shadows": {
+      "none": {
+        "type": "none",
+        "value": "none"
+      },
+      "interactive_rise": {
+        "type": "dropShadow",
+        "color": "rgba(28, 30, 27, 0.08)",
+        "offsetX": 0,
+        "offsetY": 4,
+        "blurRadius": 6,
+        "spreadRadius": -1,
+        "color2": "rgba(28, 30, 27, 0.05)",
+        "offsetX2": 0,
+        "offsetY2": 2,
+        "blurRadius2": 4,
+        "spreadRadius2": -2,
+        "usage": "Applied to cards, primary action items, and popovers only during active hover or focus interactions."
+      }
+    },
+    "layout_grid": {
+      "type": "Columns",
+      "count": 12,
+      "width": "Auto",
+      "gutter": 32,
+      "margin": 120,
+      "maxWidth": 1200,
+      "alignment": "Center"
+    }
+  }
+}
