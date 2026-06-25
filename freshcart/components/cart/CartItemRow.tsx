@@ -68,7 +68,7 @@ export default function CartItemRow({ item }: CartItemRowProps) {
         
         <button
           onClick={handleRemove}
-          className="p-1.5 text-neutral-400 hover:text-red-500 rounded-full hover:bg-red-50 transition-colors cursor-pointer focus-ring"
+          className="p-1.5 text-neutral-400 hover:text-red-600 rounded-full hover:bg-red-50 transition-colors cursor-pointer focus-ring"
           aria-label={`Remove ${product.name} from bag`}
         >
           <Trash2 className="w-4 h-4" />

@@ -111,7 +111,7 @@ export default function PromotionsPage() {
                         onClick={() => handleCopyCode(promo.code)}
                         className="flex-1 sm:flex-initial h-9 px-3 border border-neutral-200 hover:border-neutral-300 rounded-lg text-xs font-semibold text-neutral-700 bg-neutral-50 hover:bg-white transition-all cursor-pointer flex items-center justify-center gap-1.5"
                       >
-                        {isCopied ? <ClipboardCheck className="w-3.5 h-3.5 text-emerald-600 animate-bounce" /> : <Clipboard className="w-3.5 h-3.5" />}
+                        {isCopied ? <ClipboardCheck className="w-3.5 h-3.5 text-emerald-600 animate-pulse" /> : <Clipboard className="w-3.5 h-3.5" />}
                         <span>{isCopied ? "Copied" : "Copy"}</span>
                       </button>
 

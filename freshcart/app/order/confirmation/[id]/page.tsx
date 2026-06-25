@@ -115,7 +115,7 @@ export default function ConfirmationPage({ params }: ConfirmationPageProps) {
             className="p-2 border rounded-lg hover:bg-neutral-50 transition-colors text-neutral-500 hover:text-brand-primary cursor-pointer focus-ring"
             aria-label="Copy order ID"
           >
-            {copied ? <ClipboardCheck className="w-4 h-4 text-emerald-600 animate-bounce" /> : <Clipboard className="w-4 h-4" />}
+            {copied ? <ClipboardCheck className="w-4 h-4 text-emerald-600 animate-pulse" /> : <Clipboard className="w-4 h-4" />}
           </button>
         </div>
 

@@ -88,7 +88,7 @@ export default function DeliverySlotPicker({
         >
           <div className="flex items-center justify-between w-full">
             <div className="flex items-center gap-1 text-xs font-bold uppercase tracking-wider text-brand-accent">
-              <Zap className="w-3.5 h-3.5 fill-current animate-bounce" />
+              <Zap className="w-3.5 h-3.5 fill-current" />
               Express
             </div>
             {deliveryMethod === "Express" && (

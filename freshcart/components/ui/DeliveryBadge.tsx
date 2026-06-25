@@ -28,7 +28,7 @@ export default function DeliveryBadge({
     >
       {isExpress ? (
         <>
-          <Zap className="w-3.5 h-3.5 fill-current animate-bounce" />
+          <Zap className="w-3.5 h-3.5 fill-current" />
           <span>{timeText || "Arrives in 30 min"}</span>
         </>
       ) : (

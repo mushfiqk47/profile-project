@@ -168,7 +168,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                 >
                   {isAdding ? (
                     <>
-                      <Check className="w-3.5 h-3.5 stroke-[2.5] animate-bounce" aria-hidden="true" />
+                      <Check className="w-3.5 h-3.5 stroke-[2.5] animate-pulse" aria-hidden="true" />
                       <span>Added</span>
                     </>
                   ) : (

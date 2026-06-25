@@ -258,7 +258,7 @@ export default function ProductDetailPage({ params }: ProductDetailPageProps) {
                     >
                       {isAdding ? (
                         <>
-                          <Check className="w-4 h-4 stroke-[3] animate-bounce" />
+                          <Check className="w-4 h-4 stroke-[3] animate-pulse" />
                           <span>Added to bag</span>
                         </>
                       ) : (

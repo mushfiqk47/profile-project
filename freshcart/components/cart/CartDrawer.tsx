@@ -51,7 +51,7 @@ export default function CartDrawer() {
     if (matchedPromo) {
       const subtotal = getSubtotal();
       if (subtotal < matchedPromo.minSpend) {
-        setErrorMsg(`Minimum spend for this code is $${matchedPromo.minSpend.toFixed(2)}`);
+        setErrorMsg(`Minimum spend for this code is ৳${matchedPromo.minSpend}`);
         return;
       }
       
